@@ -13,3 +13,150 @@
  *= require_tree .
  *= require_self
  */
+
+
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ .navContainer{
+     display: flex;
+     width:100%;
+     height:10vh;
+     border: 10px;
+     border-bottom:solid 1px #dce0e6;
+margin-top: 10px;
+ }
+
+
+ .logo{
+     flex:10;
+     color:green;
+     margin-left:20px;
+     margin-top: 2vh;
+     font-size: 30px;
+     font-weight: bold;
+     text-Decoration:none;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+
+
+
+
+ .menus{
+     margin: 20px;
+     color:green;
+     text-Decoration:none;
+
+ }
+
+ .menustasker{
+     margin: 10px;
+     color:green;
+     text-Decoration:none;
+    border:1px solid green;
+     padding-top: 10px;
+     padding-bottom: 15px;
+     padding-right: 30px;
+     padding-left: 30px;
+     margin-right: 5%;
+     border-radius:4px;
+ }
+
+
+
+
+    .loginFormContainer{
+          display: flex;
+          background-image: url("4.jpg");
+          height: 100vh;
+          width: 100vw;
+          box-sizing: border-box;
+          background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-content: center;
+
+   }
+   }
+
+   .loginForm{
+      background:white ;
+
+      margin-top:7%;
+      width:500px;
+      height: 55vh;
+          border-radius:4px;
+        flex-direction: column;
+   }
+
+
+
+  .loginContainer{
+     margin-top:15%;
+     width: 400px;
+     background: white;
+  }
+
+  .username{
+      width:100%;
+     padding-left: 40px;
+     padding-right: 40px;
+         line-height: 3;
+  }
+
+  .username label{
+     font-size: 14px;
+     color: #86919d;
+  }
+
+  .username input{
+    width:100%;
+    height: 7vh;
+    border: 1px solid lightgray;
+    border-radius:4px;
+    padding: 20px;
+  }
+
+  .password{
+      width:100%;
+     padding-left: 40px;
+     padding-right: 40px;
+     line-height: 3;
+  }
+
+  .password label{
+     font-size: 14px;
+     color: #86919d;
+
+  }
+
+  .password input{
+    width:100%;
+    height: 7vh;
+    border: 1px solid lightgray;
+    border-radius:4px;
+
+  }
+
+  .submitBtn{
+    width:100%;
+   padding-left: 40px;
+   padding-right: 40px;
+   line-height: 6;
+
+  }
+
+  .submitBtn input{
+   width:100%;
+   border: 1px solid green;
+   border-radius: 4px;
+   height: 7vh;
+   background: green;
+   color:white;
+   font-size: 17px;
+
+  }

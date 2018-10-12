@@ -26,30 +26,41 @@ class SessionForm extends React.Component {
 
   render() {
     return (
-      <div className="login-form-container">
-        <form onSubmit={this.handleSubmit} className="login-form-box">
-          Welcome to AskRabbit
-          <br/>
-          Please {this.props.formType} or {this.props.navLink}
-          <div className="login-form">
-            <br/>
-            <label>Username:
-              <input type="text"
-                value={this.state.username}
-                onChange={this.update('username')}
-                className="login-input"
-              />
-            </label>
-            <br/>
-            <label>Password:
-              <input type="password"
-                value={this.state.password}
-                onChange={this.update('password')}
-                className="login-input"
-              />
-            </label>
-            <br/>
-            <input className="session-submit" type="submit" value={this.props.formType} />
+      <div className="loginFormContainer">
+        <form onSubmit={this.handleSubmit} className="loginForm">
+
+
+            <div className="loginContainer">
+
+
+                <div className="username">
+                  <label>Username:
+                      <input type="text"
+                        value={this.state.username}
+                        onChange={this.update('username')}
+                      />
+                  </label>
+                </div>
+                <br/>
+
+                <div className="password" >
+                  <label >Password:
+                    <input type="password"
+                      value={this.state.password}
+                      onChange={this.update('password')}
+                    />
+                  </label>
+                </div>
+                <br/>
+
+
+                  <div className="submitBtn" >
+                    <input type="submit" value="Log In" />
+                  </div>
+                <br/>
+
+              
+
           </div>
         </form>
       </div>

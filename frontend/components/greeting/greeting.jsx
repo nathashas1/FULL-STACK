@@ -6,11 +6,25 @@ import { Link } from 'react-router-dom';
 
 const Greeting = ({ currentUser, logout }) => {
   const sessionLinks = () => (
-    <nav className="login-signup">
-      <Link to="/login">Login</Link>
-      &nbsp;or&nbsp;
-      <Link to="/signup">Sign up!</Link>
-    </nav>
+
+    <div className="navContainer">
+      <Link to="/"  className="logo">
+              AskRabbit
+      </Link>
+
+      <Link to="/login" className="menus">
+        Services
+      </Link>
+
+      <Link to="/login" className="menus">
+        Login
+      </Link>
+
+      <Link to="/login" className="menustasker">
+        Become a Tasker
+      </Link>
+
+  </div>
   );
   const personalGreeting = () => (
     <hgroup className="header-group">
