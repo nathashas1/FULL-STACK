@@ -3,10 +3,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { signup } from '../../actions/session_actions';
 import SessionForm from './session_form';
+import SignUpForm from './session_form';
 
 const mapStateToProps = (state) => {
   return {
-    
+
     formType: 'signup',
     navLink: <Link to="/login">log in instead</Link>,
   };
@@ -18,4 +19,4 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(SessionForm);
+export default connect(mapStateToProps, mapDispatchToProps)(SignUpForm);
