@@ -1,0 +1,41 @@
+// .index__layout_container{
+//   display: flex;
+// flex-direction: row;
+//   padding-left: 300px;
+//   padding-right: 300px;
+//   width: 600px;
+//   height: 200px;
+//     justify-content: center;
+//     flex-wrap: wrap;
+// }
+
+.index_layout_container{
+  height: 150px;
+  width: 1000px;
+      display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          padding-left: 250px;
+          padding-right: 250px;
+
+}
+
+
+.link {
+border:1px solid red;
+   }
+
+
+   .link link{
+     background: red;
+   border:1px solid red;
+      }
+
+// .task_category_index{
+//   display: flex;
+//   flex-direction: row;
+//   padding-left: 300px;
+//   padding-right: 300px;
+//   flex-wrap: wrap;
+//   justify-content: space-around;
+// }
