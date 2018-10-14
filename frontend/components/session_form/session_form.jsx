@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import { Link,withRouter } from 'react-router-dom';
 
 class SessionForm extends React.Component {
   constructor(props) {
@@ -19,8 +19,8 @@ class SessionForm extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    const user = Object.assign({}, this.state);
-    this.props.processForm(user);
+
+    this.props.processForm(this.state);
   }
 
 
@@ -33,35 +33,38 @@ class SessionForm extends React.Component {
             <div className="loginContainer">
 
 
-                <div className="username">
+
                   <label>Username:
                       <input type="text"
                         value={this.state.username}
                         onChange={this.update('username')}
+                        className="login-input"
                       />
                   </label>
-                </div>
+
+                <br/>
+                <br/>
                 <br/>
 
-                <div className="password" >
+
                   <label >Password:
                     <input type="password"
                       value={this.state.password}
                       onChange={this.update('password')}
+                      className="login-input"
                     />
                   </label>
-                </div>
                 <br/>
 
-
-                  <div className="submitBtn" >
-                    <input type="submit" value="Log In" />
+                <div logsignup>
+                  <input className="session-submit" type="submit" value="Log In" />
+                  <Link to="/signup"  className="submitlink">
+                    Sign Up
+                  </Link>
+                  <br/>
                   </div>
-                <br/>
 
-              
-
-          </div>
+                  </div>
         </form>
       </div>
     );

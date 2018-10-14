@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import { Link,withRouter } from 'react-router-dom';
 
 class SignUpForm extends React.Component {
   constructor(props) {
@@ -7,10 +7,10 @@ class SignUpForm extends React.Component {
     this.state = {
       username: '',
       password: '',
-      email: '',
       firstname: '',
       lastname: '',
-      zipcode: ''
+      zipcode: '',
+      email:''
 
     };
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -24,92 +24,76 @@ class SignUpForm extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    const user = Object.assign({}, this.state);
-    this.props.processForm(user);
+
+    this.props.processForm(this.state);
   }
 
 
   render() {
     return (
       <div className="loginFormContainer">
-        <form onSubmit={this.handleSubmit} className="loginForm">
-          <br/>
-            <div class="logo"></div>
-            <div className="loginContainer">
-            <br/>
+        <form onSubmit={this.handleSubmit} className="signupForm">
 
-                <div className="username">
-                  <label className="usernameLabel">Username:
+
+            <div className="signupContainer">
+
+
+
+                <label >First Name:
+                  <input type="text"
+                    value={this.state.firstname}
+                    onChange={this.update('firstname')}
+                      className="signup-input"
+                  />
+                </label>
+              <br/>
+
+
+                  <label >Last Name:
+                    <input type="text"
+                      value={this.state.lastname}
+                      onChange={this.update('lastname')}
+                        className="signup-input"
+                    />
+                  </label>
+                <br/>
+
+
+                    <label >Username:
                       <input type="text"
                         value={this.state.username}
                         onChange={this.update('username')}
+                          className="signup-input"
                       />
-                  </label>
-                </div>
-                <br/>
-
-
-                <div className="password" >
-                  <label className="passwordLabel">Password:
-                    <input type="password"
-                      value={this.state.password}
-                      onChange={this.update('password')}
-                    />
-                  </label>
-                </div>
-                <br/>
-
-
-                <div className="email">
-                  <label className="emailLabel">Email:
-                      <input type="text"
-                        value={this.state.email}
-                        onChange={this.update('email')}
-                      />
-                  </label>
-                </div>
-                <br/>
-
-                  <div className="firstname">
-                    <label className="firstnameLabel">First Name:
-                        <input type="text"
-                          value={this.state.firstname}
-                          onChange={this.update('firstname')}
-                        />
                     </label>
-                  </div>
-                  <br/>
+                      <br/>
 
 
-                    <div className="lastname">
-                      <label className="lastnameLabel">Last Name:
-                          <input type="text"
-                            value={this.state.lastname}
-                            onChange={this.update('lastname')}
-                          />
+                      <label >Password:
+                        <input type="password"
+                          value={this.state.password}
+                          onChange={this.update('password')}
+                            className="signup-input"
+                        />
                       </label>
-                    </div>
                     <br/>
 
 
-                    <div className="zipcode">
-                      <label className="zipcodeLabel">Zipcode:
-                          <input type="text"
-                            value={this.state.zipcode}
-                            onChange={this.update('zipcode')}
-                          />
-                      </label>
-                    </div>
-                    <br/>
-
-
-
-                <div>
-                    <input className="session-submit" type="submit" value={this.props.formType} />
-                </div>
-
+                  <label>ZipCode:
+                      <input type="text"
+                        value={this.state.zipcode}
+                        onChange={this.update('zipcode')}
+                        className="signup-input"
+                      />
+                  </label>
                 <br/>
 
+
+                  <div logsignup>
+                    <input className="signup-submit" type="submit" value="Create Account" />
+
+                    <br/>
+                    </div>
 
 
           </div>
