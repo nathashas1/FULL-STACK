@@ -10,17 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_10_230539) do
+ActiveRecord::Schema.define(version: 2018_10_13_055756) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "taskcategories", force: :cascade do |t|
+    t.string "name", null: false
+    t.index ["name"], name: "index_taskcategories_on_name", unique: true
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "firstname", null: false
     t.string "lastname", null: false
-    t.string "email", null: false
     t.string "username", null: false
-    t.string "zipcode", null: false
+    t.integer "zipcode", null: false
     t.string "password_digest", null: false
     t.string "session_token", null: false
     t.datetime "created_at", null: false

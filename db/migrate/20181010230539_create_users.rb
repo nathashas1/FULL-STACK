@@ -3,9 +3,9 @@ class CreateUsers < ActiveRecord::Migration[5.2]
     create_table :users do |t|
       t.string :firstname, null: false
       t.string :lastname, null: false
-      t.string :email, null: false
+      
       t.string :username, null: false
-      t.string :zipcode, null: false
+      t.integer :zipcode, null: false
          t.string :password_digest, null: false
          t.string :session_token, null: false
 

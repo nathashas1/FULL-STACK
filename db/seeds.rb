@@ -9,9 +9,38 @@
 
 User.delete_all
 
+Taskcategory.delete_all
 
+
+Taskcategory.create!(
+  name: 'Mounting & Installation'
+)
+
+Taskcategory.create!(
+  name: 'Moving & Packing'
+)
+
+Taskcategory.create!(
+  name: 'Furniture Assembly'
+)
+
+Taskcategory.create!(
+  name: 'Home Improvement'
+)
+
+Taskcategory.create!(
+  name: 'General Handyman'
+)
+
+Taskcategory.create!(
+  name: 'Heavy Lifting'
+)
 
 User.create!(
   username: 'guest',
-  password: 'password'
+  password: 'password',
+  firstname: 'guest',
+  lastname: 'guest',
+  zipcode: 94105
+
 )
