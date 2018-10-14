@@ -17,7 +17,7 @@ class TaskCategoryIndex extends React.Component {
    render() {
      return(
        <div className="categories-container">
-          
+
 
     <div className="categories-bar">
 
