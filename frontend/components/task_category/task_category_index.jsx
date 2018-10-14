@@ -6,24 +6,47 @@ class TaskCategoryIndex extends React.Component {
   componentDidMount() {
 
    this.props.fetchTaskCategories();
+   this.handleSearch = this.handleSearch.bind(this);
+   }
+   handleSearch() {
+     return{
+
+     };
    }
 
    render() {
-   const taskcategories = this.props.taskCategories.map(taskCategory => {
-     return (
-       <TaskCategoryIndexItem
-         key={taskCategory.id}
-         taskCategory={taskCategory}
-          />
-     );
-   });
+     return(
+    <div className="categories-bar">
 
-   return (
-     <div className="index_layout_container">
-         {taskcategories}
-       </div>
-   );
- }
+        <button
+        onClick={this.handleSearch()}
+          >Mounting & Installation</button>
+
+        <button
+          onClick={this.handleSearch()}
+          >Moving & Packing</button>
+
+        <button
+          onClick={this.handleSearch()}
+          >Furniture Assembly</button>
+
+      <button
+          onClick={this.handleSearch()}
+          >Home Improvement</button>
+
+        <button
+          onClick={this.handleSearch()}
+          >General Handyman</button>
+
+        <button
+          onClick={this.handleSearch()}
+          >Heavy Lifting</button>
+
+
+    </div>
+  );
+}
+
 }
 
 
