@@ -4,7 +4,7 @@ import TaskCategoryIndexItem from './task_category_index_item';
 
 class TaskCategoryIndex extends React.Component {
   componentDidMount() {
-  
+
    this.props.fetchTaskCategories();
    }
 
@@ -19,12 +19,9 @@ class TaskCategoryIndex extends React.Component {
    });
 
    return (
-     <div>
-       <ul>
+     <div className="index_layout_container">
          {taskcategories}
-       </ul>
-
-     </div>
+       </div>
    );
  }
 }

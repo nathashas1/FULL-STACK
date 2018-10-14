@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom';
 
 const TaskCategoryIndexItem = ({ taskCategory }) => {
   return (
-    <li>
-      <Link to="/login">
+<div classname="link">
+  
+      <Link to="/login" >
         {taskCategory.name}
-      </Link>&nbsp;
-
-    </li>);
+      </Link>
+</div>
+  );
 };
 
 export default TaskCategoryIndexItem;

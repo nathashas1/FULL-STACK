@@ -15,9 +15,11 @@ import SessionForm from './session_form';
 
 const mapDispatchToProps = dispatch => {
 
+  const demo = {username: "guest", password: "password"};
   return {
 
     processForm: (user) => dispatch(login(user)),
+    demoLogin: () => dispatch(login(demo))
   };
 };
 
