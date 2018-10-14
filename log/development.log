@@ -10237,3 +10237,567 @@ Processing by Api::TaskcategoriesController#index as JSON
 Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:43:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$light-grey".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2443702048532753750_70305137107280'
+
+Started POST "/__better_errors/a7d879f068a97b34/variables" for 127.0.0.1 at 2018-10-14 00:43:23 -0700
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:44:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 309ms (Views: 305.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:44:37 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 170ms (Views: 166.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:44:37 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (4.7ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (7.2ms)
+Completed 200 OK in 22ms (Views: 16.5ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:46:48 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 91ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:46:49 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (0.7ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (3.0ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:46:52 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:46:53 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (1.2ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (3.9ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:48:00 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "// }": expected "}", was "":
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2443702048532753750_70305089740640'
+
+Started POST "/__better_errors/ecc01332d4ebc218/variables" for 127.0.0.1 at 2018-10-14 00:48:01 -0700
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:48:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 104ms (Views: 100.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:48:23 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (3.4ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (7.3ms)
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:48:34 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 77ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:48:34 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (7.6ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (14.3ms)
+Completed 200 OK in 32ms (Views: 23.8ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:50:16 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (0.7ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (3.5ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:50:17 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 93ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:50:18 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (2.0ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (4.9ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:51:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 81ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:51:23 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (1.3ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (5.2ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:51:24 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 62ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:51:25 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (3.6ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (9.2ms)
+Completed 200 OK in 23ms (Views: 18.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:51:28 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:51:31 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 311ms (Views: 307.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:51:32 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (3.6ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (6.3ms)
+Completed 200 OK in 34ms (Views: 30.1ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:52:41 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (0.6ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (2.9ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:54:09 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 96ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:54:10 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (2.6ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (5.1ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:54:12 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:54:12 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (5.7ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (8.6ms)
+Completed 200 OK in 28ms (Views: 22.1ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:55:42 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:55:43 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (3.4ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (5.9ms)
+Completed 200 OK in 23ms (Views: 19.7ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:55:45 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 104ms (Views: 99.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:55:46 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (1.4ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (4.0ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:55:50 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:55:51 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (1.3ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (7.5ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:56:08 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 235ms (Views: 232.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:56:09 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (2.4ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (5.7ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:56:52 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 91ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:56:52 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (46.6ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (49.1ms)
+Completed 200 OK in 69ms (Views: 22.1ms | ActiveRecord: 46.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:57:44 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 75ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:57:45 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (2.4ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (6.1ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:58:11 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 125.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:58:12 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (3.3ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (5.8ms)
+Completed 200 OK in 26ms (Views: 22.2ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:58:39 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 92ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:58:40 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (1.3ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (3.6ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:59:58 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 90ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 00:59:59 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (4.0ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (6.4ms)
+Completed 200 OK in 25ms (Views: 20.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:00:01 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 42ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:00:02 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (0.7ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (4.2ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:00:23 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 83ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:00:24 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (0.7ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (4.8ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:01:30 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 90ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:01:31 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (30.3ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (32.8ms)
+Completed 200 OK in 51ms (Views: 20.1ms | ActiveRecord: 30.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:01:50 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 68ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:01:50 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (2.2ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (4.7ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:02:05 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 66ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:02:05 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (1.1ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (3.5ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:02:17 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:02:18 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (3.9ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (7.3ms)
+Completed 200 OK in 27ms (Views: 22.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:02:34 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "  height": expected ";", was ": 150px;":
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2443702048532753750_70305128872400'
+
+Started POST "/__better_errors/f63e773a939271f0/variables" for 127.0.0.1 at 2018-10-14 01:02:35 -0700
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:02:45 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 76ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:02:46 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (0.8ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (3.7ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:02:58 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 132ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:02:59 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (6.0ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (10.2ms)
+Completed 200 OK in 27ms (Views: 20.3ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:03:52 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 124ms (Views: 121.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:03:53 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (5.4ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (8.6ms)
+Completed 200 OK in 25ms (Views: 19.1ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:04:17 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 88ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:04:17 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (0.6ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (3.1ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 01:05:23 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 82ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskcategories" for 127.0.0.1 at 2018-10-14 01:05:24 -0700
+Processing by Api::TaskcategoriesController#index as JSON
+  Rendering api/taskcategories/index.json.jbuilder
+  [1m[36mTaskcategory Load (3.6ms)[0m  [1m[34mSELECT "taskcategories".* FROM "taskcategories"[0m
+  ↳ app/views/api/taskcategories/index.json.jbuilder:1
+  Rendered api/taskcategories/index.json.jbuilder (5.7ms)
+Completed 200 OK in 21ms (Views: 16.7ms | ActiveRecord: 3.6ms)
+
+
