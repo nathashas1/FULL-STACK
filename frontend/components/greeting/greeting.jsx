@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 const Greeting = ({ currentUser, logout }) => {
   const sessionLinks = () => (
 
@@ -25,6 +26,7 @@ const Greeting = ({ currentUser, logout }) => {
       </Link>
 
   </div>
+
   );
   const personalGreeting = () => (
     <hgroup className="header-group">
