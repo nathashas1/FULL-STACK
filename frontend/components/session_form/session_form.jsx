@@ -70,7 +70,7 @@ class SessionForm extends React.Component {
                   </Link>
                   <br/>
 
-                  <button className="session-submitdemo" onClick={this.handleDemo()}>Demo USer</button>
+                  <button className="session-submitdemo" onClick={this.handleDemo()}>Demo User</button>
 
                   </div>
 

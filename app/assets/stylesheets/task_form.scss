@@ -17,13 +17,14 @@ text-align: center;
   font-weight: normal;
     font-size: 2rem;
         font-style: inherit;
-
+        -webkit-font-smoothing: antialiased;
+font-family: "Proxima", Arial, Helvetica, sans-serif;
 }
 
 .weNeed{
 
     color: #75797D;
-    font-style: Proxima, Arial, Helvetica, sans-serif;
+    font-style: "Proxima", Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 48px;
@@ -52,32 +53,57 @@ text-align: center;
     vertical-align: baseline;
 }
 
+.main{
+  color: #F9FAFB;
+  width: 100vw;
+  height: 100vh;
+}
+
 .optionContainer{
   margin-top: 50px;
   width:1000px;
   margin-right: auto;
   margin-left: auto;
-  height: 300px;
+  height: 320px;
   text-align: left;
   justify-content: flex-start;
   background: white;
   border: 1px solid lightgray;
   padding-left: 20px;
-    padding-top: 20px;
-    color: #242a30;
-    font-family: "Proxima", Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 1.5;
-
+  padding-top: 20px;
+  color: #242a30;
+  font-family: "Proxima", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
 }
+
 
 .ul{
   line-height: 2;
-  input[type="radio"]{};
   list-style: none;
-font-family:  Arial, Helvetica, sans-serif;
+font-family:  "Proxima", Arial, Helvetica, sans-serif;
     color: #64696C;
     font-size: 16px;
     font-weight: 300;
+}
+
+.first{
+  width:1000px;
+  height: 200px;
+}
+
+.session-submitdemo{
+  margin-top: 20px;
+  position: relative;
+  left: 370px;
+  bottom: 10px;
+  width:15vw;
+  border: 1px solid green;
+  border-radius: 4px;
+  height: 7vh;
+  background: #51AF33;
+  color:white;
+  font-size: 17px;
+
 }
