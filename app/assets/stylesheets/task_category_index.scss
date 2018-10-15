@@ -39,10 +39,10 @@
 
 }
 
-.categories-bar button{
+.linkclass{
 
 
-  border: 1px solid green;
+  border: 1px solid #51AF33;
   border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 15px;
@@ -50,10 +50,12 @@
   padding-left: 30px;
   height: 7vh;
   background: white;
-  color: green;
+  color: #51AF33;
   font-size: 17px;
+    text-Decoration:none;
   &:hover {
-    background-color: green;
+    background-color: #51AF33;
     color: white;
+
 }
 }
