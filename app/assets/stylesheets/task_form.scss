@@ -1,0 +1,83 @@
+.formContainer{
+width:100vw;
+height: 100vh;
+background: #F9FAFB;
+text-align: center;
+
+
+}
+
+.taskInterest{
+  color: #545e69;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.describeTask{
+  font-weight: normal;
+    font-size: 2rem;
+        font-style: inherit;
+
+}
+
+.weNeed{
+
+    color: #75797D;
+    font-style: Proxima, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.whatBrings{
+  font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: .5rem;
+  font-weight: 600;
+}
+
+.label1{
+  flex: 1 1 auto;
+    line-height: 1.25em;
+}
+
+.span{
+  margin: 0;
+    padding-left: 10px;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+.optionContainer{
+  margin-top: 50px;
+  width:1000px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 300px;
+  text-align: left;
+  justify-content: flex-start;
+  background: white;
+  border: 1px solid lightgray;
+  padding-left: 20px;
+    padding-top: 20px;
+    color: #242a30;
+    font-family: "Proxima", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+
+.ul{
+  line-height: 2;
+  input[type="radio"]{};
+  list-style: none;
+font-family:  Arial, Helvetica, sans-serif;
+    color: #64696C;
+    font-size: 16px;
+    font-weight: 300;
+}

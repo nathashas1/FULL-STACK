@@ -1,18 +1,19 @@
 
 import React from 'react';
 import TaskCategoryIndexItem from './task_category_index_item';
+import { Link } from 'react-router-dom';
 
 class TaskCategoryIndex extends React.Component {
-  componentDidMount() {
-
-   this.props.fetchTaskCategories();
-   this.handleSearch = this.handleSearch.bind(this);
-   }
-   handleSearch() {
-     return{
-
-     };
-   }
+  // componentDidMount() {
+  //
+  //  this.props.fetchTaskCategories();
+  //  // this.handleSearch = this.handleSearch.bind(this);
+  //  }
+   // handleSearch() {
+   //   return{
+   //
+   //   };
+   // }
 
    render() {
      return(
@@ -21,30 +22,29 @@ class TaskCategoryIndex extends React.Component {
 
     <div className="categories-bar">
 
-        <button
-        onClick={this.handleSearch()}
-          >Mounting & Installation</button>
+      <Link to="/taskdetails" className="linkclass">
+        Mounting & Installation
+      </Link>
 
-        <button
-          onClick={this.handleSearch()}
-          >Moving & Packing</button>
+      <Link to="/taskdetails" className="linkclass">
+        Moving & Packing
+      </Link>
 
-        <button
-          onClick={this.handleSearch()}
-          >Furniture Assembly</button>
+      <Link to="/taskdetails" className="linkclass">
+        Furniture Assembly
+      </Link>
 
-      <button
-          onClick={this.handleSearch()}
-          >Home Improvement</button>
+      <Link to="/taskdetails" className="linkclass">
+        Home Improvement
+      </Link>
 
-        <button
-          onClick={this.handleSearch()}
-          >General Handyman</button>
+      <Link to="/taskdetails" className="linkclass">
+        General Handyman
+      </Link>
 
-        <button
-          onClick={this.handleSearch()}
-          >Heavy Lifting</button>
-
+      <Link to="/taskdetails" className="linkclass">
+        Heavy Lifting
+      </Link>
 
     </div>
      </div>

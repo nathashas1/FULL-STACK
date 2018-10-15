@@ -5,6 +5,7 @@ import GreetingContainer from './greeting/greeting_container';
 import SignUpFormContainer from './session_form/signup_form_container';
 import LogInFormContainer from './session_form/login_form_container';
 import TaskCategoryIndexContainer from './task_category/task_category_index_container';
+import TaskForm from './task_details/task_details_form';
 
 
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
@@ -19,6 +20,7 @@ const App = () => (
 
     <Switch>
 <AuthRoute exact path="/" component={TaskCategoryIndexContainer} />
+<AuthRoute exact path="/taskdetails" component={TaskForm} />
 
 
 <AuthRoute exact path="/login" component={LogInFormContainer} />
