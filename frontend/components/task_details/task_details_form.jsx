@@ -19,6 +19,7 @@ class TaskForm extends React.Component {
 
   render() {
   return (
+
     <div className="formContainer">
 
       <div className="describeTask">
@@ -27,7 +28,7 @@ class TaskForm extends React.Component {
 
       <div className="weNeed">
       We need these inputs to show only qualified and available Taskers for the job.
-      <div/>
+    </div>
 
         <form action="#" className="optionContainer">
 
@@ -36,6 +37,7 @@ class TaskForm extends React.Component {
                     <br/>
           <br/>
 
+        <div className="first">
           <h4>What brings you here today?</h4>
           <br/>
           <ul className="ul">
@@ -62,12 +64,15 @@ class TaskForm extends React.Component {
             <span className="span">I'm just browsing</span>
           </label>
           </li>
-      </ul>
 
+          <button className="session-submitdemo" >Continue</button>
+      </ul>
+      </div>
       </form>
 
 </div>
-</div>
+
+
   );
   }
 
