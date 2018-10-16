@@ -8,8 +8,8 @@
 
 
 User.delete_all
-
 Taskcategory.delete_all
+Tasker.delete_all
 
 
 Taskcategory.create!(
@@ -42,5 +42,60 @@ User.create!(
   firstname: 'guest',
   lastname: 'guest',
   zipcode: 94105
+)
 
+
+Tasker.create!(
+  task_category: 'Mounting & Installation',
+  contact: "tasker1@gmail.com",
+  title: "Im a mounting helper",
+  contact: "tasker1@gmail.com",
+  hourly_rate: 45,
+  city: "San Francisco",
+  description: "I am good at my job.I have completed 100 mounting tasks so far"
+)
+
+Tasker.create!(
+  task_category: 'Moving & Packing',
+  contact: "tasker2@gmail.com",
+  title: "Im a moving & packing helper",
+  hourly_rate: 42,
+  city: "San Francisco",
+  description: "I am good at my job.I have completed 100 moving tasks so far"
+)
+
+Tasker.create!(
+  task_category: 'Furniture Assembly',
+  contact: "tasker3@gmail.com",
+  title: "Im a furniture Assembly helper",
+  hourly_rate: 20,
+  city: "San Francisco",
+  description: "I am good at my job.I have completed 100 assemblytasks so far"
+)
+
+Tasker.create!(
+  task_category: 'Home Improvement',
+  contact: "tasker4@gmail.com",
+  title: "Im a home improvement helper",
+  hourly_rate: 30,
+  city: "San Francisco",
+  description: "I am good at my job.I have completed 100 home improvement tasks so far"
+)
+
+Tasker.create!(
+  task_category: 'General Handyman',
+  contact: "tasker5@gmail.com",
+  title: "Im a handyman helper",
+  hourly_rate: 46,
+  city: "San Francisco",
+  description: "I am good at my job.I have completed 100 handyman tasks so far"
+)
+
+Tasker.create!(
+  task_category: 'Heavy Lifting',
+  contact: "tasker5@gmail.com",
+  title: "Im a lifting helper",
+  hourly_rate: 35,
+  city: "San Francisco",
+  description: "I am good at my job.I have completed 100 lifting tasks so far"
 )
