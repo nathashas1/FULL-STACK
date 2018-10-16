@@ -11,6 +11,10 @@ class Api::TaskersController < ApplicationController
     end
   end
 
+  def show
+     @tasker = Tasker.find(params[:id])
+  end
+
 private
   def tasker_params
     params.require(:tasker).permit(:contact, :title, :hourly_rate, :city, :description, :task_category)

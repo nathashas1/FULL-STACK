@@ -1,5 +1,4 @@
 import * as APIUtil from '../util/task_category_util';
-
 export const FETCH_TASKCATEGORIES = 'FETCH_TASKCATEGORIES';
 
 
