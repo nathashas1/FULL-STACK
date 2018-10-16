@@ -1,6 +1,6 @@
 .formContainer{
   width:100vw;
-  height: 200vh;
+  height: 250vh;
   background: #F9FAFB;
   text-align: center;
 }
@@ -159,7 +159,7 @@
   width:1000px;
   margin-right: auto;
   margin-left: auto;
-  height: 250px;
+  height: 280px;
   text-align: left;
   justify-content: flex-start;
   background: white;
@@ -191,4 +191,45 @@
 
 .h4{
   border-bottom: 1px solid #DCE0E5;
+}
+
+.textarea{
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 6em;
+}
+
+.h4details{
+  font-family: "Proxima", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #5E6266;
+}
+
+
+.lastcontinue-demo{
+  width:14vw;
+  height: 7vh;
+  border-radius: 4px;
+  background: #51AF33;
+  color:white;
+  font-size: 17px;
+  position: relative;
+  left: 400px;
+  margin-top: 10px;
+
+}
+
+.secondcontinue-demo{
+  width:12vw;
+  height: 7vh;
+  border-radius: 4px;
+  background: #51AF33;
+  color:white;
+  font-size: 17px;
+  position: relative;
+  left: 400px;
+  top: 30px;
 }

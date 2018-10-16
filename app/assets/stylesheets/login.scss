@@ -77,6 +77,7 @@
   background: #51AF33;
   color: white;
   font-size: 17px;
+    margin-bottom: 20px;
 }
 
 
@@ -90,4 +91,11 @@
   text-Decoration:none;
   position: relative;
   left: 100px;
+}
+
+.errors{
+
+  color:red;
+  margin: auto;
+  text-align: center;
 }

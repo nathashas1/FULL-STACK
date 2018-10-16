@@ -30,26 +30,28 @@ class SessionForm extends React.Component {
     };
   }
 
-  renderErrors() {
-     return(
-       <ul>
-         {this.props.errors.map((error, i) => (
-           <li key={`error-${i}`}>
-             {error}
-           </li>
-         ))}
-       </ul>
-     );
-   }
+  // renderErrors() {
+  //    return(
+  //      <ul>
+  //        {this.props.errors.map((error, i) => (
+  //          <li key={`error-${i}`}>
+  //            {error}
+  //          </li>
+  //        ))}
+  //      </ul>
+  //    );
+  //  }
 
   render() {
     return (
       <div className="loginFormContainer">
         <form onSubmit={this.handleSubmit} className="loginForm">
-          {this.renderErrors()}
+
 
             <div className="loginContainer">
-
+              <div class="signuperrors">
+              {this.props.errors}
+              </div>
 
 
                   <label>Username:
@@ -59,6 +61,7 @@ class SessionForm extends React.Component {
                         className="login-input"
                       />
                   </label>
+
 
                 <br/>
                 <br/>

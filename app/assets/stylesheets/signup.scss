@@ -67,16 +67,30 @@ left: 100px;
 
 }
 
+
+
+
+
+
 .submitlink{
-width:50%;
+  border: 1px solid #51AF33;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  height: 7vh;
+  width: 40vw;
+  background: #51AF33;
+  color: white;
+  font-size: 17px;
+    text-Decoration:none;
+}
 
+.signuperrors{
 
-height: 20vh;
-
-color:#51AF33;
-font-size: 17px;
-text-Decoration:none;
-position: relative;
-left: 100px;
-
+    color:red;
+    position: relative;
+    top: 15px;
+    text-align: center;
 }

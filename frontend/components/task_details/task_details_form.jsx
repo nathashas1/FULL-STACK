@@ -8,10 +8,13 @@ class TaskForm extends React.Component {
     super(props);
   }
 
-const inputbtn = document.getElementById('elem');
 
 
-
+   myFunction() {
+      var myWindow = window.open("", "", "width=200,height=100");
+      myWindow.document.write("<p>A new window!</p>");
+      myWindow.focus();
+  }
 
 
 
@@ -57,7 +60,8 @@ const inputbtn = document.getElementById('elem');
             <span className="span">I'm just browsing</span>
           </li>
 
-          <button className="session-submitdemo" >Continue</button>
+          <button className="session-submitdemo" onClick={()=>this.myFunction()}>Continue</button>
+
       </ul>
       </div>
 
@@ -91,8 +95,25 @@ const inputbtn = document.getElementById('elem');
               <input name="group3" type="radio" checked />
               <span className="span2">Large - Est- 4+ hrs</span>
             </label>
-    <button className="continue-demo" >Continue</button>
+    <button className="secondcontinue-demo" >Continue</button>
   </div>
+
+  <div className="optionContainer3">
+    <h3 className="detailheading">TELL US THE DETAILS OF YOUR TASK</h3>
+      <br/>
+        <h4 className="h4details">Start the conversation and tell your Tasker what you need done.
+          This helps us show you only qualified and available Taskers for the job.
+          Don't worry, you can edit this later.</h4>
+
+        <textarea class="textarea"  placeholder="Provide a summary of what you need done for your Tasker.
+          Be sure to include details like the size of your space, any equipment/tools needed, and how to get in."></textarea>
+
+
+
+
+        <button className="lastcontinue-demo" >See Taskers & Prices</button>
+      </div>
+
 
       </form>
     </div>
