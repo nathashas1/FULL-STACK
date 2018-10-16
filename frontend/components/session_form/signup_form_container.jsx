@@ -6,7 +6,7 @@ import SignUpForm from './signup_form';
 
 const mapStateToProps = ({ errors }) => {
   return {
-    errors: errors.session,
+      errors: errors.session[0],
     formType: 'signup',
     navLink: <Link to="/login">log in instead</Link>,
   };
@@ -19,4 +19,4 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(SignUpForm);
+export default connect(mapStateToProps, mapDispatchToProps)(SignUpForm);
