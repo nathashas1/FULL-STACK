@@ -4,8 +4,8 @@ export const FETCH_TASKERS = 'FETCH_TASKERS';
 
 
 
-export const fetchTaskers = () => dispatch => (
-  APIUtil.fetchTaskers().then(taskers => (dispatch(receiveTaskers(taskers)))
+export const fetchTaskers = (taskCategory) => dispatch => (
+  APIUtil.fetchTaskers(taskCategory).then(taskers => (dispatch(receiveTaskers(taskers)))
 
 ));
 

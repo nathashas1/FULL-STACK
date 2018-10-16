@@ -20680,3 +20680,450 @@ Processing by StaticPagesController#root as HTML
 Completed 200 OK in 80ms (Views: 77.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-16 15:57:13 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 169ms (Views: 166.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 15:57:20 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group3=on" for 127.0.0.1 at 2018-10-16 15:57:22 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 15:57:25 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:10:12 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 216ms (Views: 214.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/taskers" for 127.0.0.1 at 2018-10-16 16:10:12 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/api/taskers"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/api/taskers" for 127.0.0.1 at 2018-10-16 16:10:44 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/api/taskers"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:11:14 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/taskers" for 127.0.0.1 at 2018-10-16 16:11:15 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/api/taskers"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:11:17 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 56ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/taskers" for 127.0.0.1 at 2018-10-16 16:11:18 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/api/taskers"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:11:21 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/taskers" for 127.0.0.1 at 2018-10-16 16:11:44 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/api/taskers"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:11:50 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 217ms (Views: 213.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 16:11:50 -0700
+Processing by Api::TaskersController#index as JSON
+No template found for Api::TaskersController#index, rendering head :no_content
+Completed 204 No Content in 417ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:11:52 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 16:11:53 -0700
+Processing by Api::TaskersController#index as JSON
+No template found for Api::TaskersController#index, rendering head :no_content
+Completed 204 No Content in 443ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:12:41 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 16:12:41 -0700
+Processing by Api::TaskersController#index as JSON
+No template found for Api::TaskersController#index, rendering head :no_content
+Completed 204 No Content in 288ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:12:44 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 16:12:57 -0700
+Processing by Api::TaskersController#index as JSON
+No template found for Api::TaskersController#index, rendering head :no_content
+Completed 204 No Content in 134ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mTasker Load (1.0ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers"[0m
+  [1m[36mTasker Load (1.1ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers"[0m
+  [1m[36mTasker Load (0.5ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTasker Load (0.5ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers"[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Destroy (7.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mTaskcategory Destroy (6.9ms)[0m  [1m[31mDELETE FROM "taskcategories"[0m
+  ↳ db/seeds.rb:11
+  [1m[36mTasker Destroy (1.0ms)[0m  [1m[31mDELETE FROM "taskers"[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mTaskcategory Create (1.0ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Mounting & Installation"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mTaskcategory Create (9.1ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Moving & Packing"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mTaskcategory Create (0.6ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Furniture Assembly"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mTaskcategory Create (23.3ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Home Improvement"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mTaskcategory Create (0.5ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "General Handyman"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:35
+  [1m[36mTaskcategory Create (1.1ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Heavy Lifting"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:35
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "rys0J4Ujv6poDpQX7qeX5A"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:47
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:39
+  [1m[36mUser Exists (1.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "guest"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "username", "zipcode", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["firstname", "guest"], ["lastname", "guest"], ["username", "guest"], ["zipcode", 94105], ["password_digest", "$2a$10$TH.8D74Xh07NVoqN.J1tiuoxQgmNM5TfYWNqubB1OWm5ZXauXVTNe"], ["session_token", "rys0J4Ujv6poDpQX7qeX5A"], ["created_at", "2018-10-16 23:17:16.846156"], ["updated_at", "2018-10-16 23:17:16.846156"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:48
+  [1m[36mTasker Create (1.1ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 1], ["task_category", "Mounting & Installation"], ["contact", "tasker1@gmail.com"], ["title", "Im a mounting helper"], ["hourly_rate", 45], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 mounting tasks so far"], ["created_at", "2018-10-16 23:17:16.873024"], ["updated_at", "2018-10-16 23:17:16.873024"]]
+  ↳ db/seeds.rb:48
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:59
+  [1m[36mTasker Create (0.5ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 2], ["task_category", "Moving & Packing"], ["contact", "tasker2@gmail.com"], ["title", "Im a moving & packing helper"], ["hourly_rate", 42], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 moving tasks so far"], ["created_at", "2018-10-16 23:17:16.876650"], ["updated_at", "2018-10-16 23:17:16.876650"]]
+  ↳ db/seeds.rb:59
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:59
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:69
+  [1m[36mTasker Create (0.5ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 3], ["task_category", "Furniture Assembly"], ["contact", "tasker3@gmail.com"], ["title", "Im a furniture Assembly helper"], ["hourly_rate", 20], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 assemblytasks so far"], ["created_at", "2018-10-16 23:17:16.879715"], ["updated_at", "2018-10-16 23:17:16.879715"]]
+  ↳ db/seeds.rb:69
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:69
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:79
+  [1m[36mTasker Create (0.7ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 4], ["task_category", "Home Improvement"], ["contact", "tasker4@gmail.com"], ["title", "Im a home improvement helper"], ["hourly_rate", 30], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 home improvement tasks so far"], ["created_at", "2018-10-16 23:17:16.882247"], ["updated_at", "2018-10-16 23:17:16.882247"]]
+  ↳ db/seeds.rb:79
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:79
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:89
+  [1m[36mTasker Create (0.5ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 5], ["task_category", "General Handyman"], ["contact", "tasker5@gmail.com"], ["title", "Im a handyman helper"], ["hourly_rate", 46], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 handyman tasks so far"], ["created_at", "2018-10-16 23:17:16.885354"], ["updated_at", "2018-10-16 23:17:16.885354"]]
+  ↳ db/seeds.rb:89
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:89
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:99
+  [1m[36mTasker Create (0.5ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 6], ["task_category", "Heavy Lifting"], ["contact", "tasker5@gmail.com"], ["title", "Im a lifting helper"], ["hourly_rate", 35], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 lifting tasks so far"], ["created_at", "2018-10-16 23:17:16.888307"], ["updated_at", "2018-10-16 23:17:16.888307"]]
+  ↳ db/seeds.rb:99
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:99
+  [1m[36mTasker Load (1.1ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers"[0m
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:17:42 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 16:17:43 -0700
+Processing by Api::TaskersController#index as JSON
+No template found for Api::TaskersController#index, rendering head :no_content
+Completed 204 No Content in 294ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:17:47 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 43ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 16:17:47 -0700
+Processing by Api::TaskersController#index as JSON
+No template found for Api::TaskersController#index, rendering head :no_content
+Completed 204 No Content in 300ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:17:52 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 47ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 16:18:04 -0700
+Processing by Api::TaskersController#index as JSON
+No template found for Api::TaskersController#index, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:22:56 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 178ms (Views: 173.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 16:22:57 -0700
+Processing by Api::TaskersController#index as JSON
+No template found for Api::TaskersController#index, rendering head :no_content
+Completed 204 No Content in 401ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 16:23:21 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 16:23:21 -0700
+Processing by Api::TaskersController#index as JSON
+No template found for Api::TaskersController#index, rendering head :no_content
+Completed 204 No Content in 333ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 16:23:54 -0700
+Processing by Api::TaskersController#index as JSON
+No template found for Api::TaskersController#index, rendering head :no_content
+Completed 204 No Content in 137ms (ActiveRecord: 0.0ms)
+
+
