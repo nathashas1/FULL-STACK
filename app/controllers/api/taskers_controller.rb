@@ -5,7 +5,6 @@ class Api::TaskersController < ApplicationController
 
     if @tasker.save
       @tasker.user_id = current_user.id
-
       render "api/taskers/show"
     else
       render json: @tasker.errors.full_messages, status: 422
@@ -14,7 +13,7 @@ class Api::TaskersController < ApplicationController
 
 private
   def tasker_params
-    params.require(:tasker).permit(:contact, :title, :hourly_rate, :city, :description)
+    params.require(:tasker).permit(:contact, :title, :hourly_rate, :city, :description, :task_category)
   end
 
 end
