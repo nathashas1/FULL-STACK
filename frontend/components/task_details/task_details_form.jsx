@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import { Link,withRouter } from 'react-router-dom';
+
 
 class TaskForm extends React.Component {
   constructor(props) {
@@ -11,9 +11,11 @@ class TaskForm extends React.Component {
 
 
    myFunction() {
-      var myWindow = window.open("", "", "width=200,height=100");
-      myWindow.document.write("<p>A new window!</p>");
-      myWindow.focus();
+      // var myWindow = window.open("", "", "width=200,height=100");
+      // myWindow.document.write("<p>A new window!</p>");
+      // myWindow.focus();
+    var myWindow = window.scrollTo( 0, 200 );
+    myWindow.focus();
   }
 
 
@@ -124,4 +126,4 @@ class TaskForm extends React.Component {
 
 }
 
-export default withRouter(TaskForm);
+export default(TaskForm);
