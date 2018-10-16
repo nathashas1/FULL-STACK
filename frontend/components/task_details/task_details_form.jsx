@@ -6,11 +6,9 @@ import { Link,withRouter } from 'react-router-dom';
 class TaskForm extends React.Component {
   constructor(props) {
     super(props);
-
-
   }
 
-
+const inputbtn = document.getElementById('elem');
 
 
 
@@ -30,47 +28,74 @@ class TaskForm extends React.Component {
       We need these inputs to show only qualified and available Taskers for the job.
     </div>
 
-        <form action="#" className="optionContainer">
+        <form action="#">
 
 
-          <h3 className="taskInterest">TASK INTEREST</h3>
-                    <br/>
+        <div className="optionContainer">
+          <h3 className="detailheading">TASK INTEREST</h3>
+          <br/>
           <br/>
 
-        <div className="first">
           <h4>What brings you here today?</h4>
           <br/>
           <ul className="ul">
 
           <li>
-          <label>
-            <input name="group1" type="radio" checked />
+            <input id='elem' name="group1" type="radio"  />
             <span className="span">I'm ready to book right now</span>
-          </label>
         </li>
 
 
           <li>
-          <label>
-            <input name="group1" type="radio" />
+            <input  name="group1" type="radio" />
             <span className="span">I'm interested in booking sometime soon</span>
-          </label>
           </li>
 
 
           <li>
-          <label>
-            <input class="with-gap" name="group1" type="radio"  />
+            <input  name="group1" type="radio"  />
             <span className="span">I'm just browsing</span>
-          </label>
           </li>
 
           <button className="session-submitdemo" >Continue</button>
       </ul>
       </div>
-      </form>
 
-</div>
+
+
+      <div className="optionContainer2">
+        <h3 className="detailheading">YOUR TASK LOCATION</h3>
+          <br/>
+      <label>
+        <input type="text"
+          placeholder="Enter street address"
+          className="addressContainerinput"
+        />
+      </label>
+      <button className="continue-demo" >Continue</button>
+    </div>
+
+    <div className="optionContainer3">
+      <h3 className="detailheading">TASK OPTIONS</h3>
+        <br/>
+          <h4 className="h4">How big is your task?</h4>
+            <label>
+              <input name="group3" type="radio" checked />
+              <span className="span2">Small - Est-1 hr</span>
+            </label>
+            <label>
+              <input name="group3" type="radio" checked />
+              <span className="span2">Medium - Est- 2-3 hrs</span>
+            </label>
+            <label>
+              <input name="group3" type="radio" checked />
+              <span className="span2">Large - Est- 4+ hrs</span>
+            </label>
+    <button className="continue-demo" >Continue</button>
+  </div>
+
+      </form>
+    </div>
 
 
   );
