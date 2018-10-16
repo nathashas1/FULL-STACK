@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       resource :user, only: [:create]
       resource :session, only: [:create, :destroy]
       resources :taskcategories, only: [:index]
+      resources :taskers, only: [:index]
 
     end
 

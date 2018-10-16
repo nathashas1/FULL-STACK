@@ -9,6 +9,7 @@ class TaskersIndex extends React.Component {
 
 
    render() {
+     console.log("props of taskers index" + JSON.stringify(this.props));
      return(
        <h1>hello</h1>
   );

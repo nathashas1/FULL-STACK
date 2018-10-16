@@ -6,7 +6,7 @@ import SignUpFormContainer from './session_form/signup_form_container';
 import LogInFormContainer from './session_form/login_form_container';
 import TaskCategoryIndexContainer from './task_category/task_category_index_container';
 import TaskForm from './task_details/task_details_form';
-import TaskersContainer from './taskers/taskers';
+import TaskersContainer from './taskers/taskers_index_container';
 
 
 import { AuthRoute, ProtectedRoute } from '../util/route_util';

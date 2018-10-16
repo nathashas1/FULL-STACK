@@ -52,7 +52,8 @@ Tasker.create!(
   contact: "tasker1@gmail.com",
   hourly_rate: 45,
   city: "San Francisco",
-  description: "I am good at my job.I have completed 100 mounting tasks so far"
+  description: "I am good at my job.I have completed 100 mounting tasks so far",
+  user_id: 1
 )
 
 Tasker.create!(
@@ -61,7 +62,8 @@ Tasker.create!(
   title: "Im a moving & packing helper",
   hourly_rate: 42,
   city: "San Francisco",
-  description: "I am good at my job.I have completed 100 moving tasks so far"
+  description: "I am good at my job.I have completed 100 moving tasks so far",
+  user_id: 2
 )
 
 Tasker.create!(
@@ -70,7 +72,8 @@ Tasker.create!(
   title: "Im a furniture Assembly helper",
   hourly_rate: 20,
   city: "San Francisco",
-  description: "I am good at my job.I have completed 100 assemblytasks so far"
+  description: "I am good at my job.I have completed 100 assemblytasks so far",
+  user_id: 3
 )
 
 Tasker.create!(
@@ -79,7 +82,8 @@ Tasker.create!(
   title: "Im a home improvement helper",
   hourly_rate: 30,
   city: "San Francisco",
-  description: "I am good at my job.I have completed 100 home improvement tasks so far"
+  description: "I am good at my job.I have completed 100 home improvement tasks so far",
+  user_id: 4
 )
 
 Tasker.create!(
@@ -88,7 +92,8 @@ Tasker.create!(
   title: "Im a handyman helper",
   hourly_rate: 46,
   city: "San Francisco",
-  description: "I am good at my job.I have completed 100 handyman tasks so far"
+  description: "I am good at my job.I have completed 100 handyman tasks so far",
+  user_id: 5
 )
 
 Tasker.create!(
@@ -97,5 +102,6 @@ Tasker.create!(
   title: "Im a lifting helper",
   hourly_rate: 35,
   city: "San Francisco",
-  description: "I am good at my job.I have completed 100 lifting tasks so far"
+  description: "I am good at my job.I have completed 100 lifting tasks so far",
+  user_id: 6
 )
