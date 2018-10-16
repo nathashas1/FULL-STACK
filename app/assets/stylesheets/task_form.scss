@@ -1,56 +1,53 @@
 .formContainer{
-width:100vw;
-height: 100vh;
-background: #F9FAFB;
-text-align: center;
-
-
+  width:100vw;
+  height: 200vh;
+  background: #F9FAFB;
+  text-align: center;
 }
 
-.taskInterest{
+.detailheading{
   color: #545e69;
-    font-size: 1rem;
-    font-weight: normal;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 .describeTask{
   font-weight: normal;
-    font-size: 2rem;
-        font-style: inherit;
-        -webkit-font-smoothing: antialiased;
-font-family: "Proxima", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-style: inherit;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Proxima", Arial, Helvetica, sans-serif;
 }
 
 .weNeed{
-
-    color: #75797D;
-    font-style: "Proxima", Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 48px;
+  color: #75797D;
+  font-style: "Proxima", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 48px;
 }
 
 .whatBrings{
   font-size: 1.25rem;
-    line-height: 1.6;
-    margin-bottom: .5rem;
+  line-height: 1.6;
+  margin-bottom: .5rem;
   font-weight: 600;
 }
 
 .label1{
   flex: 1 1 auto;
-    line-height: 1.25em;
+  line-height: 1.25em;
 }
 
 .span{
   margin: 0;
-    padding-left: 10px;
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    font-family: inherit;
-    vertical-align: baseline;
+  padding-left: 10px;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
 }
 
 .main{
@@ -82,10 +79,10 @@ font-family: "Proxima", Arial, Helvetica, sans-serif;
 .ul{
   line-height: 2;
   list-style: none;
-font-family:  "Proxima", Arial, Helvetica, sans-serif;
-    color: #64696C;
-    font-size: 16px;
-    font-weight: 300;
+  font-family:  "Proxima", Arial, Helvetica, sans-serif;
+  color: #64696C;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .first{
@@ -98,12 +95,100 @@ font-family:  "Proxima", Arial, Helvetica, sans-serif;
   position: relative;
   left: 370px;
   bottom: 10px;
-  width:15vw;
-  border: 1px solid green;
+  width:12vw;
   border-radius: 4px;
   height: 7vh;
   background: #51AF33;
   color:white;
   font-size: 17px;
 
+}
+
+.addressContainer{
+  height: 320px;
+  width:1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.addressContainerinput{
+  height: 9vh;
+  width:60vw;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.optionContainer2{
+  margin-top: 50px;
+  width:1000px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 250px;
+  text-align: left;
+  justify-content: flex-start;
+  background: white;
+  border: 1px solid lightgray;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #242a30;
+  font-family: "Proxima", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.continue-demo{
+  width:12vw;
+  height: 7vh;
+  border-radius: 4px;
+  background: #51AF33;
+  color:white;
+  font-size: 17px;
+  position: relative;
+  right: 380px;
+  top: 100px;
+}
+
+.optionContainer3{
+  margin-top: 50px;
+  width:1000px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 250px;
+  text-align: left;
+  justify-content: flex-start;
+  background: white;
+  border: 1px solid lightgray;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #242a30;
+  font-family: "Proxima", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+
+}
+
+
+
+.span2{
+
+  line-height: 50px;
+  padding-left: 10px;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  margin-right: 130px;
+}
+
+.h4{
+  border-bottom: 1px solid #DCE0E5;
 }
