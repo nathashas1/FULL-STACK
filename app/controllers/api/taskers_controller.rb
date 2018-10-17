@@ -13,7 +13,7 @@ class Api::TaskersController < ApplicationController
 
   def index
 
-     @taskers = Tasker.where(task_category: params[:tasker][:task_category])
+     @taskers = Tasker.where(task_category: params[:task_category])
 
 
   end

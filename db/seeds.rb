@@ -13,11 +13,11 @@ Tasker.delete_all
 
 
 Taskcategory.create!(
-  name: 'Mounting & Installation'
+  name: 'Mounting'
 )
 
 Taskcategory.create!(
-  name: 'Moving & Packing'
+  name: 'Moving'
 )
 
 Taskcategory.create!(
@@ -46,7 +46,7 @@ User.create!(
 
 
 Tasker.create!(
-  task_category: 'Mounting & Installation',
+  task_category: 'Mounting and Installation',
   contact: "tasker1@gmail.com",
   title: "Im a mounting helper",
   contact: "tasker1@gmail.com",
@@ -57,7 +57,7 @@ Tasker.create!(
 )
 
 Tasker.create!(
-  task_category: 'Moving & Packing',
+  task_category: 'Moving and Packing',
   contact: "tasker2@gmail.com",
   title: "Im a moving & packing helper",
   hourly_rate: 42,

@@ -22351,3 +22351,740 @@ Completed 500 Internal Server Error in 161ms (ActiveRecord: 0.0ms)
 NoMethodError - undefined method `[]' for nil:NilClass:
   app/controllers/api/taskers_controller.rb:16:in `index'
 
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:40:46 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1815ms (Views: 1799.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:40:51 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1257ms (Views: 1238.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:40:55 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 1665ms (Views: 1643.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:41:01 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 1342ms (Views: 1318.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group3=on" for 127.0.0.1 at 2018-10-16 18:41:06 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 1437ms (Views: 1422.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=banana" for 127.0.0.1 at 2018-10-16 18:41:13 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"banana"}
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/?group3=on" for 127.0.0.1 at 2018-10-16 18:43:21 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1325ms (Views: 1304.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group3=on" for 127.0.0.1 at 2018-10-16 18:43:56 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2483ms (Views: 2465.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:44:11 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1448ms (Views: 1435.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:45:14 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 2152ms (Views: 2115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:45:19 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1921ms (Views: 1892.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:45:25 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 3020ms (Views: 2996.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:45:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 1448ms (Views: 1433.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:46:33 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2167ms (Views: 2150.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:46:39 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 1332ms (Views: 1317.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:47:35 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1339ms (Views: 1310.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:48:00 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1691ms (Views: 1676.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:48:10 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 3031ms (Views: 3012.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:48:17 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1323ms (Views: 1296.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:49:35 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 2070ms (Views: 2039.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:49:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 1951ms (Views: 1919.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:49:46 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 2078ms (Views: 2042.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:50:15 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 3217ms (Views: 3197.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:50:24 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 1968ms (Views: 1950.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:50:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 5477ms (Views: 5449.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:51:49 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2212ms (Views: 2198.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:52:04 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 2661ms (Views: 2652.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 18:52:56 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1191ms (Views: 1172.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:01:24 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 2936ms (Views: 2925.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:01:36 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1382ms (Views: 1364.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:04:40 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2702ms (Views: 2684.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:04:49 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 1230ms (Views: 1204.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:05:52 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1324ms (Views: 1305.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:05:56 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1280ms (Views: 1263.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 19:06:06 -0700
+Processing by Api::TaskersController#index as JSON
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 19:07:13 -0700
+Processing by Api::TaskersController#index as JSON
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:07:59 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2726ms (Views: 2710.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Home+Improvement" for 127.0.0.1 at 2018-10-16 19:08:03 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Home Improvement"}
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:08:05 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1258ms (Views: 1240.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Home+Improvement" for 127.0.0.1 at 2018-10-16 19:08:07 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Home Improvement"}
+Completed 500 Internal Server Error in 291ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:08:13 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1341ms (Views: 1320.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Home+Improvement" for 127.0.0.1 at 2018-10-16 19:08:21 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Home Improvement"}
+Completed 500 Internal Server Error in 90ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:18:08 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1212ms (Views: 1192.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Home+Improvement" for 127.0.0.1 at 2018-10-16 19:18:15 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Home Improvement"}
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:19:23 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1305ms (Views: 1285.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Home+Improvement" for 127.0.0.1 at 2018-10-16 19:19:38 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Home Improvement"}
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:21:14 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 3480ms (Views: 3466.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Home+Improvement" for 127.0.0.1 at 2018-10-16 19:21:18 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Home Improvement"}
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:22:28 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1955ms (Views: 1936.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Home+Improvement" for 127.0.0.1 at 2018-10-16 19:22:31 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Home Improvement"}
+Completed 500 Internal Server Error in 403ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:22:33 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 1952ms (Views: 1928.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Home+Improvement" for 127.0.0.1 at 2018-10-16 19:22:36 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Home Improvement"}
+Completed 500 Internal Server Error in 446ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:22:41 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 3003ms (Views: 2983.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 19:22:45 -0700
+Processing by Api::TaskersController#index as JSON
+Completed 500 Internal Server Error in 275ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/api/taskers" for 127.0.0.1 at 2018-10-16 19:23:03 -0700
+Processing by Api::TaskersController#index as JSON
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/taskers_controller.rb:16:in `index'
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:25:51 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2486ms (Views: 2468.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=undefined" for 127.0.0.1 at 2018-10-16 19:25:55 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"undefined"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (4.4ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "undefined"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (55.1ms)
+Completed 200 OK in 427ms (Views: 103.3ms | ActiveRecord: 19.3ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:26:09 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1145ms (Views: 1134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=undefined" for 127.0.0.1 at 2018-10-16 19:26:16 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"undefined"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (2.0ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "undefined"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (31.0ms)
+Completed 200 OK in 80ms (Views: 59.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:27:48 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1902ms (Views: 1876.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=undefined" for 127.0.0.1 at 2018-10-16 19:27:51 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"undefined"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (27.6ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "undefined"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (125.9ms)
+Completed 200 OK in 256ms (Views: 190.1ms | ActiveRecord: 27.6ms)
+
+
+Started GET "/api/taskers?task_category=undefined" for 127.0.0.1 at 2018-10-16 19:27:57 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"undefined"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (1.7ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "undefined"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (32.7ms)
+Completed 200 OK in 89ms (Views: 66.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:28:03 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 2450ms (Views: 2435.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 19:29:01 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1118ms (Views: 1102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:29:21 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 1172ms (Views: 1160.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Home%20Improvement" for 127.0.0.1 at 2018-10-16 19:29:30 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Home Improvement"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (2.0ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "Home Improvement"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (499.0ms)
+Completed 200 OK in 550ms (Views: 522.7ms | ActiveRecord: 12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:35:37 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2685ms (Views: 2667.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:36:21 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 2005ms (Views: 1992.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:36:26 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 1966ms (Views: 1947.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:36:31 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 3006ms (Views: 2978.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (8590.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "AskRabbit_development"[0m
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (197.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "AskRabbit_development"[0m
+  ↳ bin/rails:9
+  [1m[35m (202.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "AskRabbit_test"[0m
+  ↳ bin/rails:9
+  [1m[35m (423.0ms)[0m  [1m[35mCREATE DATABASE "AskRabbit_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (375.2ms)[0m  [1m[35mCREATE DATABASE "AskRabbit_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (9.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(265875876121084110)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20181010230539)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (10.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "firstname" character varying NOT NULL, "lastname" character varying NOT NULL, "username" character varying NOT NULL, "zipcode" integer NOT NULL, "password_digest" character varying NOT NULL, "session_token" character varying NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20181010230539_create_users.rb:3
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_username" ON "users"  ("username")[0m
+  ↳ db/migrate/20181010230539_create_users.rb:14
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_session_token" ON "users"  ("session_token")[0m
+  ↳ db/migrate/20181010230539_create_users.rb:15
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20181010230539"]]
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateTaskcategory (20181013055756)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE TABLE "taskcategories" ("id" bigserial primary key, "name" character varying NOT NULL)[0m
+  ↳ db/migrate/20181013055756_create_taskcategory.rb:3
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_taskcategories_on_name" ON "taskcategories"  ("name")[0m
+  ↳ db/migrate/20181013055756_create_taskcategory.rb:6
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20181013055756"]]
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateTaskers (20181016172207)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE TABLE "taskers" ("id" bigserial primary key, "user_id" integer NOT NULL, "task_category" character varying NOT NULL, "contact" character varying NOT NULL, "title" character varying NOT NULL, "hourly_rate" integer NOT NULL, "city" character varying NOT NULL, "description" character varying NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20181016172207_create_taskers.rb:3
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_taskers_on_user_id" ON "taskers"  ("user_id")[0m
+  ↳ db/migrate/20181016172207_create_taskers.rb:14
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20181016172207"]]
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-10-17 02:39:22.800287"], ["updated_at", "2018-10-17 02:39:22.800287"]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(265875876121084110)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Destroy (1.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mTaskcategory Destroy (0.7ms)[0m  [1m[31mDELETE FROM "taskcategories"[0m
+  ↳ db/seeds.rb:11
+  [1m[36mTasker Destroy (0.7ms)[0m  [1m[31mDELETE FROM "taskers"[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mTaskcategory Create (1.5ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Mounting"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (19.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mTaskcategory Create (0.7ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Moving"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mTaskcategory Create (0.7ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Furniture Assembly"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mTaskcategory Create (0.5ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Home Improvement"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mTaskcategory Create (0.5ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "General Handyman"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:35
+  [1m[36mTaskcategory Create (0.9ms)[0m  [1m[32mINSERT INTO "taskcategories" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Heavy Lifting"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:35
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "kh4I9zvt6kj3WzQCe1jRKg"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:47
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:39
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "guest"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mUser Create (1.9ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "username", "zipcode", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["firstname", "guest"], ["lastname", "guest"], ["username", "guest"], ["zipcode", 94105], ["password_digest", "$2a$10$RYbnzfmyO5V58rD5gAamu.l6lJMWe57gAw1qBEIeCBnX270MDCYEi"], ["session_token", "kh4I9zvt6kj3WzQCe1jRKg"], ["created_at", "2018-10-17 02:39:33.170450"], ["updated_at", "2018-10-17 02:39:33.170450"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:48
+  [1m[36mTasker Create (0.9ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 1], ["task_category", "Mounting and Installation"], ["contact", "tasker1@gmail.com"], ["title", "Im a mounting helper"], ["hourly_rate", 45], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 mounting tasks so far"], ["created_at", "2018-10-17 02:39:33.212623"], ["updated_at", "2018-10-17 02:39:33.212623"]]
+  ↳ db/seeds.rb:48
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:59
+  [1m[36mTasker Create (0.5ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 2], ["task_category", "Moving and Packing"], ["contact", "tasker2@gmail.com"], ["title", "Im a moving & packing helper"], ["hourly_rate", 42], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 moving tasks so far"], ["created_at", "2018-10-17 02:39:33.216659"], ["updated_at", "2018-10-17 02:39:33.216659"]]
+  ↳ db/seeds.rb:59
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:59
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:69
+  [1m[36mTasker Create (0.7ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 3], ["task_category", "Furniture Assembly"], ["contact", "tasker3@gmail.com"], ["title", "Im a furniture Assembly helper"], ["hourly_rate", 20], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 assemblytasks so far"], ["created_at", "2018-10-17 02:39:33.221487"], ["updated_at", "2018-10-17 02:39:33.221487"]]
+  ↳ db/seeds.rb:69
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:69
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:79
+  [1m[36mTasker Create (0.7ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 4], ["task_category", "Home Improvement"], ["contact", "tasker4@gmail.com"], ["title", "Im a home improvement helper"], ["hourly_rate", 30], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 home improvement tasks so far"], ["created_at", "2018-10-17 02:39:33.226865"], ["updated_at", "2018-10-17 02:39:33.226865"]]
+  ↳ db/seeds.rb:79
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:79
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:89
+  [1m[36mTasker Create (0.7ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 5], ["task_category", "General Handyman"], ["contact", "tasker5@gmail.com"], ["title", "Im a handyman helper"], ["hourly_rate", 46], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 handyman tasks so far"], ["created_at", "2018-10-17 02:39:33.234535"], ["updated_at", "2018-10-17 02:39:33.234535"]]
+  ↳ db/seeds.rb:89
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:89
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:99
+  [1m[36mTasker Create (0.7ms)[0m  [1m[32mINSERT INTO "taskers" ("user_id", "task_category", "contact", "title", "hourly_rate", "city", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 6], ["task_category", "Heavy Lifting"], ["contact", "tasker5@gmail.com"], ["title", "Im a lifting helper"], ["hourly_rate", 35], ["city", "San Francisco"], ["description", "I am good at my job.I have completed 100 lifting tasks so far"], ["created_at", "2018-10-17 02:39:33.240940"], ["updated_at", "2018-10-17 02:39:33.240940"]]
+  ↳ db/seeds.rb:99
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:99
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTasker Load (1.3ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers"[0m

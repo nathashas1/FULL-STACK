@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class TaskersIndex extends React.Component {
   componentDidMount() {
  console.log("props of taskers index" ,this.props);
-   this.props.fetchTaskers(this.props.location.state.task_category);
+   this.props.fetchTaskers(this.props.location.state.taskCategory);
    }
 
 

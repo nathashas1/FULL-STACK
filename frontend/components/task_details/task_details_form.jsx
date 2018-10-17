@@ -47,7 +47,7 @@ class TaskForm extends React.Component {
 
 
   render() {
-    console.log("props of task form", this.props);
+console.log("props of task detail form", this.props);
 
   return (
 
@@ -143,7 +143,7 @@ class TaskForm extends React.Component {
 
 
 
-        <Link to={{ pathname: '/taskers', state: {task_category: "banana"}}}  className="lastcontinue-demo" >See Taskers & Prices</Link>
+        <Link to={{ pathname: '/taskers', state: {taskCategory: this.props.location.state.taskCategory}}}  className="lastcontinue-demo" >See Taskers & Prices</Link>
       </div>
 
 
