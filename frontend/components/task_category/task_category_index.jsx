@@ -20,8 +20,15 @@ class TaskCategoryIndex extends React.Component {
        <div className="categories-container">
 
 
+
     <div className="categories-bar">
 
+      <div className="maintitle">The convenient & affordable way
+               <br/>
+      to get things done around the home</div>
+      <div className="subTitle">
+          Choose from over 140,000 vetted Taskers for help without breaking the bank.
+        </div>
       <Link to={{ pathname: '/taskdetails', state: {taskCategory: "Mounting and Installation"}}} className="linkclass">
         Mounting and Installation
       </Link>
@@ -46,7 +53,12 @@ class TaskCategoryIndex extends React.Component {
         Heavy Lifting
       </Link>
 
+      <div className="searchContainer"  >
+          < input type="search" className="search" placeholder="Need Somthing different?" />
+          </div>
+
     </div>
+
      </div>
   );
 }
