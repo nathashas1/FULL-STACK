@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 import { fetchTaskers } from '../../actions/taskers_actions';
 import TaskersIndex from './taskers_index';
 
-const mapStateToProps = state => {
+const mapStateToProps = (state,ownProps) => {
 return {
+
   taskers: Object.values(state.taskers)
 };
 };
