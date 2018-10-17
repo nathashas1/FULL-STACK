@@ -57,41 +57,54 @@
 
 
 .session-submit{
-  width:50%;
+  width:40%;
   border: 1px solid #51AF33;
   border-radius: 4px;
   height: 7vh;
-  background: #51AF33;
-  color:white;
+  color: #51AF33;
+  background: white;
   font-size: 17px;
+  &:hover {
+  background-color: #51AF33;
+  color: white;
+}
 }
 
 
 .demouser{
   margin-top: 20px;
   position: relative;
-  left: 100px;
-  width:50%;
+  left: 80px;
+  width:40%;
+  border: 1px solid #51AF33;
   border-radius: 4px;
   height: 7vh;
-  background: #51AF33;
-  color: white;
+  color: #51AF33;
+  background: white;
   font-size: 17px;
     margin-bottom: 20px;
+    &:hover {
+    background-color: #51AF33;
+    color: white;
+  }
 }
 
 
 
 
-.submitlink{
-  width:50%;
-  height: 20vh;
-  color:green;
-  font-size: 17px;
-  text-Decoration:none;
-  position: relative;
-  left: 100px;
-}
+// .submitlink{
+//   width:50%;
+//   height: 20vh;
+//   color:green;
+//   font-size: 17px;
+//   text-Decoration:none;
+//   position: relative;
+//   left: 100px;
+//   &:hover {
+//   background-color: #51AF33;
+//   color: white;
+// }
+// }
 
 .errors{
 

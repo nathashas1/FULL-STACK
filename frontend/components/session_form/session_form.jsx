@@ -83,12 +83,13 @@ class SessionForm extends React.Component {
 
                 <div className="logsignup">
                   <input className="session-submit" type="submit" value="Log In" />
-                  <Link to="/signup"  className="submitlink">
-                    Sign Up
-                  </Link>
+                  <button className="demouser" onClick={this.handleDemo()}>Demo User</button>
+
                   <br/>
 
-                  <button className="demouser" onClick={this.handleDemo()}>Demo User</button>
+                    <Link to="/signup"  className="submitlink">
+                      Sign Up
+                    </Link>
 
                   </div>
 
