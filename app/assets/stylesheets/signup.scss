@@ -73,18 +73,24 @@ left: 100px;
 
 
 .submitlink{
-  border: 1px solid #51AF33;
-  border-radius: 4px;
+  // border: 1px solid #51AF33;
+  // border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 15px;
   padding-right: 30px;
   padding-left: 30px;
-  height: 7vh;
-  width: 40vw;
-  background: #51AF33;
-  color: white;
+  // height: 7vh;
+  // width: 40vw;
+  color: #51AF33;
+  // background: white;
   font-size: 17px;
-    text-Decoration:none;
+    // text-Decoration:none;
+  //   &:hover {
+  //   background-color: #51AF33;
+  //   color: white;
+  // }
+  position: relative;
+  left: 300px;
 }
 
 .signuperrors{

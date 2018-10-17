@@ -1,20 +1,30 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import  TaskerIndexItem  from './tasker_index_item';
 
 class TaskersIndex extends React.Component {
   componentDidMount() {
- console.log("props of taskers index" ,this.props);
    this.props.fetchTaskers(this.props.location.state.taskCategory);
-
    }
 
-
    render() {
-     
+     const taskers = this.props.taskers.map(tasker => {
+      return (
+        <TaskerIndexItem
+          key={tasker.id}
+          tasker={tasker} />
+      );
+    });
+
+
      return(
-       <h1>hello</h1>
+       <div>
+        <ul>
+          {taskers}
+        </ul>
+      </div>
   );
-}
+  }
 
 }
 

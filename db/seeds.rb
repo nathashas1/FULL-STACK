@@ -49,7 +49,6 @@ Tasker.create!(
   task_category: 'Mounting and Installation',
   contact: "tasker1@gmail.com",
   title: "Im a mounting helper",
-  contact: "tasker1@gmail.com",
   hourly_rate: 45,
   city: "San Francisco",
   description: "I am good at my job.I have completed 100 mounting tasks so far",
@@ -98,10 +97,60 @@ Tasker.create!(
 
 Tasker.create!(
   task_category: 'Heavy Lifting',
-  contact: "tasker5@gmail.com",
+  contact: "tasker6@gmail.com",
   title: "Im a lifting helper",
   hourly_rate: 35,
   city: "San Francisco",
   description: "I am good at my job.I have completed 100 lifting tasks so far",
   user_id: 6
+)
+
+Tasker.create!(
+  task_category: 'Mounting and Installation',
+  title: "Im a mounting helper",
+  contact: "tasker7@gmail.com",
+  hourly_rate: 33,
+  city: "San Jose",
+  description: "I will help you get the task done.",
+  user_id: 7
+)
+
+Tasker.create!(
+  task_category: 'Mounting and Installation',
+  title: "Im a mounting helper",
+  contact: "tasker8@gmail.com",
+  hourly_rate: 39,
+  city: "San Ramon",
+  description: "I have done 87 mounting tasks so far.",
+  user_id: 8
+)
+
+Tasker.create!(
+  task_category: 'Mounting and Installation',
+  title: "Im a mounting helper",
+  contact: "tasker9@gmail.com",
+  hourly_rate: 47,
+  city: "Sansome",
+  description: "I am good at mounting.",
+  user_id: 9
+)
+
+Tasker.create!(
+  task_category: 'Mounting and Installation',
+  title: "Im a mounting helper",
+  contact: "tasker10@gmail.com",
+  hourly_rate: 53,
+  city: "Dublin",
+  description: "I am experienced in mounting.",
+  user_id: 10
+)
+
+Tasker.create!(
+  task_category: 'Mounting and Installation',
+  title: "Im a mounting helper",
+  contact: "tasker11@gmail.com",
+  hourly_rate: 33,
+  city: "Pleasanton",
+  description: "I have been doing mounting for the last 5 years.",
+  user_id: 11
 )
