@@ -22,11 +22,11 @@ class TaskCategoryIndex extends React.Component {
 
     <div className="categories-bar">
 
-      <Link to={{ pathname: '/taskdetails', state: {taskCategory: "Mounting & Installation"}}} className="linkclass">
+      <Link to={{ pathname: '/taskdetails', state: {taskCategory: "Mounting and Installation"}}} className="linkclass">
         Mounting and Installation
       </Link>
 
-      <Link to={{ pathname: '/taskdetails', state: {taskCategory: "Moving & Packing"}}} className="linkclass">
+      <Link to={{ pathname: '/taskdetails', state: {taskCategory: "Moving and Packing"}}} className="linkclass">
         Moving and Packing
       </Link>
 

@@ -10,6 +10,7 @@ class TaskForm extends React.Component {
     this.myFunctionOne = this.myFunctionOne.bind(this);
     this.myFunctionTwo = this.myFunctionTwo.bind(this);
     this.myFunctionThree = this.myFunctionThree.bind(this);
+    console.log("im task details form props",this.props);
 
   }
 
@@ -47,7 +48,7 @@ class TaskForm extends React.Component {
 
 
   render() {
-console.log("props of task detail form", this.props);
+
 
   return (
 
@@ -89,7 +90,7 @@ console.log("props of task detail form", this.props);
             <span className="span">I'm just browsing</span>
           </li>
 
-          <button className="session-submitdemo" onClick={()=>this.myFunctionOne()}>Continue</button>
+          <span className="session-submitdemo" onClick={()=>this.myFunctionOne()}>Continue</span>
 
       </ul>
       </div>
@@ -105,7 +106,7 @@ console.log("props of task detail form", this.props);
           className="addressContainerinput"
         />
       </label>
-      <button className="continue-demo" onClick={()=>this.myFunctionTwo()}>Continue</button>
+      <span className="continue-demo" onClick={()=>this.myFunctionTwo()}>Continue</span>
     </div>
 
 
@@ -115,18 +116,18 @@ console.log("props of task detail form", this.props);
         <br/>
           <h4 className="h4">How big is your task?</h4>
             <label>
-              <input name="group3" type="radio" checked />
+              <input name="group3" type="radio"  />
               <span className="span2">Small - Est-1 hr</span>
             </label>
             <label>
-              <input name="group3" type="radio" checked />
+              <input name="group3" type="radio"  />
               <span className="span2">Medium - Est- 2-3 hrs</span>
             </label>
             <label>
-              <input name="group3" type="radio" checked />
+              <input name="group3" type="radio"  />
               <span className="span2">Large - Est- 4+ hrs</span>
             </label>
-    <button className="secondcontinue-demo" onClick={()=>this.myFunctionThree()}>Continue</button>
+    <span className="secondcontinue-demo" onClick={()=>this.myFunctionThree()}>Continue</span>
   </div>
 
 
