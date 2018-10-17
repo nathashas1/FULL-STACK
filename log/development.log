@@ -23088,3 +23088,1036 @@ Migrating to CreateTaskers (20181016172207)
   ↳ db/seeds.rb:99
   [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   [1m[36mTasker Load (1.3ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers"[0m
+Started GET "/" for 127.0.0.1 at 2018-10-16 20:59:11 -0700
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/priyeshnn/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Started GET "/" for 127.0.0.1 at 2018-10-16 20:59:15 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3922ms (Views: 3919.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 297ms (Views: 292.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 20:59:27 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 21:00:57 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 147ms (Views: 143.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 21:01:03 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 404ms (Views: 401.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 21:01:07 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 160ms (Views: 156.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 21:01:16 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 57ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 21:01:59 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 216ms (Views: 212.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 21:02:03 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 148ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group3=on" for 127.0.0.1 at 2018-10-16 21:02:11 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 58ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 21:02:16 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 167ms (Views: 163.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Mounting%20&%20Installation" for 127.0.0.1 at 2018-10-16 21:02:22 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Mounting ", " Installation"=>nil}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (1.8ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "Mounting "]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (6.5ms)
+Completed 200 OK in 31ms (Views: 17.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 21:02:43 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 21:14:44 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 21:14:48 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 67ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 21:14:56 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 21:16:12 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 222ms (Views: 218.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 21:16:21 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 142ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 21:17:58 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 21:25:54 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 122.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group3=on" for 127.0.0.1 at 2018-10-16 21:25:58 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 73ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(265875876121084110)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateActiveStorageTables (20181017042711)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (26.0ms)[0m  [1m[35mCREATE TABLE "active_storage_blobs" ("id" bigserial primary key, "key" character varying NOT NULL, "filename" character varying NOT NULL, "content_type" character varying, "metadata" text, "byte_size" bigint NOT NULL, "checksum" character varying NOT NULL, "created_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20181017042711_create_active_storage_tables.active_storage.rb:4
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_active_storage_blobs_on_key" ON "active_storage_blobs"  ("key")[0m
+  ↳ db/migrate/20181017042711_create_active_storage_tables.active_storage.rb:4
+  [1m[35m (7.5ms)[0m  [1m[35mCREATE TABLE "active_storage_attachments" ("id" bigserial primary key, "name" character varying NOT NULL, "record_type" character varying NOT NULL, "record_id" bigint NOT NULL, "blob_id" bigint NOT NULL, "created_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20181017042711_create_active_storage_tables.active_storage.rb:16
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE  INDEX  "index_active_storage_attachments_on_blob_id" ON "active_storage_attachments"  ("blob_id")[0m
+  ↳ db/migrate/20181017042711_create_active_storage_tables.active_storage.rb:16
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_active_storage_attachments_uniqueness" ON "active_storage_attachments"  ("record_type", "record_id", "name", "blob_id")[0m
+  ↳ db/migrate/20181017042711_create_active_storage_tables.active_storage.rb:16
+  [1m[36mActiveRecord::SchemaMigration Create (59.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20181017042711"]]
+  ↳ bin/rails:9
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(265875876121084110)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/?group3=on" for 127.0.0.1 at 2018-10-16 21:29:10 -0700
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/priyeshnn/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 21:29:17 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 191ms (Views: 187.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 21:29:26 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mTasker Load (1.7ms)[0m  [1m[34mSELECT  "taskers".* FROM "taskers" ORDER BY "taskers"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (1.3ms)[0m  [1m[34mSELECT  "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Tasker"], ["name", "photo"], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2018-10-16 21:31:59 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 159ms (Views: 153.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 21:32:10 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 181ms (Views: 177.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 21:45:00 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 67ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mTasker Load (1.9ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers"[0m
+  [1m[36mTasker Load (1.4ms)[0m  [1m[34mSELECT  "taskers".* FROM "taskers" WHERE "taskers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (1.2ms)[0m  [1m[34mSELECT  "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Tasker"], ["name", "photo"], ["LIMIT", 1]]
+  [1m[36mTasker Load (0.8ms)[0m  [1m[34mSELECT  "taskers".* FROM "taskers" WHERE "taskers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (1.1ms)[0m  [1m[34mSELECT  "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Tasker"], ["name", "photo"], ["LIMIT", 1]]
+  [1m[36mTasker Load (0.8ms)[0m  [1m[34mSELECT  "taskers".* FROM "taskers" WHERE "taskers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.9ms)[0m  [1m[34mSELECT  "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Tasker"], ["name", "photo"], ["LIMIT", 1]]
+  [1m[36mTasker Load (0.9ms)[0m  [1m[34mSELECT  "taskers".* FROM "taskers" WHERE "taskers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (1.3ms)[0m  [1m[34mSELECT  "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Tasker"], ["name", "photo"], ["LIMIT", 1]]
+  [1m[36mTasker Load (1.3ms)[0m  [1m[34mSELECT  "taskers".* FROM "taskers" WHERE "taskers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (1.0ms)[0m  [1m[34mSELECT  "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Tasker"], ["name", "photo"], ["LIMIT", 1]]
+  [1m[36mTasker Load (1.1ms)[0m  [1m[34mSELECT  "taskers".* FROM "taskers" WHERE "taskers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (1.6ms)[0m  [1m[34mSELECT  "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Tasker"], ["name", "photo"], ["LIMIT", 1]]
+[36m  S3 Storage (546.8ms) [0m[32mUploaded file to key: K1WzyDjdEzsLt3o1KcRzgnny (checksum: MIKysXoTTeTFBGMoTwGcRA==)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Blob Create (1.6ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["key", "K1WzyDjdEzsLt3o1KcRzgnny"], ["filename", "1.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["byte_size", 3125212], ["checksum", "MIKysXoTTeTFBGMoTwGcRA=="], ["created_at", "2018-10-17 05:31:09.238072"]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Create (2.2ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "photo"], ["record_type", "Tasker"], ["record_id", 1], ["blob_id", 1], ["created_at", "2018-10-17 05:31:09.299274"]]
+  [1m[36mTasker Update (1.0ms)[0m  [1m[33mUPDATE "taskers" SET "updated_at" = $1 WHERE "taskers"."id" = $2[0m  [["updated_at", "2018-10-17 05:31:09.304927"], ["id", 1]]
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: a438d448-2102-406b-988e-b8dac80c84b7) to Async(default) with arguments: #<GlobalID:0x00007f9b55764010 @uri=#<URI::GID gid://ask-rabbit/ActiveStorage::Blob/1>>
+  [1m[36mActiveStorage::Blob Load (3.5ms)[0m  [1m[34mSELECT  "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a438d448-2102-406b-988e-b8dac80c84b7] Performing ActiveStorage::AnalyzeJob (Job ID: a438d448-2102-406b-988e-b8dac80c84b7) from Async(default) with arguments: #<GlobalID:0x00007f9b5479e478 @uri=#<URI::GID gid://ask-rabbit/ActiveStorage::Blob/1>>
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a438d448-2102-406b-988e-b8dac80c84b7] [36m  S3 Storage (682.7ms) [0m[34mDownloaded file from key: K1WzyDjdEzsLt3o1KcRzgnny[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a438d448-2102-406b-988e-b8dac80c84b7] Skipping image analysis because the mini_magick gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a438d448-2102-406b-988e-b8dac80c84b7]   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a438d448-2102-406b-988e-b8dac80c84b7]   [1m[36mActiveStorage::Blob Update (0.7ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a438d448-2102-406b-988e-b8dac80c84b7]   [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a438d448-2102-406b-988e-b8dac80c84b7] Performed ActiveStorage::AnalyzeJob (Job ID: a438d448-2102-406b-988e-b8dac80c84b7) from Async(default) in 710.19ms
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:37:55 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 22:38:01 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 123.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:38:43 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:48:14 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:48:17 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 373ms (Views: 367.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=banana" for 127.0.0.1 at 2018-10-16 22:48:36 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"banana"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (1.5ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "banana"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (3.1ms)
+Completed 200 OK in 29ms (Views: 10.3ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:49:48 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 183ms (Views: 178.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:49:54 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:50:46 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 56ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:50:49 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:50:51 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 22:50:58 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 206ms (Views: 203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 22:51:20 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:51:26 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=banana" for 127.0.0.1 at 2018-10-16 22:51:36 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"banana"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (0.6ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "banana"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (2.2ms)
+Completed 200 OK in 17ms (Views: 12.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/taskers?task_category=banana" for 127.0.0.1 at 2018-10-16 22:53:43 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"banana"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (0.6ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "banana"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (1.7ms)
+Completed 200 OK in 17ms (Views: 12.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:56:55 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 187ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:57:06 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 43ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 22:57:20 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 22:57:29 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:15:05 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:15:25 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:15:33 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:16:36 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 163ms (Views: 161.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:16:40 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:16:48 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:21:07 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:21:44 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:21:47 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Mounting%20&%20Installation" for 127.0.0.1 at 2018-10-16 23:22:01 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Mounting ", " Installation"=>nil}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (1.8ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "Mounting "]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (3.4ms)
+Completed 200 OK in 14ms (Views: 9.4ms | ActiveRecord: 1.8ms)
+
+
+  [1m[36mTasker Load (1.2ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers"[0m
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:27:00 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 179ms (Views: 175.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Mounting%20&%20Installation" for 127.0.0.1 at 2018-10-16 23:27:14 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Mounting ", " Installation"=>nil}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (2.7ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "Mounting "]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (4.7ms)
+Completed 200 OK in 25ms (Views: 18.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:30:18 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 227ms (Views: 224.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Mounting%20&%20Installation" for 127.0.0.1 at 2018-10-16 23:30:33 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Mounting ", " Installation"=>nil}
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:32:02 -0700
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/priyeshnn/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 3416ms (Views: 3412.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Mounting%20and%20Installation" for 127.0.0.1 at 2018-10-16 23:32:30 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Mounting and Installation"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (1.1ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "Mounting and Installation"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (56.2ms)
+Completed 200 OK in 80ms (Views: 56.8ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:32:53 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:34:55 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:35:00 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 59ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:35:07 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 314ms (Views: 310.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:35:13 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:35:17 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:35:26 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:35:33 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:35:36 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 53ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:35:44 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:53:56 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 71ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:54:00 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 187ms (Views: 184.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:54:03 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:54:06 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:54:18 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:55:36 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 205ms (Views: 201.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:55:39 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?group1=on&group3=on" for 127.0.0.1 at 2018-10-16 23:55:41 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"group1"=>"on", "group3"=>"on"}
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:55:43 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:56:02 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:56:06 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 53ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:58:06 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 144ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:58:12 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:58:15 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:59:13 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 150ms (Views: 147.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 23:59:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 68ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:00:00 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 185ms (Views: 182.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:00:04 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:00:30 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 202ms (Views: 198.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:00:58 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 134ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:01:01 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:01:12 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 55ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:01:40 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 138ms (Views: 134.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:01:47 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:02:14 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 126ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:02:17 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:02:43 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 152ms (Views: 149.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:02:47 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 58ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:03:19 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 116ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:03:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 53ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Mounting%20and%20Installation" for 127.0.0.1 at 2018-10-17 00:03:35 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Mounting and Installation"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (2.8ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "Mounting and Installation"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (5.8ms)
+Completed 200 OK in 24ms (Views: 17.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/api/taskers?task_category=General%20Handyman" for 127.0.0.1 at 2018-10-17 00:03:59 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"General Handyman"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (0.6ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "General Handyman"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (2.5ms)
+Completed 200 OK in 22ms (Views: 16.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:04:38 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 157ms (Views: 154.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:04:42 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:04:44 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:04:55 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:04:58 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Mounting%20and%20Installation" for 127.0.0.1 at 2018-10-17 00:05:06 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Mounting and Installation"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (0.7ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "Mounting and Installation"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (2.6ms)
+Completed 200 OK in 16ms (Views: 11.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:05:15 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 51ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:05:38 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 129ms (Views: 126.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:05:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 57ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:05:56 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 111ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:05:59 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:06:02 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:06:36 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 140ms (Views: 137.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:06:39 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:06:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Mounting%20and%20Installation" for 127.0.0.1 at 2018-10-17 00:07:09 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Mounting and Installation"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (0.7ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "Mounting and Installation"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (2.9ms)
+Completed 200 OK in 17ms (Views: 12.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:08:03 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:08:06 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 79ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:08:19 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 189ms (Views: 185.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-17 00:08:21 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/taskers?task_category=Mounting%20and%20Installation" for 127.0.0.1 at 2018-10-17 00:08:44 -0700
+Processing by Api::TaskersController#index as JSON
+  Parameters: {"task_category"=>"Mounting and Installation"}
+  Rendering api/taskers/index.json.jbuilder
+  [1m[36mTasker Load (0.8ms)[0m  [1m[34mSELECT "taskers".* FROM "taskers" WHERE "taskers"."task_category" = $1[0m  [["task_category", "Mounting and Installation"]]
+  ↳ app/views/api/taskers/index.json.jbuilder:1
+  Rendered api/taskers/index.json.jbuilder (3.3ms)
+Completed 200 OK in 20ms (Views: 14.6ms | ActiveRecord: 0.8ms)
+
+
