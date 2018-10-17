@@ -40,6 +40,10 @@ class SignUpForm extends React.Component {
   //    );
   //  }
 
+  componentWillUnmount(){
+    return this.props.clearErrors();
+  }
+
   render() {
     return (
       <div className="loginFormContainer">

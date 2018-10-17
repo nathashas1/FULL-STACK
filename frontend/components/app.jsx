@@ -20,11 +20,11 @@ const App = () => (
 
 
     <Switch>
-<AuthRoute exact path="/" component={TaskCategoryIndexContainer} />
 <AuthRoute exact path="/taskdetails" component={TaskForm} />
 <AuthRoute exact path="/login" component={LogInFormContainer} />
 <AuthRoute exact path="/signup" component={SignUpFormContainer} />
 <AuthRoute exact path="/taskers" component={TaskersContainer} />
+<Route exact path="/" component={TaskCategoryIndexContainer} />
 
 </Switch>
 
