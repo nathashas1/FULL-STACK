@@ -12,8 +12,10 @@ class Api::TaskersController < ApplicationController
   # end
 
   def index
-    puts "im in taskers index ocntroller"
-     @taskers = Tasker.all
+
+     @taskers = Tasker.where(task_category: params[:tasker][:task_category])
+
+
   end
 
 private
