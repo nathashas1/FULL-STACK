@@ -7,7 +7,13 @@ class Api::UsersController < ApplicationController
       login(@user)
       render "api/users/show"
     else
-      render json: @user.errors.full_messages, status: 422
+      if params[:user][:password].length < 6
+        render json: ["Password should be of 6 characters"], status: 401
+      elsif params[:user][:username].length < 1
+        render json: ["Username cant be blank"], status: 401
+      else
+        render json: ["Fill in all the details"], status: 401
+      end
     end
   end
 
