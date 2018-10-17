@@ -139,7 +139,8 @@ class TaskForm extends React.Component {
           Don't worry, you can edit this later.</h4>
 
         <textarea class="textarea"  placeholder="Provide a summary of what you need done for your Tasker.
-          Be sure to include details like the size of your space, any equipment/tools needed, and how to get in."></textarea>
+          Be sure to include details like the size of your space,
+          any equipment/tools needed, and how to get in."></textarea>
 
 
 
