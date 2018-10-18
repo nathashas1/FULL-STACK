@@ -54,10 +54,11 @@ class SessionForm extends React.Component {
 
 
             <div className="loginContainer">
-
+              <div className="loginHeader">
               <div className="iconlogin"></div>
                 <p className="logoPart1login" >Bask<span className="logoPart2login">Rabbit</span></p>
-              
+                </div>
+
               <div className="signuperrors">
               {this.props.errors}
               </div>
