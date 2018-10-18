@@ -24,7 +24,7 @@ class TaskCategoryIndex extends React.Component {
     <div className="categories-bar">
 
       <div className="maintitle">The convenient & affordable way
-               
+
       to get things done around the home</div>
       <div className="subTitle">
           Choose from over 140,000 vetted Taskers for help without breaking the bank.
@@ -55,8 +55,8 @@ class TaskCategoryIndex extends React.Component {
 
       <div className="searchContainer"  >
         <i class="fas fa-search"></i>
+        
           < input type="search" className="search" placeholder="Need Somthing different?" />
-
           </div>
 
     </div>

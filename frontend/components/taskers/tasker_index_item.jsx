@@ -5,15 +5,23 @@ import { Link } from 'react-router-dom';
 const TaskerIndexItem = ({ tasker }) => {
   return (
 
-<div>
+<div className="taskerdetails">
+
+<div className="taskerphoto"></div>
+<div className="taskername">
+<div className="taskerrate"></div>
+</div>
+<div className="stars">
+  39 {tasker.task_category} Tasks
+<br/>
+  100% Positive
+</div>
+<div className="description">
+{tasker.description}
+</div>
 
 
-        {tasker.title}
-        {tasker.task_category}
-        {tasker.description}
-        {tasker.contact}
-        {tasker.hourly_rate}
-        {tasker.city}
+        
 </div>);
 
 
