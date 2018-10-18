@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-User.delete_all
-Taskcategory.delete_all
-Tasker.delete_all
+User.destroy_all
+Taskcategory.destroy_all
+Tasker.destroy_all
 
 
 Taskcategory.create!(
@@ -41,6 +41,94 @@ User.create!(
   password: 'password',
   firstname: 'guest',
   lastname: 'guest',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest2',
+  password: 'password',
+  firstname: 'Spider',
+  lastname: 'Man',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest3',
+  password: 'password',
+  firstname: 'Super',
+  lastname: 'Man',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest4',
+  password: 'password',
+  firstname: 'Bat',
+  lastname: 'Man',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest5',
+  password: 'password',
+  firstname: 'Ralph',
+  lastname: 'Man',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest6',
+  password: 'password',
+  firstname: 'Bret',
+  lastname: 'Man',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest7',
+  password: 'password',
+  firstname: 'Don',
+  lastname: 'Bos',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest8',
+  password: 'password',
+  firstname: 'Kim',
+  lastname: 'Kim',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest9',
+  password: 'password',
+  firstname: 'Paul',
+  lastname: 'Chap',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest10',
+  password: 'password',
+  firstname: 'Mike',
+  lastname: 'Mike',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest11',
+  password: 'password',
+  firstname: 'Ran',
+  lastname: 'Dan',
+  zipcode: 94105
+)
+
+User.create!(
+  username: 'guest12',
+  password: 'password',
+  firstname: 'Sam',
+  lastname: 'Mathew',
   zipcode: 94105
 )
 

@@ -4,6 +4,8 @@
    if tasker.photo.attached?
     json.photoUrl url_for(tasker.photo)
   end
+  json.firstname tasker.user.firstname
+  json.lastname tasker.user.lastname
    end
  end
 
