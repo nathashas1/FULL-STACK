@@ -24,12 +24,15 @@ class TaskersIndex extends React.Component {
          </div>
            <div className="viewTasker"></div>
            <div className="security"></div>
-           <div className="pickTaskerText">
+
          <div className="pickTasker">Pick a Tasker</div>
          <div className="pickText">After booking, you can chat with your Tasker, agree on an exact time, or go over any requirements or questions, if necessary.</div>
-         </div>
-      <ul>
+         <div className="sorted"></div>
+
+      <ul className="alltaskers">
+        <div className="calendar"></div>
           {taskers}
+
         </ul>
       </div>
   );
