@@ -30,7 +30,9 @@ class TaskersIndex extends React.Component {
          <div className="sorted"></div>
 
       <ul className="alltaskers">
-        <input type="date" className="calendar"></input>
+        <div className="calendar">Select date
+        <input type="date"></input>
+        </div>
 
           {taskers}
 
