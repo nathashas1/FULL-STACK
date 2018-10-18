@@ -94,15 +94,22 @@
   margin-top: 20px;
   position: relative;
   left: 370px;
-  bottom: 10px;
+  // bottom: 10px;
   width:135px;
   border-radius: 4px;
   height: 49px;
   background: #51AF33;
   color:white;
   font-size: 17px;
-
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
+
+.session-submitdemo:hover{
+    cursor: pointer;
+  }
 
 .addressContainer{
   height: 320px;
@@ -152,7 +159,15 @@
   position: relative;
   right: 380px;
   top: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
+
+.continue-demo:hover{
+    cursor: pointer;
+  }
 
 .optionContainer3{
   margin-top: 50px;
@@ -210,7 +225,7 @@
 
 
 .lastcontinue-demo{
-  width:233px;
+  width:230px;
   height: 48px;
   border-radius: 4px;
   background: #51AF33;
@@ -221,6 +236,7 @@
   text-align: center;
   padding-top: 11px;
 }
+
 
 
 .linkcontinue{
@@ -239,6 +255,15 @@
   color:white;
   font-size: 17px;
   position: relative;
-  left: 372px;
-  top: 30px;
+  right: 480px;
+  top: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
 }
+
+.secondcontinue-demo:hover{
+    cursor: pointer;
+  }
