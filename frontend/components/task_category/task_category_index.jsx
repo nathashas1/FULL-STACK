@@ -1,19 +1,13 @@
 
 import React from 'react';
-import TaskCategoryIndexItem from './task_category_index_item';
+
 import { Link } from 'react-router-dom';
 
 class TaskCategoryIndex extends React.Component {
-  // componentDidMount() {
-  //
-  //  this.props.fetchTaskCategories();
-  //  // this.handleSearch = this.handleSearch.bind(this);
-  //  }
-   // handleSearch() {
-   //   return{
-   //
-   //   };
-   // }
+  componentDidMount() {
+
+   window.scrollTo(0,0);
+   }
 
    render() {
      return(
