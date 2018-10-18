@@ -10,9 +10,11 @@ class TaskForm extends React.Component {
     this.myFunctionOne = this.myFunctionOne.bind(this);
     this.myFunctionTwo = this.myFunctionTwo.bind(this);
     this.myFunctionThree = this.myFunctionThree.bind(this);
-    console.log("im task details form props",this.props);
-
   }
+
+  componentDidMount() {
+   window.scrollTo(0,0);
+   }
 
 
 
