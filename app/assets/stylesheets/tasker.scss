@@ -85,6 +85,7 @@
   top: 205px;
   border: 1px solid #DCE0E5;
   border-radius: 4px;
+  padding-left: 20px;
 }
 
 .alltaskers{
@@ -150,4 +151,9 @@
   position: relative;
   bottom: 165px;
   left: 243px;
+}
+
+.calendar input {
+  margin-right: auto;
+  margin-left: auto;
 }
