@@ -94,23 +94,25 @@
 }
 
 .taskerphoto{
-  width: 200px;
-  height: 213px;
+  width: 150px;
+  height: 160px;
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 50px;
+  border-radius: 70%;
+  background: black;
 }
 
 .taskername{
   width: 300px;
   height: 45px;
-  margin-left: 262px;
+  margin-left: 25px;
   margin-top: 42px;
   margin-right: 52px;
   position: relative;
   bottom: 230px;
   left: 210px;
   font-size: 2em;
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .taskerrate{

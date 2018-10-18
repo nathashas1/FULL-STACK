@@ -95,9 +95,9 @@
   position: relative;
   left: 370px;
   bottom: 10px;
-  width:12vw;
+  width:135px;
   border-radius: 4px;
-  height: 7vh;
+  height: 49px;
   background: #51AF33;
   color:white;
   font-size: 17px;
@@ -210,27 +210,35 @@
 
 
 .lastcontinue-demo{
-  width:14vw;
+  width:233px;
+  height: 48px;
+  border-radius: 4px;
+  background: #51AF33;
+  font-size: 17px;
+  position: relative;
+  left: 350px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 11px;
+}
+
+
+.linkcontinue{
+  color:white;
+  font-size: 17px;
+  position: relative;
+  text-decoration: none;
+}
+
+
+.secondcontinue-demo{
+  width:12vw;
   height: 7vh;
   border-radius: 4px;
   background: #51AF33;
   color:white;
   font-size: 17px;
   position: relative;
-  left: 350px;
-  margin-top: 10px;
-  text-decoration: none;
-
-}
-
-.secondcontinue-demo{
-  width:12vw;
-  height: 10vh;
-  border-radius: 4px;
-  background: #51AF33;
-  color:white;
-  font-size: 17px;
-  position: relative;
-  right: 470px;
-  top: 50px;
+  left: 372px;
+  top: 30px;
 }

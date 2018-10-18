@@ -24,8 +24,8 @@ const App = () => (
       <AuthRoute exact path="/signup" component={SignUpFormContainer} />
       <ProtectedRoute exact path="/taskers" component={TaskersContainer} />
       <ProtectedRoute exact path="/taskdetails" component={TaskForm} />
-      <Route exact path="/" component={TaskCategoryIndexContainer} />
-
+      <Route  path="/" component={TaskCategoryIndexContainer} />
+        <Redirect to="/" />
 </Switch>
 
 
