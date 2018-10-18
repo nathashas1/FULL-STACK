@@ -142,7 +142,7 @@ Tasker.create!(
   description: "I am good at my job.I have completed 100 mounting tasks so far",
   user: User.all[0]
 )
-Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{10}.jpg"),filename:"10.jpg")
+Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{10}.jpg"),filename:"10.jpg")
 
 Tasker.create!(
   task_category: 'Moving and Packing',
@@ -153,7 +153,7 @@ Tasker.create!(
   description: "I am good at my job.I have completed 100 moving tasks so far",
   user: User.all[1]
 )
-Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{11}.jpg"),filename:"11.jpg")
+Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{11}.jpg"),filename:"11.jpg")
 
 
 Tasker.create!(
@@ -165,7 +165,7 @@ Tasker.create!(
   description: "I am good at my job.I have completed 100 assemblytasks so far",
   user: User.all[2]
 )
-Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{12}.jpg"),filename:"12.jpg")
+Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{12}.jpg"),filename:"12.jpg")
 
 
 Tasker.create!(
@@ -177,7 +177,7 @@ Tasker.create!(
   description: "I am good at my job.I have completed 100 home improvement tasks so far",
   user: User.all[3]
 )
-Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{13}.jpg"),filename:"13.jpg")
+Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{13}.jpg"),filename:"13.jpg")
 
 
 Tasker.create!(
@@ -189,7 +189,7 @@ Tasker.create!(
   description: "I am good at my job.I have completed 100 handyman tasks so far",
   user: User.all[4]
 )
-Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{14}.jpg"),filename:"14.jpg")
+Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{14}.jpg"),filename:"14.jpg")
 
 
 Tasker.create!(
@@ -201,7 +201,7 @@ Tasker.create!(
   description: "I am good at my job.I have completed 100 lifting tasks so far",
   user: User.all[5]
 )
-Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{15}.jpg"),filename:"15.jpg")
+Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{15}.jpg"),filename:"15.jpg")
 
 
 Tasker.create!(
@@ -213,7 +213,7 @@ Tasker.create!(
   description: "I will help you get the task done.",
   user: User.all[6]
 )
-Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{16}.jpg"),filename:"16.jpg")
+Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{16}.jpg"),filename:"16.jpg")
 
 
 Tasker.create!(
@@ -225,7 +225,7 @@ Tasker.create!(
   description: "I have done 87 mounting tasks so far.",
   user: User.all[7]
 )
-Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{18}.jpg"),filename:"18.jpg")
+Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{18}.jpg"),filename:"18.jpg")
 
 
 Tasker.create!(
@@ -237,7 +237,7 @@ Tasker.create!(
   description: "I am good at mounting.",
   user: User.all[8]
 )
-Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{19}.jpg"),filename:"19.jpg")
+Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{19}.jpg"),filename:"19.jpg")
 
 
 Tasker.create!(
@@ -249,7 +249,7 @@ Tasker.create!(
   description: "I am experienced in mounting.",
   user: User.all[9]
 )
-Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{20}.jpg"),filename:"20.jpg")
+Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{20}.jpg"),filename:"20.jpg")
 
 
 Tasker.create!(
@@ -261,4 +261,4 @@ Tasker.create!(
   description: "I have been doing mounting for the last 5 years.",
   user: User.all[10]
 )
- Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{21}.jpg"),filename:"21.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{21}.jpg"),filename:"21.jpg")
