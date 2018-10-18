@@ -19,6 +19,7 @@ class TaskForm extends React.Component {
 
 
    myFunctionOne() {
+
       // var myWindow = window.scrollTo( 0, 300 );
       // myWindow.focus();
       var myWindow = window.scrollTo({
@@ -29,6 +30,7 @@ class TaskForm extends React.Component {
   }
 
   myFunctionTwo() {
+
      // var myWindow = window.scrollTo( 0, 300 );
      // myWindow.focus();
      var myWindow = window.scrollTo({
@@ -41,6 +43,7 @@ class TaskForm extends React.Component {
  myFunctionThree() {
     // var myWindow = window.scrollTo( 0, 300 );
     // myWindow.focus();
+
     var myWindow = window.scrollTo({
   top: 900,
   behavior: "smooth"
@@ -92,7 +95,7 @@ class TaskForm extends React.Component {
             <span className="span">I'm just browsing</span>
           </li>
 
-          <button className="session-submitdemo" onClick={()=>this.myFunctionOne()}>Continue</button>
+          <span className="session-submitdemo" onClick={()=>this.myFunctionOne()}>Continue</span>
 
       </ul>
       </div>
@@ -108,7 +111,7 @@ class TaskForm extends React.Component {
           className="addressContainerinput"
         />
       </label>
-      <button className="continue-demo" onClick={()=>this.myFunctionTwo()}>Continue</button>
+      <span className="continue-demo" onClick={()=>this.myFunctionTwo()}>Continue</span>
     </div>
 
 
@@ -129,7 +132,7 @@ class TaskForm extends React.Component {
               <input name="group3" type="radio"  />
               <span className="span2">Large - Est- 4+ hrs</span>
             </label>
-    <button className="secondcontinue-demo" onClick={()=>this.myFunctionThree()}>Continue</button>
+    <span className="secondcontinue-demo" onClick={()=>this.myFunctionThree()}>Continue</span>
   </div>
 
 

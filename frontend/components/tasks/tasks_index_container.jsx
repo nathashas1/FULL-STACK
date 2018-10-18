@@ -2,11 +2,10 @@ import { connect } from 'react-redux';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { fetchTasks } from '../../actions/taskers_actions';
-import TasksIndex from './taskers_index';
+import TasksIndex from './tasks_index';
 
 const mapStateToProps = (state,ownProps) => {
 return {
-
   tasks: Object.values(state.tasks)
 };
 };

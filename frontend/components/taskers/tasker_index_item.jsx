@@ -9,11 +9,13 @@ const TaskerIndexItem = ({ tasker }) => {
 
 <img className="taskerphoto" src={tasker.photoUrl}/>
 <div className="task">
-<Link to="/task" className="tasklink"> Select and Continue</Link>
+<Link to="/task" className="tasklink"> Select </Link>
 </div>
-<div className="taskername">
-  {tasker.firstname} {tasker.lastname}
-<div className="taskerrate"></div>
+<div className="namerate">
+  <div className="taskername">
+    {tasker.firstname} {tasker.lastname}
+  </div>
+  <div className="taskerrate"> ${tasker.hourly_rate}/hr </div>
 </div>
 <div className="stars">
   39 {tasker.task_category} Tasks
