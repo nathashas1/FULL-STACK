@@ -9,25 +9,15 @@ class TasksIndex extends React.Component {
    }
 
    render() {
-     const tasks = this.props.tasks.map(task => {
-      return (
-        <TaskIndexItem
-          key={task.id}
-          task={task} />
-      );
-    });
+
 
 
      return(
-       <div className="fullTasksPage">
+
+        <h1>hello</h1>
 
 
-      <ul className="alltasks">
-
-          {tasks}
-
-        </ul>
-      </div>
+      
   );
   }
 
