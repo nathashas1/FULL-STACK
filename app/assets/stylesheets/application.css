@@ -31,7 +31,7 @@ margin-top: 10px;
  }
 
 
- .logo{
+ /* .logo{
      flex:10;
      color:#51AF33;
      margin-left:20px;
@@ -40,8 +40,15 @@ margin-top: 10px;
      font-weight: bold;
      text-Decoration:none;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
+ } */
 
+ .logo{
+     flex:1;
+     font-size: 30px;
+     font-weight: bold;
+     text-Decoration:none;
+     align-self: center;
+ }
 
 
 

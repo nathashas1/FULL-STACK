@@ -10,7 +10,9 @@ const Greeting = ({ currentUser, logout }) => {
 
     <div className="navContainer">
       <Link to="/"  className="logo">
-              AskRabbit
+        <div className="icon"></div>
+          <p className="logoPart1" >Bask<span className="logoPart2">Rabbit</span></p>
+
       </Link>
 
       <Link to="/login" className="menus">
@@ -28,12 +30,41 @@ const Greeting = ({ currentUser, logout }) => {
   </div>
 
   );
+  // const personalGreeting = () => (
+  //   <hgroup className="header-group">
+  //     <h2 className="header-name">Hi, {currentUser.username}!</h2>
+  //     <button className="header-button" onClick={logout}>Log Out</button>
+  //   </hgroup>
+  // );
+
   const personalGreeting = () => (
-    <hgroup className="header-group">
-      <h2 className="header-name">Hi, {currentUser.username}!</h2>
-      <button className="header-button" onClick={logout}>Log Out</button>
-    </hgroup>
-  );
+
+      <div className="navContainer">
+        <Link to="/"  className="logo">
+          <div className="icon"></div>
+            <p className="logoPart1" >Bask<span className="logoPart2">Rabbit</span></p>
+
+        </Link>
+
+        <Link to="/login" className="menus">
+          Get $10
+        </Link>
+
+        <Link to="/login" className="menus">
+          Book a Task
+        </Link>
+
+        <Link to="/login" className="menus">
+          My Tasks
+        </Link>
+
+        <Link to="/login" className="menustasker">
+          Account
+        </Link>
+
+    </div>
+
+    );
 
   return currentUser ? personalGreeting() : sessionLinks();
 };

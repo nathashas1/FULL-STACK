@@ -9,7 +9,10 @@
 //     flex-wrap: wrap;
 // }
 
-
+@font-face {
+    font-family: "FredokaOne-Regular";
+    src: url('/assets/fonts/FredokaOne-Regular.ttf');
+}
 .categories-container{
   display: flex;
   background-image: image-url('9.jpg');
@@ -27,7 +30,7 @@
 
 .categories-bar{
 
-  margin: 200px;
+  margin: 170px;
   height: 380px;
   width: 1500px;
   display: flex;
@@ -102,3 +105,31 @@ border: 1px solid #DCE0E6;
     padding: 10px;
     display: flex;
   }
+
+  .logoPart1{
+    color:#264E1A;
+    font-family: 'FredokaOne-Regular';
+    position: relative;
+    bottom: 30px;
+    left: 71px;
+
+}
+.icon{
+    width:50px;
+    height:50px;
+    margin-left: 16px;
+    align-self: center;
+    font-weight: bold;
+    background-image: image-url("/assets/rabbiticon.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    top: 5px;
+}
+.logoPart2{
+    margin-left: .1px;
+    color:#55AD3C;
+    font-family: 'FredokaOne-Regular';
+
+
+}
