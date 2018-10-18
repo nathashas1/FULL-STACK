@@ -13,7 +13,7 @@ class Api::TaskersController < ApplicationController
 
   def index
 
-     @taskers = Tasker.where(task_category: params[:task_category])
+     @taskers = Tasker.where(task_category: params[:task_category]).includes(:user)
 
 
   end
