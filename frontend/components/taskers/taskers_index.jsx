@@ -5,6 +5,7 @@ import  TaskerIndexItem  from './tasker_index_item';
 class TaskersIndex extends React.Component {
   componentDidMount() {
    this.props.fetchTaskers(this.props.location.state.taskCategory);
+   window.scrollTo(0,0);
    }
 
    render() {
@@ -19,7 +20,7 @@ class TaskersIndex extends React.Component {
 
      return(
        <div className="fullTaskerPage">
-         
+
            <div className="viewTasker"></div>
            <div className="security"></div>
 
