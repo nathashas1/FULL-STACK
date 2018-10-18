@@ -50,7 +50,7 @@ class SignUpForm extends React.Component {
         <form onSubmit={this.handleSubmit} className="signupForm">
 
 
-                                <div class="signuperrors">
+                                <div className="signuperrors">
                                 {this.props.errors}
                                 </div>
             <div className="signupContainer">

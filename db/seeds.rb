@@ -140,8 +140,9 @@ Tasker.create!(
   hourly_rate: 45,
   city: "San Francisco",
   description: "I am good at my job.I have completed 100 mounting tasks so far",
-  user_id: 1
+  user: User.all[0]
 )
+Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{10}.jpg"),filename:"10.jpg")
 
 Tasker.create!(
   task_category: 'Moving and Packing',
@@ -150,8 +151,10 @@ Tasker.create!(
   hourly_rate: 42,
   city: "San Francisco",
   description: "I am good at my job.I have completed 100 moving tasks so far",
-  user_id: 2
+  user: User.all[1]
 )
+Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{11}.jpg"),filename:"11.jpg")
+
 
 Tasker.create!(
   task_category: 'Furniture Assembly',
@@ -160,8 +163,10 @@ Tasker.create!(
   hourly_rate: 20,
   city: "San Francisco",
   description: "I am good at my job.I have completed 100 assemblytasks so far",
-  user_id: 3
+  user: User.all[2]
 )
+Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{12}.jpg"),filename:"12.jpg")
+
 
 Tasker.create!(
   task_category: 'Home Improvement',
@@ -170,8 +175,10 @@ Tasker.create!(
   hourly_rate: 30,
   city: "San Francisco",
   description: "I am good at my job.I have completed 100 home improvement tasks so far",
-  user_id: 4
+  user: User.all[3]
 )
+Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{13}.jpg"),filename:"13.jpg")
+
 
 Tasker.create!(
   task_category: 'General Handyman',
@@ -180,8 +187,10 @@ Tasker.create!(
   hourly_rate: 46,
   city: "San Francisco",
   description: "I am good at my job.I have completed 100 handyman tasks so far",
-  user_id: 5
+  user: User.all[4]
 )
+Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{14}.jpg"),filename:"14.jpg")
+
 
 Tasker.create!(
   task_category: 'Heavy Lifting',
@@ -190,8 +199,10 @@ Tasker.create!(
   hourly_rate: 35,
   city: "San Francisco",
   description: "I am good at my job.I have completed 100 lifting tasks so far",
-  user_id: 6
+  user: User.all[5]
 )
+Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{15}.jpg"),filename:"15.jpg")
+
 
 Tasker.create!(
   task_category: 'Mounting and Installation',
@@ -200,8 +211,10 @@ Tasker.create!(
   hourly_rate: 33,
   city: "San Jose",
   description: "I will help you get the task done.",
-  user_id: 7
+  user: User.all[6]
 )
+Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{16}.jpg"),filename:"16.jpg")
+
 
 Tasker.create!(
   task_category: 'Mounting and Installation',
@@ -210,8 +223,10 @@ Tasker.create!(
   hourly_rate: 39,
   city: "San Ramon",
   description: "I have done 87 mounting tasks so far.",
-  user_id: 8
+  user: User.all[7]
 )
+Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{18}.jpg"),filename:"18.jpg")
+
 
 Tasker.create!(
   task_category: 'Mounting and Installation',
@@ -220,8 +235,10 @@ Tasker.create!(
   hourly_rate: 47,
   city: "Sansome",
   description: "I am good at mounting.",
-  user_id: 9
+  user: User.all[8]
 )
+Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{19}.jpg"),filename:"19.jpg")
+
 
 Tasker.create!(
   task_category: 'Mounting and Installation',
@@ -230,8 +247,10 @@ Tasker.create!(
   hourly_rate: 53,
   city: "Dublin",
   description: "I am experienced in mounting.",
-  user_id: 10
+  user: User.all[9]
 )
+Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{20}.jpg"),filename:"20.jpg")
+
 
 Tasker.create!(
   task_category: 'Mounting and Installation',
@@ -240,5 +259,6 @@ Tasker.create!(
   hourly_rate: 33,
   city: "Pleasanton",
   description: "I have been doing mounting for the last 5 years.",
-  user_id: 11
+  user: User.all[10]
 )
+ Tasker.last.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images/#{21}.jpg"),filename:"21.jpg")

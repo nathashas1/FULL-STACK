@@ -54,8 +54,8 @@ class TaskCategoryIndex extends React.Component {
       </Link>
 
       <div className="searchContainer"  >
-        <i class="fas fa-search"></i>
-        
+        <i className="fas fa-search"></i>
+
           < input type="search" className="search" placeholder="Need Somthing different?" />
           </div>
 

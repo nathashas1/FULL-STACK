@@ -65,12 +65,12 @@
 }
 
 .taskerdetails{
-  width: 800px;
+  width: 790px;
   height: 450px;
   background: white;
   border: 1px solid #DCE0E5;
   border-radius: 4px;
-  margin-right: 38px;
+  margin-right: 100px;
   margin-left: 440px;
   margin-bottom: 35px;
 }
@@ -88,18 +88,19 @@
 }
 
 .alltaskers{
-
+  height: 102%;
+  width: 100%;
 }
 
 .taskerphoto{
-  width: 227px;
+  width: 200px;
   height: 213px;
   margin-left: 30px;
   margin-top: 30px;
 }
 
 .taskername{
-  width: 535px;
+  width: 300px;
   height: 45px;
   margin-left: 262px;
   margin-top: 42px;
@@ -107,6 +108,8 @@
   position: relative;
   bottom: 230px;
   left: 210px;
+  font-size: 2em;
+    font-weight: bold;
 }
 
 .taskerrate{
@@ -125,4 +128,26 @@
   bottom: 220px;
   left: 240px;
 
+}
+
+.help{
+  font-family: "Proxima", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  position: relative;
+  bottom: 168px;
+  left: 243px;
+  font-weight: 500;
+  border-top: 1px solid #DCE0E5;
+  width: 508px;
+  height: 25px;
+}
+
+.description{
+  width: 545px;
+  height: 300px;
+  position: relative;
+  bottom: 165px;
+  left: 243px;
 }
