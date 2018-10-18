@@ -19,9 +19,7 @@ class TaskersIndex extends React.Component {
 
      return(
        <div className="fullTaskerPage">
-         <div className="logoholder">
-           <div className="logo"></div>
-         </div>
+         
            <div className="viewTasker"></div>
            <div className="security"></div>
 
