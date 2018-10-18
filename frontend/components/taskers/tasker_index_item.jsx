@@ -8,6 +8,9 @@ const TaskerIndexItem = ({ tasker }) => {
 <div className="taskerdetails">
 
 <img className="taskerphoto" src={tasker.photoUrl}/>
+<div className="task">
+<Link to="/task" className="tasklink"> Select and Continue</Link>
+</div>
 <div className="taskername">
   {tasker.firstname} {tasker.lastname}
 <div className="taskerrate"></div>
