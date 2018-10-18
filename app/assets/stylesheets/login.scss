@@ -22,7 +22,7 @@
 
 
 .loginContainer{
-   margin-top:20%;
+   margin-top:5%;
    width: 500px;
    height: 60vh;
    background: white;
@@ -105,9 +105,7 @@
 .logoPart1login{
   color:#264E1A;
   font-family: 'FredokaOne-Regular';
-  position: relative;
-  bottom: 97px;
-  left: 140px;
+  margin-left: none;
   font-size: 48px;
 
 }
@@ -115,9 +113,7 @@
 .logoPart2login{
   color:#55AD3C;
   font-size: 48px;
-  position: relative;
-  right: 110px;
-  left: 1px;
+
   font-weight: 400;
   font-family: 'FredokaOne-Regular';
 }
@@ -125,15 +121,15 @@
 .iconlogin{
     width:70px;
     height:60px;
-    margin-left: 16px;
-    align-self: center;
-    font-weight: bold;
+
     background-image: image-url("rabbiticon.png");
     background-repeat: no-repeat;
-    background-position: left;
-    position: relative;
-    bottom: 77px;
-    right: 110px;
+
+  }
+
+  .loginHeader{
+    display: flex;
+    justify-content: center;
   }
 
 
