@@ -10,4 +10,4 @@
  end
 
 
-# t1.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images"),filename:"1.jpg") 
+# t1.photo.attach(io: File.open("/Users/priyeshnn/Desktop/AskRabbit/app/assets/images"),filename:"1.jpg")

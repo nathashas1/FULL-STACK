@@ -138,7 +138,7 @@ class TaskForm extends React.Component {
           This helps us show you only qualified and available Taskers for the job.
           Don't worry, you can edit this later.</h4>
 
-        <textarea class="textarea"  placeholder="Provide a summary of what you need done for your Tasker.
+        <textarea className="textarea"  placeholder="Provide a summary of what you need done for your Tasker.
           Be sure to include details like the size of your space,
           any equipment/tools needed, and how to get in."></textarea>
 

@@ -53,7 +53,7 @@ class SessionForm extends React.Component {
 
 
             <div className="loginContainer">
-              <div class="signuperrors">
+              <div className="signuperrors">
               {this.props.errors}
               </div>
 

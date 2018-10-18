@@ -7,8 +7,9 @@ const TaskerIndexItem = ({ tasker }) => {
 
 <div className="taskerdetails">
 
-<div className="taskerphoto"></div>
+<img className="taskerphoto" src={tasker.photoUrl}/>
 <div className="taskername">
+  {tasker.firstname} {tasker.lastname}
 <div className="taskerrate"></div>
 </div>
 <div className="stars">
@@ -16,12 +17,15 @@ const TaskerIndexItem = ({ tasker }) => {
 <br/>
   100% Positive
 </div>
+<div className="help">How I can help:
+
+</div>
 <div className="description">
 {tasker.description}
 </div>
 
 
-        
+
 </div>);
 
 
