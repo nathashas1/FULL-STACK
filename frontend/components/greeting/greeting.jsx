@@ -58,10 +58,13 @@ const Greeting = ({ currentUser, logout }) => {
           My Tasks
         </Link>
 
-        <Link to="/login" className="menustasker">
+        <Link to="/login" className="menus">
           Account
         </Link>
 
+        <div className="menustasker">
+        <button  onClick={logout}>Log Out</button>
+        </div>
     </div>
 
     );

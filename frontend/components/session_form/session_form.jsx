@@ -52,7 +52,12 @@ class SessionForm extends React.Component {
         <form onSubmit={this.handleSubmit} className="loginForm">
 
 
+
             <div className="loginContainer">
+
+              <div className="iconlogin"></div>
+                <p className="logoPart1login" >Bask<span className="logoPart2login">Rabbit</span></p>
+              
               <div className="signuperrors">
               {this.props.errors}
               </div>

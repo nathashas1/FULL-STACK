@@ -89,25 +89,55 @@
   }
 }
 
-
-
-
-// .submitlink{
-//   width:50%;
-//   height: 20vh;
-//   color:green;
-//   font-size: 17px;
-//   text-Decoration:none;
+// .iconlogin{
+//   width:275px;
+//   height:56px;
+//   margin-left: 16px;
+//   align-self: center;
+//   font-weight: bold;
+//   // background-image: image-url("/assets/rabbiticon.png");
+//   // background-repeat: no-repeat;
+//   // background-position: left;
 //   position: relative;
-//   left: 100px;
-//   &:hover {
-//   background-color: #51AF33;
-//   color: white;
+//   bottom: 25px;
 // }
-// }
+
+.logoPart1login{
+  color:#264E1A;
+  font-family: 'FredokaOne-Regular';
+  position: relative;
+  bottom: 97px;
+  left: 140px;
+  font-size: 48px;
+
+}
+
+.logoPart2login{
+  color:#55AD3C;
+  font-size: 48px;
+  position: relative;
+  right: 110px;
+  left: 1px;
+  font-weight: 400;
+  font-family: 'FredokaOne-Regular';
+}
+
+.iconlogin{
+    width:70px;
+    height:60px;
+    margin-left: 16px;
+    align-self: center;
+    font-weight: bold;
+    background-image: image-url("/assets/rabbiticon.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    bottom: 77px;
+    right: 110px;
+  }
+
 
 .errors{
-
   color:red;
   margin: auto;
   text-align: center;

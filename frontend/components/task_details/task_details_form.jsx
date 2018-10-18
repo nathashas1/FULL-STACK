@@ -90,7 +90,7 @@ class TaskForm extends React.Component {
             <span className="span">I'm just browsing</span>
           </li>
 
-          <span className="session-submitdemo" onClick={()=>this.myFunctionOne()}>Continue</span>
+          <button className="session-submitdemo" onClick={()=>this.myFunctionOne()}>Continue</button>
 
       </ul>
       </div>
@@ -106,7 +106,7 @@ class TaskForm extends React.Component {
           className="addressContainerinput"
         />
       </label>
-      <span className="continue-demo" onClick={()=>this.myFunctionTwo()}>Continue</span>
+      <button className="continue-demo" onClick={()=>this.myFunctionTwo()}>Continue</button>
     </div>
 
 
@@ -127,7 +127,7 @@ class TaskForm extends React.Component {
               <input name="group3" type="radio"  />
               <span className="span2">Large - Est- 4+ hrs</span>
             </label>
-    <span className="secondcontinue-demo" onClick={()=>this.myFunctionThree()}>Continue</span>
+    <button className="secondcontinue-demo" onClick={()=>this.myFunctionThree()}>Continue</button>
   </div>
 
 
@@ -144,8 +144,9 @@ class TaskForm extends React.Component {
 
 
 
-
-        <Link to={{ pathname: '/taskers', state: {taskCategory: this.props.location.state.taskCategory}}}  className="lastcontinue-demo" >See Taskers & Prices</Link>
+        <div className="lastcontinue-demo">
+        <Link to={{ pathname: '/taskers', state: {taskCategory: this.props.location.state.taskCategory}}} className="linkcontinue">See Taskers & Prices</Link>
+        </div>
       </div>
 
 
