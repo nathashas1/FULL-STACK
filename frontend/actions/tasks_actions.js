@@ -1,18 +1,19 @@
-import * as APIUtil from '../util/taskers_util';
+import * as APIUtil from '../util/task_util';
 export const CREATE_TASK = 'CREATE_TASK';
 export const SAVE_TASK = 'SAVE_TASK';
 
 
 
 
-export const fetchTasks = (task) => dispatch => (
-  APIUtil.createTask(task).then(task => (dispatch(createTask(task)))
+export const createTask = (task) => dispatch => (
+  APIUtil.createTask(task).then(task => (dispatch(receiveTask(task)))
 
 ));
 
 
 
-export const createTask = (task) => ({
+
+export const receiveTask = (task) => ({
   type: CREATE_TASK,
   task
 });

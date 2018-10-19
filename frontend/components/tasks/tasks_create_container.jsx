@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { createTask } from '../../actions/tasks_actions';
-import TasksIndex from './tasks_index';
+import TasksCreate from './tasks_create';
 
 const mapStateToProps = (state) => {
 return {
@@ -16,4 +16,4 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(TasksIndex);
+export default connect(mapStateToProps, mapDispatchToProps)(TasksCreate);

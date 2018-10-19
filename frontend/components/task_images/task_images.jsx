@@ -11,7 +11,7 @@ export default class task_images extends React.Component {
             </div>
             <div className="easyClickContainer">
 
-            <img src="/assets/home.jpg"   />
+            <img src={window.tvs}   />
 
             <div className="easyClick">
                     <div className="easyClickText">

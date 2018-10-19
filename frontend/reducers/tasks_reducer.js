@@ -7,7 +7,8 @@ const TasksReducer = (oldState = {}, action) => {
   Object.freeze(oldState);
   switch (action.type) {
     case CREATE_TASK:
-      return merge({}, action.posts);
+  
+      return merge({}, oldState,{[action.task.id]: action.task});
     default:
       return oldState;
   }
