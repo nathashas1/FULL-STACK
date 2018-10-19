@@ -22,9 +22,9 @@ Things you may want to cover:
 * Ruby version 2.5.1, NodeJS, and PostgreSQL version 10 installed on your machine
 * Requires Install of NodeJS for node-package-manager (npm)
 * The frontend is compiled with webpack that generates a dist/bundle.js file from the entrypoint file ./frontend/app.jsx.
-* `The routes for this webpack configuration can be fount in the webpack.config.js file
-Functionality`
+  * The routes for this webpack configuration can be found in the webpack.config.js file
+Functionality
 
-##Functionality
+## Functionality
 * Users can Select tasks and give task information which will display a list of taskers.
 Users can select their preferred tasker and assign tasks to them according to theri availability.
