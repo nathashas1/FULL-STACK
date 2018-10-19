@@ -1,4 +1,4 @@
-class Api::TaskersController < ApplicationController
+class Api::TasksController < ApplicationController
 
   def create
     @task = Task.new(task_params)
