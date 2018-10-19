@@ -30,10 +30,16 @@ class TaskersIndex extends React.Component {
                <div>2. View Taskers & Prices</div>
                 <div>3. Confirm & Book</div>
                   </div>
-           <div className="security"></div>
+           <div className="security">
+             <div className="trust"> Trust & Safety Guarantee : </div>
+          
+               <div className="vet">All Taskers are fully vetted & background checked.</div>
+
+           </div>
 
          <div className="pickTasker">Pick a Tasker</div>
-         <div className="pickText">After booking, you can chat with your Tasker, agree on an exact time, or go over any requirements or questions, if necessary.</div>
+         <div className="pickText">After booking, you can chat with your Tasker, agree on an exact time, or go over any
+           <br/>requirements or questions, if necessary.</div>
 
 
       <ul className="alltaskers">
