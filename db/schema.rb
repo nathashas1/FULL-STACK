@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_17_042711) do
+ActiveRecord::Schema.define(version: 2018_10_19_054731) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -52,6 +52,19 @@ ActiveRecord::Schema.define(version: 2018_10_17_042711) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_taskers_on_user_id", unique: true
+  end
+
+  create_table "tasks", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "tasker_id", null: false
+    t.string "task_category", null: false
+    t.string "task_location", null: false
+    t.string "task_details", null: false
+    t.string "task_duration", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["tasker_id"], name: "index_tasks_on_tasker_id", unique: true
+    t.index ["user_id"], name: "index_tasks_on_user_id", unique: true
   end
 
   create_table "users", force: :cascade do |t|

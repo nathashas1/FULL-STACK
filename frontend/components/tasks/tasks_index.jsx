@@ -1,12 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import  TaskIndexItem  from './task_index_item';
+
 
 class TasksIndex extends React.Component {
-  componentDidMount() {
-   this.props.fetchTasks();
-   window.scrollTo(0,0);
-   }
+  constructor(props) {
+    super(props);
+    this.state = {
+      taskLocation: '',
+      taskDuration: '',
+      taskDetails: '',
+      tasker: '',
+      taskCategory: ''
+    };
+console.log("props of task index",this.props);
+  }
+
 
    render() {
 
@@ -17,7 +25,7 @@ class TasksIndex extends React.Component {
         <h1>hello</h1>
 
 
-      
+
   );
   }
 

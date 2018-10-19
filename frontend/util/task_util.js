@@ -1,7 +1,8 @@
 
-export const fetchTaskers = (taskCategory) => (
+export const createTask = (task) => (
   $.ajax({
-    method: 'GET',
-    url: `/api/taskers?task_category=${taskCategory}`,
+    method: 'POST',
+    url: `/api/tasks`,
+    data: {task}
   })
 );
