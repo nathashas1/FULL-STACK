@@ -6,7 +6,7 @@ class Api::TasksController < ApplicationController
     if @task.save
       render "api/tasks/show"
     else
-      render json: ["Give all task Details"], status: 401
+      render json: ["Give all task Details"]
     end
   end
 
