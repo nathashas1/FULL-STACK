@@ -7,13 +7,16 @@ import TaskersIndex from './taskers_index';
 const mapStateToProps = (state,ownProps) => {
 return {
 
+  taskCategory: state.currentTask.taskCategory,
   taskers: Object.values(state.taskers)
+
 };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
     fetchTaskers: (taskCategory) => dispatch(fetchTaskers(taskCategory)),
+    clearFetchtaskers: () => dispatch(fetchTaskers([]))
   };
 };
 

@@ -4,9 +4,13 @@ import  TaskerIndexItem  from './tasker_index_item';
 
 class TaskersIndex extends React.Component {
   componentDidMount() {
-   this.props.fetchTaskers(this.props.location.state.taskCategory);
+   this.props.fetchTaskers(this.props.taskCategory);
    window.scrollTo(0,0);
    }
+
+   // componentWillUnmount(){
+   //   return this.props.clearFetchtaskers();
+   // }
 
    render() {
      const taskers = this.props.taskers.map(tasker => {

@@ -7,9 +7,16 @@ import { Link,withRouter } from 'react-router-dom';
 class TaskForm extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      taskCategory: this.props.location.state.taskCategory,
+      taskLocation: "",
+      taskType: "",
+      taskDetails: ""
+    };
     this.myFunctionOne = this.myFunctionOne.bind(this);
     this.myFunctionTwo = this.myFunctionTwo.bind(this);
     this.myFunctionThree = this.myFunctionThree.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
   componentDidMount() {
@@ -19,9 +26,6 @@ class TaskForm extends React.Component {
 
 
    myFunctionOne() {
-
-      // var myWindow = window.scrollTo( 0, 300 );
-      // myWindow.focus();
       var myWindow = window.scrollTo({
     top: 300,
     behavior: "smooth"
@@ -51,10 +55,18 @@ class TaskForm extends React.Component {
 
 }
 
+handleChange(type) {
+  return(e) => {
+
+    e.preventDefault();
+    this.setState({[type]: e.target.value});
+  };
+
+  }
 
   render() {
 
-
+    let newState = this.state;
   return (
 
     <div className="formContainer">
@@ -109,6 +121,7 @@ class TaskForm extends React.Component {
         <input type="text"
           placeholder="Enter street address"
           className="addressContainerinput"
+          onChange={this.handleChange("taskLocation")}
         />
       </label>
       <span className="continue-demo" onClick={()=>this.myFunctionTwo()}>Continue</span>
@@ -121,15 +134,15 @@ class TaskForm extends React.Component {
         <br/>
           <h4 className="h4">How big is your task?</h4>
             <label>
-              <input name="group3" type="radio"  />
+              <input name="group3" type="radio" value = "1hr" onChange={this.handleChange("taskType")} />
               <span className="span2">Small - Est-1 hr</span>
             </label>
             <label>
-              <input name="group3" type="radio"  />
+              <input name="group3" type="radio" value = "2-3hrs" onChange={this.handleChange("taskType")} />
               <span className="span2">Medium - Est- 2-3 hrs</span>
             </label>
             <label>
-              <input name="group3" type="radio"  />
+              <input name="group3" type="radio" value = "4+hrs" onChange={this.handleChange("taskType")} />
               <span className="span2">Large - Est- 4+ hrs</span>
             </label>
     <span className="secondcontinue-demo" onClick={()=>this.myFunctionThree()}>Continue</span>
@@ -145,12 +158,12 @@ class TaskForm extends React.Component {
 
         <textarea className="textarea"  placeholder="Provide a summary of what you need done for your Tasker.
           Be sure to include details like the size of your space,
-          any equipment/tools needed, and how to get in."></textarea>
+          any equipment/tools needed, and how to get in." onChange={this.handleChange("taskDetails")}></textarea>
 
 
 
         <div className="lastcontinue-demo">
-        <Link to={{ pathname: '/taskers', state: {taskCategory: this.props.location.state.taskCategory}}} className="linkcontinue">See Taskers & Prices</Link>
+        <Link to='/taskers' onClick={() => this.props.saveTask(this.state)} className="linkcontinue">See Taskers & Prices</Link>
         </div>
       </div>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Route, Redirect, withRouter } from 'react-router-dom';
+import { saveTask } from '../actions/tasks_actions';
 
 const Auth = ({ component: Component, path, loggedIn, exact }) => (
   <Route path={path} exact={exact} render={(props) => (
@@ -12,10 +13,10 @@ const Auth = ({ component: Component, path, loggedIn, exact }) => (
   )} />
 );
 
-const Protected = ({ component: Component, path, loggedIn, exact }) => (
+const Protected = ({ component: Component, path, loggedIn, exact, saveTask}) => (
   <Route path={path} exact={exact} render={(props) => (
      loggedIn ? (
-      <Component {...props} />
+      <Component {...props} saveTask={saveTask}/>
     ) : (
       <Redirect to="/login" />
     )
@@ -26,6 +27,10 @@ const mapStateToProps = state => (
   {loggedIn: Boolean(state.session.id)}
 );
 
+const mapDispatchToProps = dispatch => (
+  {saveTask: (task) => dispatch(saveTask(task))}
+);
+
 export const AuthRoute = withRouter(connect(mapStateToProps)(Auth));
 
-export const ProtectedRoute = withRouter(connect(mapStateToProps)(Protected));
+export const ProtectedRoute = withRouter(connect(mapStateToProps,mapDispatchToProps)(Protected));
