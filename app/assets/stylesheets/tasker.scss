@@ -27,6 +27,9 @@
   width: 100vw;
   height: 64px;
   background: #E8EBEF;
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
 }
 
 .pickTaskerText{
@@ -60,6 +63,8 @@
   margin-right: auto;
   margin-left: auto;
   color: #565B5F;
+  margin-bottom: -140px;
+  margin-top: 10px;
 }
 
 .sorted{
@@ -177,4 +182,17 @@
   height: 45px;
   display: flex;
   justify-content: space-between;
+}
+
+.trust{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.vet{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #262C32;
 }
