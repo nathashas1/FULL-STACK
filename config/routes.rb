@@ -8,6 +8,7 @@ Rails.application.routes.draw do
       resource :session, only: [:create, :destroy]
       resources :taskcategories, only: [:index]
       resources :taskers, only: [:index]
+        resources :tasks, only: [:index, :create]
 
     end
 
