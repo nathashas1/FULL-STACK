@@ -12,7 +12,7 @@ class TasksIndex extends React.Component {
       tasker: '',
       taskCategory: ''
     };
-console.log("props of task index",this.props);
+
   }
 
 

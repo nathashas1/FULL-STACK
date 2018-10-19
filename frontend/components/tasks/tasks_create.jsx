@@ -12,7 +12,6 @@ class TasksCreate extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-
     const task = Object.assign({},this.props.task,{tasker_id: this.props.location.state.tasker_id});
     this.props.createTask(task);
   }
@@ -21,15 +20,16 @@ class TasksCreate extends React.Component {
    window.scrollTo(0,0);
    }
 
+
+
    render() {
-
-
-
      return(
-
-      <button onClick={this.handleSubmit}> Click Me </button>
-
-
+       <div className="taskfullpage">
+<div className="taskcreate">
+  <div className="tasktext">Create Task!</div>
+      <button className="taskcreatebutton" onClick={this.handleSubmit}> Confirm </button>
+</div>
+</div>
 
   );
   }
