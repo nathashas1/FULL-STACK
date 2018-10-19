@@ -72,7 +72,7 @@ handleChange(type) {
     <div className="formContainer">
 
         <div className="describeTask">
-          Describe Your Task:
+          Describe Your Task: {this.props.location.state.taskCategory}
         </div>
 
         <div className="weNeed">
