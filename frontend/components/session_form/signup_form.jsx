@@ -57,10 +57,14 @@ class SignUpForm extends React.Component {
                                 <div className="signuperrors">
                                 {this.props.errors}
                                 </div>
+
+                                <div className="loginHeadersignup">
+                                <div className="iconlogin"></div>
+                                  <p className="logoPart1login" >Bask<span className="logoPart2login">Rabbit</span></p>
+                                  </div>
+
+
             <div className="signupContainer">
-
-
-
                 <label >First Name:
                   <input type="text"
                     value={this.state.firstname}

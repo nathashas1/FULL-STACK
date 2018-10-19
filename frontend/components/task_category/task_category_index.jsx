@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import TaskImages  from '../task_images/task_images';
 import { Link } from 'react-router-dom';
 
 class TaskCategoryIndex extends React.Component {
@@ -10,10 +10,8 @@ class TaskCategoryIndex extends React.Component {
 
    render() {
      return(
-       <div className="categories-container">
-
-
-
+  <div>
+   <div className="categories-container">
     <div className="categories-bar">
 
       <div className="maintitle">The convenient & affordable way
@@ -55,6 +53,9 @@ class TaskCategoryIndex extends React.Component {
     </div>
 
      </div>
+     <TaskImages />
+</div>
+
   );
 }
 

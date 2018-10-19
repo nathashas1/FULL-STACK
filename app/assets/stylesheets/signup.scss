@@ -1,8 +1,8 @@
 .signupForm{
   background:white ;
-  margin-top:4%;
+  margin-top:2%;
   width:500px;
-  height: 90vh;
+  height: 95vh;
       border-radius:4px;
     flex-direction: column;
 }
@@ -10,7 +10,7 @@
 
 
 .signupContainer{
- margin-top:20%;
+ margin-top:12%;
  width: 500px;
  height: 60vh;
  background: white;
@@ -99,4 +99,10 @@ left: 100px;
     position: relative;
     top: 15px;
     text-align: center;
+}
+
+.loginHeadersignup{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
