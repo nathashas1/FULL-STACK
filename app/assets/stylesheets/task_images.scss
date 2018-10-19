@@ -1,0 +1,103 @@
+.imageContainer{
+
+    position: relative;
+}
+
+.Title{
+    margin-top:50px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size:2.6rem;
+    color:#282828
+}
+
+.easyClickContainer{
+    display:flex;
+
+}
+.easyClickContainer img{
+    margin-top:10px;
+    width:52vw;
+    height: 400px;
+    margin-left:8%;
+
+}
+.easyClick{
+     margin-top:10px;
+     height: 400px;
+     margin-left:25px;
+     width:25vw;
+     background:#F9FAFB;
+     position: relative;
+}
+.easyClickBtn{
+    color:white;
+    margin-top:3vh;
+    align-content: center;
+    margin-left:5vw;
+    font-weight: 100;
+    font-size:1rem;
+    height: 50px;
+    width: 60%;
+    border-radius: 6px;
+    background: #55AD3C;
+}
+.priceTag{
+    color:#6ABCBD;
+    margin-left:5vw;
+    font-weight: bold;
+    background-image: image-url('pricetag.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.priceTag p{
+    margin-left:1.5vw;
+    font-weight: 100;
+}
+.easyClickText{
+    margin-top:10vh;
+    margin-left:1.5vw;
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: center;
+    color:#282828;
+    font-size:1.3rem;
+}
+
+
+
+.mounting{
+    width:25vw;
+    height: 300px;
+}
+.text{
+    margin-left:1.5vw;
+    letter-spacing: 2px;
+    text-align: center;
+    color:#282828;
+    font-size:1.3rem;
+}
+
+.easyNav{
+    display:flex
+}
+
+
+
+.mountingContainer{
+
+    height: 500px;
+    width:25vw;
+    margin-left:8%;
+    margin-top:20px;
+    background: #F9FAFB;
+}
+.easyClickContainerAll{
+
+    height: 500px;
+    margin-left:25px;
+    width:25vw;
+    margin-top:20px;
+    background:#F9FAFB;
+}
