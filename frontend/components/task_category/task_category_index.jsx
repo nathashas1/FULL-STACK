@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 class TaskCategoryIndex extends React.Component {
   componentDidMount() {
-
    window.scrollTo(0,0);
    }
 

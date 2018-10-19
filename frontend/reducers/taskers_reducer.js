@@ -6,7 +6,9 @@ const taskersReducer = (state = {}, action) => {
 
   switch(action.type) {
     case FETCH_TASKERS:
-    return merge({}, state, action.taskers);
+    // return merge({}, state, action.taskers);
+    return merge(action.taskers);
+
     default:
       return state;
   }

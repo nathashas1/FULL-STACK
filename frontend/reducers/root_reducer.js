@@ -7,6 +7,7 @@ import errors from './errors_reducer';
 import session from './session_reducer';
 import taskcategories from './task_category_reducer';
 import taskers from './taskers_reducer';
+import currentTask from './currenttask_reducer';
 
 
 const rootReducer = combineReducers({
@@ -14,7 +15,8 @@ const rootReducer = combineReducers({
   session,
   errors,
   taskers,
-  taskcategories
+  currentTask
+
 });
 
 export default rootReducer;
