@@ -11,7 +11,7 @@ export default class task_images extends React.Component {
             </div>
             <div className="easyClickContainer">
 
-            <img src={window.tvs}   />
+            <img src={window.home}   />
 
             <div className="easyClick">
                     <div className="easyClickText">
@@ -33,7 +33,7 @@ export default class task_images extends React.Component {
                         <div className="mountingContainer">
 
 
-                                <img className="mounting" src="/assets/wall-tv-2.jpg"   />
+                                <img className="mounting" src={window.wall}   />
                                 <div className="text">
                                     Mount a TV or mirror
                                   </div>
@@ -46,7 +46,7 @@ export default class task_images extends React.Component {
                         </div>
 
                   <div className="easyClickContainerAll">
-                            <img className="mounting" src="/assets/living-room.jpg"   />
+                            <img className="mounting" src={window.livingroom}   />
                             <div className="text">
                                 Put together furniture
                               </div>
@@ -59,7 +59,7 @@ export default class task_images extends React.Component {
                   </div>
 
                    <div className="easyClickContainerAll">
-                            <img className="mounting" src="/assets/moving-3.jpg"   />
+                            <img className="mounting" src={window.moving}   />
                             <div className="text">
                                 Lift & shift heavy items
                               </div>
