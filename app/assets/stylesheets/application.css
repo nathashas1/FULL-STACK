@@ -21,6 +21,11 @@
      box-sizing: border-box;
  }
 
+ @font-face {
+     font-family: "FredokaOne-Regular";
+     src: url('/assets/fonts/FredokaOne-Regular.ttf');
+ }
+
  .navContainer{
      display: flex;
      width:100%;

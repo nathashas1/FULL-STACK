@@ -31,6 +31,8 @@ export default class task_images extends React.Component {
 
                  <div className="easyNav" >
                         <div className="mountingContainer">
+
+
                                 <img className="mounting" src="/assets/wall-tv-2.jpg"   />
                                 <div className="text">
                                     Mount a TV or mirror
