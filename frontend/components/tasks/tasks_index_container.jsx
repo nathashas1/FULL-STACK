@@ -1,18 +1,18 @@
 import { connect } from 'react-redux';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { fetchTasks } from '../../actions/tasks_actions';
+import { createTask } from '../../actions/tasks_actions';
 import TasksIndex from './tasks_index';
 
-const mapStateToProps = (state,ownProps) => {
+const mapStateToProps = (state) => {
 return {
-  tasks: Object.values(state.tasks)
+  task: state.currentTask,
 };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-    fetchTasks: (id) => dispatch(fetchTasks(id)),
+    createTask: (task) => dispatch(createTask(task)),
   };
 };
 

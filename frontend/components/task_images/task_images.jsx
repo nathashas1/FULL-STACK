@@ -27,7 +27,7 @@ export default class task_images extends React.Component {
                     <button className="easyClickBtn">Book Handyman  </button>
 
             </div>
-            </div>
+          </div>x
 
                  <div className="easyNav" >
                         <div className="mountingContainer">

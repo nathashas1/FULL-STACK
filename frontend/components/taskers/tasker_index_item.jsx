@@ -9,7 +9,9 @@ const TaskerIndexItem = ({ tasker }) => {
 
 <img className="taskerphoto" src={tasker.photoUrl}/>
 <div className="task">
-<Link to="/task" className="tasklink"> Select </Link>
+<Link to={{ pathname: '/task', state: {tasker_id: tasker.id}}}   className="tasklink"> Select </Link>
+
+
 </div>
 <div className="namerate">
   <div className="taskername">
