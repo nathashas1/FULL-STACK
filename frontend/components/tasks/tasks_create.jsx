@@ -21,6 +21,7 @@ class TasksCreate extends React.Component {
 
 
    render() {
+     console.log("in /tasks", this.props);
      return(
        <div className="taskfullpage">
 <div className="taskcreate">

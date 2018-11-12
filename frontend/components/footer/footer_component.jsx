@@ -12,7 +12,7 @@ class Footer extends React.Component {
 
 
                   <a href="https://www.linkedin.com/in/nathasha-s-90a59a136/" className="linkedin" style={{ display: "table-cell" }} target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
+                        <i className="fab fa-linkedin-in"></i>
                     Nathasha Surendran
                   </a>
                 <a href="https://github.com/nathashas1" className="linkedin" style={{ display: "table-cell" }} target="_blank">
