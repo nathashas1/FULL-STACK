@@ -54,6 +54,7 @@
 .priceTag p{
     margin-left:1.5vw;
     font-weight: 100;
+    margin-bottom: 10vh;
 }
 .easyClickText{
     margin-top:10vh;
@@ -100,4 +101,27 @@
     width:25vw;
     margin-top:20px;
     background:#F9FAFB;
+}
+
+.clickCategory{
+  border: 1px solid #51AF33;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  height: 42px;
+  background: #51AF33;
+  color: white;
+  font-size: 17px;
+  text-Decoration:none;
+  margin: 5px;
+  margin-left: 59px;
+  margin-bottom: 10px;
+  width: 240px;
+  text-align: center;
+  &:hover {
+  background-color: #438E2A;
+  color: white;
+}
 }
