@@ -6,8 +6,6 @@ class TasksCreate extends React.Component {
   constructor(props) {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
-
-
   }
 
   handleSubmit(e) {
@@ -23,6 +21,7 @@ class TasksCreate extends React.Component {
 
 
    render() {
+     console.log("in /tasks", this.props);
      return(
        <div className="taskfullpage">
 <div className="taskcreate">

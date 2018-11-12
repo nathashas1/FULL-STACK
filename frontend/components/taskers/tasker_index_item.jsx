@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const TaskerIndexItem = ({ tasker }) => {
+  console.log("in tasker index item", tasker);
   return (
 
 <div className="taskerdetails">

@@ -5,8 +5,9 @@ import { fetchTaskCategories } from '../../actions/taskcategory_actions';
 import TaskCategoryIndex from './task_category_index';
 
 const mapStateToProps = state => {
+  
 return {
-  // taskCategories: Object.values(state.taskcategories)
+  taskCategories: Object.values(state.taskcategories)
 };
 };
 

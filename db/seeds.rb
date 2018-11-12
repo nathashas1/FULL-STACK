@@ -13,11 +13,11 @@ Tasker.destroy_all
 
 
 Taskcategory.create!(
-  name: 'Mounting'
+  name: 'Mounting and Installation'
 )
 
 Taskcategory.create!(
-  name: 'Moving'
+  name: 'Moving and Packing'
 )
 
 Taskcategory.create!(
