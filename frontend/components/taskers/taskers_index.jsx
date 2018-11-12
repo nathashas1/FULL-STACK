@@ -32,7 +32,7 @@ class TaskersIndex extends React.Component {
                   </div>
            <div className="security">
              <div className="trust"> Trust & Safety Guarantee : </div>
-          
+
                <div className="vet">All Taskers are fully vetted & background checked.</div>
 
            </div>

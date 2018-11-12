@@ -17,6 +17,7 @@ const rootReducer = combineReducers({
   errors,
   taskers,
   currentTask,
+  taskcategories
 });
 
 export default rootReducer;
