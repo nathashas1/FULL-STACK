@@ -1,6 +1,6 @@
 
 import React from 'react';
-import TaskImages  from '../task_images/task_images';
+import TaskImages  from '../task_details/task_images/task_images';
 import { Link } from 'react-router-dom';
 import Footer from "../footer/footer_component";
 import TaskCategoryIndexItem from './task_category_index_item';
