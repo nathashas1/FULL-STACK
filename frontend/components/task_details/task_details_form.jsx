@@ -21,8 +21,23 @@ class TaskForm extends React.Component {
 
   componentDidMount() {
    window.scrollTo(0,0);
-
    }
+
+   // checkState (){
+   //   if (this.state.taskCategory === "" || this.state.taskLocation === "" ||
+   //   this.state.taskType === "" || this.state.taskDetails === "" ){
+   //
+   //   }
+   //
+   // }
+   //
+   // isEmpty(type, emptyMessage) {
+   //   if(this.state[type] === "") {
+   //     return true
+   //   } else {
+   //     return false
+   //   }
+   // }
 
    myFunctionOne() {
       var myWindow = window.scrollTo({
@@ -88,6 +103,8 @@ handleChange(type) {
           <br/>
           <ul className="ul">
 
+        
+
           <li>
             <input name="group1" type="radio"  />
             <span className="span">I'm ready to book right now</span>
@@ -121,6 +138,7 @@ handleChange(type) {
           placeholder="Enter street address"
           className="addressContainerinput"
           onChange={this.handleChange("taskLocation")}
+          value={this.state.taskLocation}
         />
       </label>
       <div className="oneclass">
