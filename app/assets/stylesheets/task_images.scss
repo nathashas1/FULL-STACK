@@ -1,5 +1,4 @@
 .imageContainer{
-
     position: relative;
 }
 
@@ -14,8 +13,8 @@
 
 .easyClickContainer{
     display:flex;
-
 }
+
 .easyClickContainer img{
     margin-top:10px;
     width:52vw;
@@ -23,6 +22,7 @@
     margin-left:8%;
 
 }
+
 .easyClick{
      margin-top:10px;
      height: 400px;
@@ -31,6 +31,7 @@
      background:#F9FAFB;
      position: relative;
 }
+
 .easyClickBtn{
     color:white;
     margin-top:3vh;
@@ -43,6 +44,7 @@
     border-radius: 6px;
     background: #55AD3C;
 }
+
 .priceTag{
     color:#6ABCBD;
     margin-left:5vw;
@@ -51,11 +53,13 @@
     background-repeat: no-repeat;
     background-position: left;
 }
+
 .priceTag p{
     margin-left:1.5vw;
     font-weight: 100;
     margin-bottom: 10vh;
 }
+
 .easyClickText{
     margin-top:10vh;
     margin-left:1.5vw;
@@ -66,12 +70,11 @@
     font-size:1.3rem;
 }
 
-
-
 .mounting{
     width:25vw;
     height: 300px;
 }
+
 .text{
     margin-left:1.5vw;
     letter-spacing: 2px;
@@ -84,18 +87,15 @@
     display:flex
 }
 
-
-
 .mountingContainer{
-
     height: 500px;
     width:25vw;
     margin-left:8%;
     margin-top:20px;
     background: #F9FAFB;
 }
-.easyClickContainerAll{
 
+.easyClickContainerAll{
     height: 500px;
     margin-left:25px;
     width:25vw;

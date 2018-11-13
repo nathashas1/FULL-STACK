@@ -8,14 +8,20 @@ class TaskForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      purpose: "",
       taskCategory: this.props.location.state.taskCategory,
       taskLocation: "",
       taskType: "",
-      taskDetails: ""
+      taskDetails: "",
+      purposeErrors: "",
+      locationErrors: "",
+      typeErrors: "",
+      detailsErrors: ""
     };
     this.myFunctionOne = this.myFunctionOne.bind(this);
     this.myFunctionTwo = this.myFunctionTwo.bind(this);
     this.myFunctionThree = this.myFunctionThree.bind(this);
+    this.myFunctionFour = this.myFunctionFour.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
 
@@ -23,32 +29,28 @@ class TaskForm extends React.Component {
    window.scrollTo(0,0);
    }
 
-   // checkState (){
-   //   if (this.state.taskCategory === "" || this.state.taskLocation === "" ||
-   //   this.state.taskType === "" || this.state.taskDetails === "" ){
-   //
-   //   }
-   //
-   // }
-   //
-   // isEmpty(type, emptyMessage) {
-   //   if(this.state[type] === "") {
-   //     return true
-   //   } else {
-   //     return false
-   //   }
-   // }
 
    myFunctionOne() {
+     if (this.state.purpose === '') {
+       this.setState({purposeErrors: "Must be chosen"});
+     }else{
+       this.setState({purposeErrors: ""});
+     }
       var myWindow = window.scrollTo({
-    top: 300,
+    top: 310,
     behavior: "smooth"
 });
 
   }
 
+
   myFunctionTwo() {
-     var myWindow = window.scrollTo({
+    if (this.state.taskLocation === '') {
+      this.setState({locationErrors: "Location is required"});
+    }else{
+      this.setState({locationErrors: ""});
+    }
+  var myWindow = window.scrollTo({
    top: 600,
    behavior: "smooth"
 });
@@ -56,6 +58,11 @@ class TaskForm extends React.Component {
  }
 
  myFunctionThree() {
+   if (this.state.taskType === '') {
+     this.setState({typeErrors: "Must be chosen"});
+   }else{
+     this.setState({typeErrors: ""});
+   }
     var myWindow = window.scrollTo({
   top: 1000,
   behavior: "smooth"
@@ -64,12 +71,14 @@ class TaskForm extends React.Component {
 }
 
 myFunctionFour() {
+  this.setState({locationErrors: ""});
    var myWindow = window.scrollTo({
  top: 600,
  behavior: "smooth"
 });
 this.setState({taskLocation: "825 battery street San Francisco"});
 }
+
 
 handleChange(type) {
   return(e) => {
@@ -78,8 +87,8 @@ handleChange(type) {
 
   }
 
-  render() {
 
+  render() {
     let newState = this.state;
   return (
     <div className="formContainer">
@@ -103,30 +112,35 @@ handleChange(type) {
           <br/>
           <ul className="ul">
 
-        
+
 
           <li>
-            <input name="group1" type="radio"  />
+            <input name="group1" type="radio" value = "I'm ready to book right now" onChange={this.handleChange("purpose")} />
             <span className="span">I'm ready to book right now</span>
           </li>
 
 
           <li>
-            <input  name="group1" type="radio" />
+            <input  name="group1" type="radio" value = "I'm interested in booking sometime soon" onChange={this.handleChange("purpose")}/>
             <span className="span">I'm interested in booking sometime soon</span>
           </li>
 
 
           <li>
-            <input  name="group1" type="radio"  />
+            <input  name="group1" type="radio" value = "I'm just browsing" onChange={this.handleChange("purpose")} />
             <span className="span">I'm just browsing</span>
           </li>
 
+          <div className="formerrors">
+          {this.state.purposeErrors}
+          </div>
           <div className="oneclass">
           <span className="session-submitdemo" onClick={()=>this.myFunctionOne()}>Continue</span>
           </div>
+
       </ul>
       </div>
+
 
 
 
@@ -141,6 +155,10 @@ handleChange(type) {
           value={this.state.taskLocation}
         />
       </label>
+
+      <div className="formerrors">
+      {this.state.locationErrors}
+      </div>
       <div className="oneclass">
       <span className="session-submitdemo" onClick={()=>this.myFunctionTwo()}>Continue</span>
       <span className="demoaddress"  onClick={()=>this.myFunctionFour()}>Demo Address</span>
@@ -167,6 +185,10 @@ handleChange(type) {
               <span className="span2">Large - Est- 4+ hrs</span>
             </label>
           </div>
+
+          <div className="formerrors">
+          {this.state.typeErrors}
+          </div>
           <div className="oneclass">
             <span className="session-submitdemo" onClick={()=>this.myFunctionThree()}>Continue</span>
           </div>
@@ -185,6 +207,10 @@ handleChange(type) {
           any equipment/tools needed, and how to get in." onChange={this.handleChange("taskDetails")}></textarea>
         <h4 className="h4details">If you need two or more Taskers, please post additional tasks for each Tasker needed.</h4>
 
+
+          <div className="formerrors">
+          {this.state.detailsErrors}
+          </div>
         <div className="oneclass">
         <div className="lastcontinue-demo">
         <Link to='/taskers' onClick={() => this.props.saveTask(this.state)} className="linkcontinue">See Taskers & Prices</Link>

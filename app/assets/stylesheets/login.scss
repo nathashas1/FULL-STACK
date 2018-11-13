@@ -65,7 +65,7 @@
   background: white;
   font-size: 17px;
   &:hover {
-  background-color: #51AF33;
+  background-color: #438E2A;
   color: white;
 }
 }
@@ -82,40 +82,31 @@
   color: #51AF33;
   background: white;
   font-size: 17px;
-    margin-bottom: 20px;
-    &:hover {
-    background-color: #51AF33;
+  margin-bottom: 20px;
+  &:hover {
+    background-color: #438E2A;
     color: white;
   }
 }
 
-// .iconlogin{
-//   width:275px;
-//   height:56px;
-//   margin-left: 16px;
-//   align-self: center;
-//   font-weight: bold;
-//   // background-image: image-url("/assets/rabbiticon.png");
-//   // background-repeat: no-repeat;
-//   // background-position: left;
-//   position: relative;
-//   bottom: 25px;
-// }
 
 .logoPart1login{
   color:#264E1A;
   font-family: 'FredokaOne-Regular';
-
   font-size: 36px;
-
+  &:hover {
+  color: #438E2A;
+}
 }
 
 .logoPart2login{
   color:#55AD3C;
   font-size: 36px;
-
   font-weight: 400;
   font-family: 'FredokaOne-Regular';
+  &:hover {
+  color: #438E2A;
+}
 }
 
 .iconlogin{

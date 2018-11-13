@@ -3,8 +3,8 @@
   margin-top:2%;
   width:500px;
   height: 95vh;
-      border-radius:4px;
-    flex-direction: column;
+  border-radius:4px;
+  flex-direction: column;
 }
 
 
@@ -18,9 +18,8 @@
  padding-left: 40px;
  padding-right: 40px;
  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
+ justify-content: center;
+ flex-direction: column;
 }
 
 .signup-input{
@@ -29,31 +28,19 @@ height: 7vh;
 border: 1px solid lightgray;
 border-radius:4px;
 padding: 20px;
-
-
 }
 
 .username label{
-
  font-size: 14px;
  color: #86919d;
-
-
 }
-
 
 .password label{
  font-size: 14px;
  color: #86919d;
-
-
 }
 
-
-
-
 .signup-submit{
-
 width:50%;
 border: 1px solid #51AF33;
 border-radius: 4px;
@@ -61,40 +48,27 @@ height: 7vh;
 background: #51AF33;
 color:white;
 font-size: 17px;
-
 position: relative;
 left: 100px;
 
 }
 
 
-
-
-
-
 .submitlink{
-  // border: 1px solid #51AF33;
-  // border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 15px;
   padding-right: 30px;
   padding-left: 30px;
-  // height: 7vh;
-  // width: 40vw;
   color: #51AF33;
-  // background: white;
   font-size: 17px;
-    // text-Decoration:none;
-  //   &:hover {
-  //   background-color: #51AF33;
-  //   color: white;
-  // }
   position: relative;
   left: 300px;
+  &:hover {
+  color: #438E2A;
+}
 }
 
 .signuperrors{
-
     color:red;
     position: relative;
     top: 15px;

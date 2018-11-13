@@ -13,12 +13,17 @@
   top: 20px;
   text-align: center;
   padding-top: 8px;
+  &:hover {
+  background-color: #438E2A;
+  color: white;
+}
 }
 
 .tasklink{
   color:white;
   text-decoration: none;
 }
+
 
 
 .taskcreate{
