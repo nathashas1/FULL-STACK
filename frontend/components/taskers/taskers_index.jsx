@@ -24,7 +24,7 @@ class TaskersIndex extends React.Component {
 
      return(
        <div className="fullTaskerPage">
-
+         <div>
            <div className="viewTasker">
              <div>1. Fill Out Task Details</div>
                <div>2. View Taskers & Prices</div>
@@ -36,20 +36,23 @@ class TaskersIndex extends React.Component {
                <div className="vet">All Taskers are fully vetted & background checked.</div>
 
            </div>
-
+           <div className="picks">
          <div className="pickTasker">Pick a Tasker</div>
          <div className="pickText">After booking, you can chat with your Tasker, agree on an exact time, or go over any
-           <br/>requirements or questions, if necessary.</div>
+        requirements or questions, if necessary.</div>
+           </div>
+           </div>
+
+           <div className="bottompart">
+          <div className="calendar"><br/><br/>Select date<br/><br/>
+            <input type="date"></input>
+            </div>
 
 
-      <ul className="alltaskers">
-        <div className="calendar"><br/><br/>Select date<br/><br/>
-        <input type="date"></input>
-        </div>
-
-          {taskers}
-
+        <ul className="alltaskers">
+            {taskers}
         </ul>
+      </div>
       </div>
   );
   }

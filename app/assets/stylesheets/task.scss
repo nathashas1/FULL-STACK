@@ -4,24 +4,29 @@
   // background: #51AF33;
   // color:white;
   width:12vw;
-  height: 7vh;
+  // width: 170px;
+  height: 8vh;
   border-radius: 4px;
   background: #51AF33;
   font-size: 17px;
-  position: relative;
+  // position: relative;
   margin-left: 34px;
-  top: 20px;
+  // top: 20px;
   text-align: center;
   padding-top: 8px;
+  margin-top: 25px;
+  // margin-bottom: -20px;
   &:hover {
   background-color: #438E2A;
   color: white;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 }
 
 .tasklink{
   color:white;
   text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
