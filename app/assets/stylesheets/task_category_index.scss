@@ -120,12 +120,14 @@ border: 1px solid #DCE0E6;
     margin-left: 16px;
     align-self: center;
     font-weight: bold;
-    background-image: image-url("/assets/rabbiticon.png");
+    // background-image: image-url("/assets/rabbiticon.png");
+    background-image: image-url("rabbiticon.png");
     background-repeat: no-repeat;
     background-position: left;
     position: relative;
     top: 5px;
 }
+
 .logoPart2{
     margin-left: .1px;
     color:#55AD3C;
