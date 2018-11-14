@@ -6,6 +6,7 @@ class TasksCreate extends React.Component {
   constructor(props) {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
+    console.log("in task",this.props.task);
   }
 
   handleSubmit(e) {

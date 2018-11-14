@@ -80,6 +80,8 @@ this.setState({taskLocation: "825 battery street San Francisco"});
 }
 
 
+
+
 handleChange(type) {
   return(e) => {
     this.setState({[type]: e.target.value});
