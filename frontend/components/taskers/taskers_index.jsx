@@ -1,18 +1,38 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import  TaskerIndexItem  from './tasker_index_item';
+import  Calendar  from './calendar';
 
 class TaskersIndex extends React.Component {
   componentDidMount() {
    this.props.fetchTaskers(this.props.taskCategory);
    window.scrollTo(0,0);
+     console.log("i'm state", this.state);
+     this.calendarChange = this.calendarChange.bind(this);
    }
 
    // componentWillUnmount(){
    //   return this.props.clearFetchtaskers();
    // }
 
+
+calendarChange() {
+  return (e) => {
+  
+  };
+
+}
+
+
+// handleChange(type) {
+//   return(e) => {
+//     this.setState({[type]: e.target.value});
+//   };
+//
+//   }
+
    render() {
+
      const taskers = this.props.taskers.map(tasker => {
       return (
         <TaskerIndexItem
@@ -45,7 +65,8 @@ class TaskersIndex extends React.Component {
 
            <div className="bottompart">
           <div className="calendar"><br/><br/>Select date<br/><br/>
-            <input type="date"></input>
+          <input type="date" onChange={this.calendarChange()}></input>
+
             </div>
 
 

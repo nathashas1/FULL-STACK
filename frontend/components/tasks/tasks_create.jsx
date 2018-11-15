@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 class TasksCreate extends React.Component {
   constructor(props) {
     super(props);
+    console.log("in task",this.props);
     this.handleSubmit = this.handleSubmit.bind(this);
-    console.log("in task",this.props.task);
   }
 
   handleSubmit(e) {
@@ -22,7 +22,6 @@ class TasksCreate extends React.Component {
 
 
    render() {
-     console.log("in /tasks", this.props);
      return(
        <div className="taskfullpage">
 <div className="taskcreate">

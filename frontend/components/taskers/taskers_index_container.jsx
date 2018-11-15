@@ -9,7 +9,8 @@ const mapStateToProps = (state,ownProps) => {
 return {
 
   taskCategory: state.currentTask.taskCategory,
-  taskers: Object.values(state.taskers)
+  taskers: Object.values(state.taskers),
+    currentTask: state.currentTask,
 
 };
 
