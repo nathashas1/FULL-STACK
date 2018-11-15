@@ -18,7 +18,7 @@ class TaskersIndex extends React.Component {
 
 calendarChange() {
   return (e) => {
-  
+    this.props.addDate(e.target.value);
   };
 
 }

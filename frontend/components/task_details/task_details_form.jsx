@@ -9,10 +9,10 @@ class TaskForm extends React.Component {
     super(props);
     this.state = {
       purpose: "",
-      taskCategory: this.props.location.state.taskCategory,
-      taskLocation: "",
-      taskType: "",
-      taskDetails: "",
+      task_category: this.props.location.state.taskCategory,
+      task_location: "",
+      task_duration: "",
+      task_details: "",
       purposeErrors: "",
       locationErrors: "",
       typeErrors: "",
@@ -45,7 +45,7 @@ class TaskForm extends React.Component {
 
 
   myFunctionTwo() {
-    if (this.state.taskLocation === '') {
+    if (this.state.task_location === '') {
       this.setState({locationErrors: "Location is required"});
     }else{
       this.setState({locationErrors: ""});
@@ -58,7 +58,7 @@ class TaskForm extends React.Component {
  }
 
  myFunctionThree() {
-   if (this.state.taskType === '') {
+   if (this.state.task_duration === '') {
      this.setState({typeErrors: "Must be chosen"});
    }else{
      this.setState({typeErrors: ""});
@@ -76,7 +76,7 @@ myFunctionFour() {
  top: 600,
  behavior: "smooth"
 });
-this.setState({taskLocation: "825 battery street San Francisco"});
+this.setState({task_location: "825 battery street San Francisco"});
 }
 
 
@@ -153,8 +153,8 @@ handleChange(type) {
         <input type="text"
           placeholder="Enter street address"
           className="addressContainerinput"
-          onChange={this.handleChange("taskLocation")}
-          value={this.state.taskLocation}
+          onChange={this.handleChange("task_location")}
+          value={this.state.task_location}
         />
       </label>
 
@@ -175,15 +175,15 @@ handleChange(type) {
           <h4 className="h4">How big is your task?</h4>
           <div className="tasktype">
             <label>
-              <input name="group3" type="radio" value = "1hr" onChange={this.handleChange("taskType")} />
+              <input name="group3" type="radio" value = "1hr" onChange={this.handleChange("task_duration")} />
               <span className="span2">Small - Est-1 hr</span>
             </label>
             <label>
-              <input name="group3" type="radio" value = "2-3hrs" onChange={this.handleChange("taskType")} />
+              <input name="group3" type="radio" value = "2-3hrs" onChange={this.handleChange("task_duration")} />
               <span className="span2">Medium - Est- 2-3 hrs</span>
             </label>
             <label>
-              <input name="group3" type="radio" value = "4+hrs" onChange={this.handleChange("taskType")} />
+              <input name="group3" type="radio" value = "4+hrs" onChange={this.handleChange("task_duration")} />
               <span className="span2">Large - Est- 4+ hrs</span>
             </label>
           </div>
@@ -206,7 +206,7 @@ handleChange(type) {
 
         <textarea className="textarea"  placeholder="Provide a summary of what you need done for your Tasker.
           Be sure to include details like the size of your space,
-          any equipment/tools needed, and how to get in." onChange={this.handleChange("taskDetails")}></textarea>
+          any equipment/tools needed, and how to get in." onChange={this.handleChange("task_details")}></textarea>
         <h4 className="h4details">If you need two or more Taskers, please post additional tasks for each Tasker needed.</h4>
 
 

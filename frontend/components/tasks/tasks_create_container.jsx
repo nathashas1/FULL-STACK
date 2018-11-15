@@ -6,7 +6,7 @@ import TasksCreate from './tasks_create';
 
 const mapStateToProps = (state) => {
 return {
-  task: state.currentTask,
+  currentTask: state.currentTask,
 };
 };
 

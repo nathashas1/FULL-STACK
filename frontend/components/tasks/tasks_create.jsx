@@ -10,9 +10,11 @@ class TasksCreate extends React.Component {
   }
 
   handleSubmit(e) {
-    e.preventDefault();
-    const task = Object.assign({},this.props.task,{tasker_id: this.props.location.state.tasker_id});
-    this.props.createTask(task);
+
+    const task = Object.assign({},this.props.currentTask,{tasker_id: this.props.location.state.tasker_id});
+    const {tasker_id, task_category, task_location, task_details , task_duration} = task; //destructuring
+    const newObj = {tasker_id, task_category, task_location, task_details , task_duration};
+    this.props.createTask(newObj);
   }
 
   componentDidMount() {
@@ -26,7 +28,8 @@ class TasksCreate extends React.Component {
        <div className="taskfullpage">
 <div className="taskcreate">
   <div className="tasktext">Create Task!</div>
-      <button className="taskcreatebutton" onClick={this.handleSubmit}> Confirm </button>
+
+      <button className="taskcreatebutton" onClick={this.handleSubmit()}> Confirm </button>
 </div>
 </div>
 
