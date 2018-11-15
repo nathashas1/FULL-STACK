@@ -175,6 +175,29 @@ margin-right: 35px;
   color: #262C32;
 }
 
+.task{
+  width:12vw;
+  height: 8vh;
+  border-radius: 4px;
+  background: #51AF33;
+  font-size: 17px;
+  margin-left: 34px;
+  text-align: center;
+  padding-top: 12px;
+  margin-top: 25px;
+  &:hover {
+  background-color: #438E2A;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+}
+
+.tasklink{
+  color:white;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .chattasker{
   color: #5A5F63;
   text-align: center;

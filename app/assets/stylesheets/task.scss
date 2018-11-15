@@ -1,44 +1,32 @@
-.task{
-  // width: 204px;
-  // height: 50px;
-  // background: #51AF33;
-  // color:white;
-  width:12vw;
-  // width: 170px;
-  height: 8vh;
-  border-radius: 4px;
-  background: #51AF33;
-  font-size: 17px;
-  // position: relative;
-  margin-left: 34px;
-  // top: 20px;
-  text-align: center;
-  padding-top: 12px;
-  margin-top: 25px;
-  // margin-bottom: -20px;
-  &:hover {
-  background-color: #438E2A;
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-}
-
-.tasklink{
-  color:white;
-  text-decoration: none;
-  font-family: 'Source Sans Pro', sans-serif;
-}
 
 
 
-.taskcreate{
-  width: 470px;
-  height: 380px;
-  background: #E8EBEF;
+
+// .taskcreate{
+//   // width: 470px;
+//   // height: 380px;
+//   background: #E8EBEF;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+// }
+
+.taskfullpage{
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tcreate{
+  display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.tconfirm{
+display: flex;
+justify-content: center;
 }
 
 .taskcreatebutton{
@@ -55,15 +43,9 @@
 }
 }
 
-.taskfullpage{
-  min-width: 100%;
-  min-height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 5%;
-}
 
-.tasktext{
 
-}
+// .taskcreate{
+//   display: flex;
+//   justify-content: center;
+// }

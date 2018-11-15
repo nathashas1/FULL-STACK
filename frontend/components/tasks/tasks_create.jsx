@@ -26,11 +26,38 @@ class TasksCreate extends React.Component {
    render() {
      return(
        <div className="taskfullpage">
-<div className="taskcreate">
-  <div className="tasktext">Create Task!</div>
+         <div className="viewTasker">
+           <div>1. Fill Out Task Details</div>
+             <div>2. View Taskers & Prices</div>
+              <div>3. Confirm & Book</div>
+                </div>
+         <div className="security">
+           <div className="trust"> Trust & Safety Guarantee : </div>
 
-      <button className="taskcreatebutton" onClick={this.handleSubmit()}> Confirm </button>
-</div>
+             <div className="vet">All Taskers are fully vetted & background checked.</div>
+
+         </div>
+
+<div className="tcreate">
+        <div className="tconfirm">Confirm & Book</div>
+      <div>
+      {this.props.currentTask.task_category}
+      </div>
+      <div>
+      {this.props.currentTask.date}
+      </div>
+      <div>
+      {this.props.currentTask.task_location}
+      </div>
+      <div>
+      {this.props.currentTask.task_duration}
+      </div>
+      <div>
+      {this.props.location.state.tasker_firstname} {this.props.location.state.tasker_lastname}
+      </div>
+            <button className="taskcreatebutton" onClick={this.handleSubmit()}> Confirm </button>
+  </div>
+
 </div>
 
   );
