@@ -50,10 +50,10 @@ class TasksCreate extends React.Component {
       <div className="field">
         Tasker
 
-          <div>{this.props.location.state.tasker_firstname} {this.props.location.state.tasker_lastname}</div>
-          <img className="fieldphoto" src={this.props.location.state.tasker_photo}/>
-    </div>
+          <div className="userinput">{this.props.location.state.tasker_firstname} {this.props.location.state.tasker_lastname}</div>
 
+    </div>
+<img className="fieldphoto" src={this.props.location.state.tasker_photo}/>
 
 
       <div className="field">
