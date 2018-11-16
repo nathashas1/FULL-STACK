@@ -9,7 +9,7 @@ const TaskerIndexItem = ({ tasker }) => {
   <div className="leftside">
       <img className="taskerphoto" src={tasker.photoUrl}/>
       <div className="task">
-        <Link to={{ pathname: '/task', state: {tasker_id: tasker.id, tasker_photo:tasker.photoUrl, tasker_firstname:tasker.firstname, tasker_lastname:tasker.lastname}}}   className="tasklink"> Select and Continue </Link>
+        <Link to={{ pathname: '/task', state: {tasker_id: tasker.id, tasker_photo:tasker.photoUrl, tasker_rate:tasker.hourly_rate, tasker_firstname:tasker.firstname, tasker_lastname:tasker.lastname}}}   className="tasklink"> Select and Continue </Link>
       </div>
 
 

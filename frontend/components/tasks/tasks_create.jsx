@@ -56,6 +56,11 @@ class TasksCreate extends React.Component {
 <img className="fieldphoto" src={this.props.location.state.tasker_photo}/>
 
 
+  <div className="field">
+    Tasker hourly Rate
+    <div className="userinput">${this.props.location.state.tasker_rate}</div>
+  </div>
+
       <div className="field">
         Date
         <div className="userinput">{this.props.currentTask.date}</div>
@@ -72,6 +77,11 @@ class TasksCreate extends React.Component {
       Duration
       <div className="userinput">{this.props.currentTask.task_duration}</div>
         </div>
+
+        <div className="field">
+        Description
+        <div className="userinput">{this.props.currentTask.task_details}</div>
+          </div>
 
             <div className="taskbutton">
             <button className="taskcreatebutton" onClick={this.handleSubmit()}> Confirm </button>
