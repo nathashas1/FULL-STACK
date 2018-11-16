@@ -15,12 +15,16 @@ class TasksCreate extends React.Component {
     const task = Object.assign({},this.props.currentTask,{tasker_id: this.props.location.state.tasker_id});
     const {tasker_id, task_category, task_location, task_details , task_duration} = task; //destructuring
     const newObj = {tasker_id, task_category, task_location, task_details , task_duration};
-    this.props.createTask(newObj);
+    this.props.createTask(newObj).then(() => {
+         this.props.history.push('/');
+     });
+
   }
 
   componentDidMount() {
    window.scrollTo(0,0);
    }
+
 
 
 
@@ -84,7 +88,7 @@ class TasksCreate extends React.Component {
           </div>
 
             <div className="taskbutton">
-            <button className="taskcreatebutton" onClick={this.handleSubmit()}> Confirm </button>
+            <button className="taskcreatebutton" onClick={() => this.handleSubmit()}> Confirm </button>
             </div>
 </div>
 

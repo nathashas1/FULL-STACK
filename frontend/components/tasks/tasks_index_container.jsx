@@ -12,7 +12,7 @@ return {
 
 const mapDispatchToProps = dispatch => {
   return {
-    createTask: (task) => dispatch(createTask(task)),
+    fetchTasks: (userId) => dispatch(fetchTasks(userId)),
   };
 };
 
