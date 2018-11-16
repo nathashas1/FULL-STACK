@@ -21,10 +21,18 @@
      box-sizing: border-box;
  }
 
+ // @font-face {
+ //     font-family: "FredokaOne-Regular";
+ //     src: font-url('/assets/FredokaOne-Regular.ttf');
+ // }
+
  @font-face {
-     font-family: "FredokaOne-Regular";
-     src: font-url('/assets/FredokaOne-Regular.ttf');
- }
+  font-family: "FredokaOne-Regular";
+  src: font-url('/assets/FredokaOne-Regular.ttf');
+  src: font-url("/assets/FredokaOne-Regular.ttf") format("embedded-opentype"), font-url("/assets/icomoon.svg#icomoon") format("svg"), font-url("/assets/icomoon.woff") format("woff"), font-url("/assets/icomoon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
  .navContainer{
      display: flex;
