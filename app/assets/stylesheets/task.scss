@@ -16,17 +16,83 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+   background: #F9FAFB;
 }
 
-.tcreate{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+// .tcreate{
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: column;
+//   background: #F9FAFB;
+// }
 
 .tconfirm{
 display: flex;
 justify-content: center;
+margin-top: 20px;
+font-size: 24px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.alldetails{
+  padding-left: 30px;
+  display: flex;
+  // justify-content: center;
+  flex-direction: column;
+  background: white;
+  margin: auto;
+  border: 1px solid #DCE0E5;
+  width: 450px;
+  height: 520px;
+  // flex: 2;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  justify-content: space-between;
+}
+
+
+.ctcategory{
+  font-family: 'Montserrat', sans-serif;
+  // margin-left: 30px;
+font-weight: bold;
+font-size: 24px;
+margin-top: 20px;
+}
+
+
+.field{
+  font-family: 'Source Sans Pro', sans-serif;
+  // margin-left: 30px;
+font-size: 20px;
+margin-top: 20px;
+color: #000000;
+// padding-bottom: 15px;
+// border-bottom: 1px solid #DCE0E5;
+// margin-right: 50px;
+// text-decoration: underline;
+}
+
+.fieldphoto{
+  width: 25%;
+  height: 20%;
+
+border: 1px solid #DCE0E5;
+  // border-radius: 70%;
+
+}
+
+.userinput{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  color: #7B7D7B;
+  text-decoration: none;
+}
+
+.taskbutton{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .taskcreatebutton{

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from "../footer/footer_component";
 
 
 class TasksCreate extends React.Component {
@@ -38,26 +39,46 @@ class TasksCreate extends React.Component {
 
          </div>
 
-<div className="tcreate">
+
         <div className="tconfirm">Confirm & Book</div>
-      <div>
+        <div className="alldetails">
+
+      <div className="ctcategory">
       {this.props.currentTask.task_category}
       </div>
-      <div>
-      {this.props.currentTask.date}
-      </div>
-      <div>
-      {this.props.currentTask.task_location}
-      </div>
-      <div>
-      {this.props.currentTask.task_duration}
-      </div>
-      <div>
-      {this.props.location.state.tasker_firstname} {this.props.location.state.tasker_lastname}
-      </div>
-            <button className="taskcreatebutton" onClick={this.handleSubmit()}> Confirm </button>
-  </div>
 
+      <div className="field">
+        Tasker
+
+          <div>{this.props.location.state.tasker_firstname} {this.props.location.state.tasker_lastname}</div>
+          <img className="fieldphoto" src={this.props.location.state.tasker_photo}/>
+    </div>
+
+
+
+      <div className="field">
+        Date
+        <div className="userinput">{this.props.currentTask.date}</div>
+      </div>
+
+
+      <div className="field">
+        Location
+        <div className="userinput">{this.props.currentTask.task_location}</div>
+        </div>
+
+
+      <div className="field">
+      Duration
+      <div className="userinput">{this.props.currentTask.task_duration}</div>
+        </div>
+
+            <div className="taskbutton">
+            <button className="taskcreatebutton" onClick={this.handleSubmit()}> Confirm </button>
+            </div>
+</div>
+
+<Footer/>
 </div>
 
   );

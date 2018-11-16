@@ -6,7 +6,7 @@ class Footer extends React.Component {
     render() {
         return <div className="bottom-part">
 
-              <div className="text">Follow me! I am friendly:</div>
+              <div className="text">Please find me on:</div>
 
               <div className="sm">
 
