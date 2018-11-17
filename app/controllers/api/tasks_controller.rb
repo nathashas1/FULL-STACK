@@ -14,14 +14,12 @@ class Api::TasksController < ApplicationController
   end
 
   def index
-     @tasks = Task.where(user_id: current_user.id).includes(:tasker)
+     @tasks = Task.where(user_id: current_user.id).includes(tasker: [:user])
   end
 
   def destroy
     @task = Task.find(params[:id])
-    puts " im in task destroy controller"
     if @task.destroy
-          puts " im destroyed"
       render "api/tasks/show"
     else
       render json: @task.errors.full_messages, status: 422

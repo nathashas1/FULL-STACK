@@ -37,8 +37,9 @@ render() {
 
      <div className="field">
       Tasker
-     <div className="userinput">{this.props.task.firstname} {this.props.task.lastname}</div>
+     <div className="userinput">{this.props.task.tasker_firstname} {this.props.task.tasker_lastname}</div>
        </div>
+       <img className="itemphoto" src={this.props.task.tasker_photo}/>
 
      <div className="field">
        Tasker Contact
