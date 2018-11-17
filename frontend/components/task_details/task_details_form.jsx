@@ -37,7 +37,7 @@ class TaskForm extends React.Component {
        this.setState({purposeErrors: ""});
      }
       var myWindow = window.scrollTo({
-    top: 310,
+    top: 330,
     behavior: "smooth"
 });
 
@@ -51,7 +51,7 @@ class TaskForm extends React.Component {
       this.setState({locationErrors: ""});
     }
   var myWindow = window.scrollTo({
-   top: 600,
+   top: 800,
    behavior: "smooth"
 });
 
@@ -64,7 +64,7 @@ class TaskForm extends React.Component {
      this.setState({typeErrors: ""});
    }
     var myWindow = window.scrollTo({
-  top: 1000,
+  top: 1250,
   behavior: "smooth"
 });
 
@@ -73,7 +73,7 @@ class TaskForm extends React.Component {
 myFunctionFour() {
   this.setState({locationErrors: ""});
    var myWindow = window.scrollTo({
- top: 600,
+ top: 800,
  behavior: "smooth"
 });
 this.setState({task_location: "825 battery street San Francisco"});
@@ -94,6 +94,18 @@ handleChange(type) {
     let newState = this.state;
   return (
     <div className="formContainer">
+
+      <div className="viewTasker">
+        <div>1. Fill Out Task Details</div>
+          <div>2. View Taskers & Prices</div>
+           <div>3. Confirm & Book</div>
+             </div>
+      <div className="security">
+        <div className="trust"> Trust & Safety Guarantee : </div>
+
+          <div className="vet">All Taskers are fully vetted & background checked.</div>
+
+      </div>
 
         <div className="describeTask">
           Describe Your Task: {this.props.location.state.taskCategory}

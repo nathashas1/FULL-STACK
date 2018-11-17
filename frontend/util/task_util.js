@@ -18,9 +18,11 @@ export const fetchTasks = (userId) =>
   })
 );
 
-export const deleteTask = id => (
-  $.ajax({
-    url: `/api/tasks/${id}`,
-    method: 'DELETE'
+export const deleteTask = id =>
+  (
+    $.ajax({
+    method: 'DELETE',
+    url: `/api/tasks/${id}`
+
   })
 );

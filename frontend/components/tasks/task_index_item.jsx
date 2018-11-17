@@ -35,6 +35,20 @@ render() {
      {this.props.task.task_category}
      </div>
 
+     <div className="field">
+      Tasker
+     <div className="userinput">{this.props.task.firstname} {this.props.task.lastname}</div>
+       </div>
+
+     <div className="field">
+       Tasker Contact
+     <div className="userinput">{this.props.task.contact}</div>
+       </div>
+
+      <div className="field">
+       Tasker Rate
+      <div className="userinput">{this.props.task.hourly_rate}</div>
+        </div>
 
      <div className="field">
        Location
