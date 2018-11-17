@@ -81,6 +81,8 @@ border: 1px solid #DCE0E5;
 }
 
 .taskitem{
+  width: 50%;
+  height: 60%;
   padding-left: 30px;
   padding-right: 30px;
   display: flex;
@@ -97,12 +99,14 @@ border: 1px solid #DCE0E5;
 
 .taskindex{
 margin: auto;
+// display: flex;
+// flex-direction: column;
 }
 
 
 .itemphoto{
-  width: 10%;
-  height: 15%;
+  width: 25%;
+  height: 30%;
 margin-top: 10px;
 border: 1px solid #DCE0E5;
 }
