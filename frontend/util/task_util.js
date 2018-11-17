@@ -7,3 +7,20 @@ export const createTask = (task) =>
     data: {task}
   })
 );
+
+
+
+export const fetchTasks = (userId) =>
+ (
+  $.ajax({
+    method: 'GET',
+    url: `/api/tasks?user_id=${userId}`,
+  })
+);
+
+export const deleteTask = id => (
+  $.ajax({
+    url: `/api/tasks/${id}`,
+    method: 'DELETE'
+  })
+);

@@ -7,7 +7,6 @@ class TaskersIndex extends React.Component {
   componentDidMount() {
    this.props.fetchTaskers(this.props.taskCategory);
    window.scrollTo(0,0);
-     console.log("i'm state", this.state);
      this.calendarChange = this.calendarChange.bind(this);
    }
 

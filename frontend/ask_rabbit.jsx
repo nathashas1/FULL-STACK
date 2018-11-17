@@ -23,12 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
     delete window.currentUser;
   } else {
     store = configureStore();
-
-
-  window.getState = store.getState;
-  window.dispatch = store.dispatch;
-  window.login = login;
+  // window.getState = store.getState;
+  // window.dispatch = store.dispatch;
+  // window.login = login;
   }
+  
   const root = document.getElementById('root');
   ReactDOM.render(<Root store={store} />, root);
 });

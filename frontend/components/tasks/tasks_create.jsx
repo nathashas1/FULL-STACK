@@ -16,7 +16,7 @@ class TasksCreate extends React.Component {
     const {tasker_id, task_category, task_location, task_details , task_duration} = task; //destructuring
     const newObj = {tasker_id, task_category, task_location, task_details , task_duration};
     this.props.createTask(newObj).then(() => {
-         this.props.history.push('/');
+         this.props.history.push('/tasks');
      });
 
   }

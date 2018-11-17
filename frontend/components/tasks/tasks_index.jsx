@@ -1,32 +1,47 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import  TaskIndexItem  from './task_index_item';
 
 class TasksIndex extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      taskLocation: '',
-      taskDuration: '',
-      taskDetails: '',
-      tasker: '',
-      taskCategory: ''
-    };
+  componentDidMount() {
+   this.props.fetchTasks(this.props.userId);
+   window.scrollTo(0,0);
+   }
 
-  }
+
 
 
    render() {
+     const tasks = this.props.tasks.map(task => {
+      return (
+        <TaskIndexItem
+          key={task.id}
+          task={task}
+          deleteTask={this.props.deleteTask} />
+      );
+    });
+     return (
+       <div className="fullTaskerPage">
+         <div>
+           <div className="viewTasker">
+             <div>1. Fill Out Task Details</div>
+               <div>2. View Taskers & Prices</div>
+                <div>3. Confirm & Book</div>
+                  </div>
+           <div className="security">
+             <div className="trust"> Trust & Safety Guarantee : </div>
 
+               <div className="vet">All Taskers are fully vetted & background checked.</div>
 
+           </div>
 
-     return(
-
-        <h1>hello</h1>
-
-
-
-  );
+           </div>
+           <div className="tconfirm">Your created tasks</div>
+       <ul className="taskindex">
+           {tasks}
+       </ul>
+</div>
+     );
   }
 
 }

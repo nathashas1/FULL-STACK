@@ -8,6 +8,7 @@ import TaskCategoryIndexContainer from './task_category/task_category_index_cont
 import TaskForm from './task_details/task_details_form';
 import TaskersContainer from './taskers/taskers_index_container';
 import TaskContainer from './tasks/tasks_create_container';
+import TaskIndexContainer from './tasks/tasks_index_container';
 
 
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
@@ -26,6 +27,7 @@ const App = () => (
       <ProtectedRoute exact path="/taskers" component={TaskersContainer} />
       <ProtectedRoute exact path="/taskdetails" component={TaskForm} />
       <ProtectedRoute exact path="/task" component={TaskContainer} />
+      <ProtectedRoute exact path="/tasks" component={TaskIndexContainer} />
       <Route  exact path="/" component={TaskCategoryIndexContainer} />
         <Redirect to="/login" />
 </Switch>
