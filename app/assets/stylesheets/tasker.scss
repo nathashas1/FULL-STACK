@@ -22,13 +22,16 @@ flex-direction: column;
   display: flex;
   justify-content: space-around;
   padding-top: 11px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .security{
   background: #E8EBEF;
   display: flex;
   justify-content: center;
-  padding-top: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .pickTaskerText{
@@ -37,11 +40,12 @@ flex-direction: column;
   text-align: center;
   display: flex;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .pickTasker{
   font-size: 38px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   text-align: center;
   margin-top: 50px;
@@ -50,7 +54,7 @@ flex-direction: column;
 .pickText{
   font-size: 16px;
   line-height: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   text-align: center;
   margin-right: auto;
@@ -166,6 +170,7 @@ margin-right: 35px;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .vet{
@@ -173,6 +178,7 @@ margin-right: 35px;
   font-size: 20px;
   line-height: 30px;
   color: #262C32;
+  font-family: 'Roboto', sans-serif;
 }
 
 .task{

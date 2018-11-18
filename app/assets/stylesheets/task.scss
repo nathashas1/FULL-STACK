@@ -29,8 +29,7 @@ font-family: 'Montserrat', sans-serif;
 
 
 .ctcategory{
-  font-family: 'Montserrat', sans-serif;
-  // margin-left: 30px;
+font-family: 'Montserrat', sans-serif;
 font-weight: bold;
 font-size: 24px;
 margin-top: 20px;
@@ -81,8 +80,7 @@ border: 1px solid #DCE0E5;
 }
 
 .taskitem{
-  width: 50%;
-  height: 60%;
+  width: 500px;
   padding-left: 30px;
   padding-right: 30px;
   display: flex;
@@ -99,14 +97,12 @@ border: 1px solid #DCE0E5;
 
 .taskindex{
 margin: auto;
-// display: flex;
-// flex-direction: column;
 }
 
 
 .itemphoto{
-  width: 25%;
-  height: 30%;
+width: 25%;
+height: 30%;
 margin-top: 10px;
 border: 1px solid #DCE0E5;
 }
