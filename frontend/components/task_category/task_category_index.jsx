@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Footer from "../footer/footer_component";
 import TaskCategoryIndexItem from './task_category_index_item';
 
+
 class TaskCategoryIndex extends React.Component {
   componentDidMount() {
     this.props.fetchTaskCategories();
@@ -17,7 +18,8 @@ render() {
    return (
      <TaskCategoryIndexItem
        key={taskCategory.id}
-       taskcategory={taskCategory} />
+       taskcategory={taskCategory}
+       saveTask={this.props.saveTask} />
    );
  });
 

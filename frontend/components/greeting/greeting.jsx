@@ -54,11 +54,11 @@ const Greeting = ({ currentUser, logout }) => {
           Book a Task
         </Link>
 
-        <Link to="/login" className="menus">
+        <Link to="/tasks" className="menus">
           My Tasks
         </Link>
 
-        <Link to="/login" className="menus">
+        <Link to="/tasks" className="menus">
           Account
         </Link>
 
