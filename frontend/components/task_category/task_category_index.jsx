@@ -40,8 +40,8 @@ render() {
      </ul>
 
          <div className="searchContainer"  >
-           <i className="fas fa-search"></i>
 
+           <img className="search" src={window.search}   />
              < input type="search" className="search" placeholder="Need Somthing different?" />
              </div>
 

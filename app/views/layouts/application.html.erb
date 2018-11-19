@@ -12,15 +12,19 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
     <script type="text/javascript">
+       <% if logged_in? %>
       window.currentUser = {
        "id": <%= current_user.id %>,
        "username": "<%= current_user.username %>"
-
     };
+   <% else %>
+window.currentUser = undefined;
+    <% end %>
     window.home = "<%= image_url('home.jpg') %>"
     window.wall = "<%= image_url('wall-tv-2.jpg') %>"
     window.livingroom = "<%= image_url('living-room.jpg') %>"
     window.moving = "<%= image_url('moving-3.jpg') %>"
+      window.search = "<%= image_url('search1.png') %>"
     </script>
   </head>
 

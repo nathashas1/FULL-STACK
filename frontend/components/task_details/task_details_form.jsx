@@ -51,7 +51,7 @@ class TaskForm extends React.Component {
       this.setState({locationErrors: ""});
     }
   var myWindow = window.scrollTo({
-   top: 800,
+   top: 950,
    behavior: "smooth"
 });
 
