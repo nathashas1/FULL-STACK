@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Root from './components/root';
 import configureStore from './store/store';
 import {login} from './actions/session_actions';
+import {loadState} from './store/localStorage';
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -12,9 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
       session: { id: window.currentUser.id },
       entities: {
         users: { [window.currentUser.id]: window.currentUser }
-      }
+      },
+      currentTask: loadState()
     };
-  
+
     store = configureStore(preloadedState);
     delete window.currentUser;
   } else {
