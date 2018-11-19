@@ -481,7 +481,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[11]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab1}.jpg"),filename:"rab1.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{51}.jpg"),filename:"51.jpg")
 
 
  Tasker.create!(
@@ -495,7 +495,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[12]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab2}.png"),filename:"rab2.png")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{52}.png"),filename:"52.png")
 
 
 
@@ -510,7 +510,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[13]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab3}.jpg"),filename:"rab3.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{53}.jpg"),filename:"53.jpg")
 
  Tasker.create!(
    task_category: 'General Handyman',
@@ -523,7 +523,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[14]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab4}.jpg"),filename:"rab4.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{54}.jpg"),filename:"54.jpg")
 
  Tasker.create!(
    task_category: 'General Handyman',
@@ -536,7 +536,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[15]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab5}.jpeg"),filename:"rab5.jpeg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{55}.jpeg"),filename:"55.jpeg")
 
  Tasker.create!(
    task_category: 'General Handyman',
@@ -549,7 +549,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[16]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab6}.jpg"),filename:"rab6.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{56}.jpg"),filename:"56.jpg")
 
  Tasker.create!(
    task_category: 'Home Improvement',
@@ -562,7 +562,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[17]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab7}.png"),filename:"rab7.png")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{57}.png"),filename:"57.png")
 
 
  Tasker.create!(
@@ -576,7 +576,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[18]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab8}.jpg"),filename:"rab8.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{58}.jpg"),filename:"58.jpg")
 
 
  Tasker.create!(
@@ -590,7 +590,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[19]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab9}.jpg"),filename:"rab9.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{59}.jpg"),filename:"59.jpg")
 
  Tasker.create!(
    task_category: 'Furniture Assembly',
@@ -603,7 +603,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[20]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab10}.jpg"),filename:"rab10.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{60}.jpg"),filename:"60.jpg")
 
 
  Tasker.create!(
@@ -617,7 +617,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[21]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab11}.png"),filename:"rab11.png")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{61}.png"),filename:"61.png")
 
 
  Tasker.create!(
@@ -631,7 +631,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[22]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab12}.jpg"),filename:"rab12.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{62}.jpg"),filename:"62.jpg")
 
 
  Tasker.create!(
@@ -645,7 +645,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[23]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab19}.png"),filename:"rab19.png")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{69}.png"),filename:"69.png")
 
 
  Tasker.create!(
@@ -659,7 +659,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[24]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab13}.jpg"),filename:"rab13.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{63}.jpg"),filename:"63.jpg")
 
 
  Tasker.create!(
@@ -673,7 +673,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[25]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab14}.jpg"),filename:"rab14.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{64}.jpg"),filename:"64.jpg")
 
 
  Tasker.create!(
@@ -687,7 +687,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[26]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab15}.jpg"),filename:"rab15.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{65}.jpg"),filename:"65.jpg")
 
  Tasker.create!(
    task_category: 'Moving and Packing',
@@ -700,7 +700,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[27]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab16}.jpg"),filename:"rab16.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{66}.jpg"),filename:"66.jpg")
 
 
  Tasker.create!(
@@ -714,7 +714,7 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[28]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab17}.jpg"),filename:"rab17.jpg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{67}.jpg"),filename:"67.jpg")
 
 
  Tasker.create!(
@@ -728,4 +728,4 @@ Tasker.create!(
     A veterian of Takl and Handy Pro platforms.",
    user: User.all[29]
  )
- Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{rab18}.jpeg"),filename:"rab18.jpeg")
+ Tasker.last.photo.attach(io: File.open("#{Rails.root}/app/assets/images/#{68}.jpeg"),filename:"68.jpeg")
