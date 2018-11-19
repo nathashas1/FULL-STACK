@@ -10,10 +10,6 @@ class TaskersIndex extends React.Component {
      this.calendarChange = this.calendarChange.bind(this);
    }
 
-   // componentWillUnmount(){
-   //   return this.props.clearFetchtaskers();
-   // }
-
 
 calendarChange() {
   return (e) => {
@@ -22,13 +18,6 @@ calendarChange() {
 
 }
 
-
-// handleChange(type) {
-//   return(e) => {
-//     this.setState({[type]: e.target.value});
-//   };
-//
-//   }
 
    render() {
 

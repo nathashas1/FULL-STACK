@@ -37,7 +37,7 @@ class TaskForm extends React.Component {
        this.setState({purposeErrors: ""});
      }
       var myWindow = window.scrollTo({
-    top: 330,
+    top: 450,
     behavior: "smooth"
 });
 

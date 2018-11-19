@@ -91,6 +91,11 @@ flex-direction: column;
   padding-left: 20px;
   flex:1;
   height: 270px;
+  position: sticky;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .alltaskers{
@@ -158,6 +163,7 @@ margin-right: 35px;
 .calendar input {
   margin-right: auto;
   margin-left: auto;
+
 }
 
 .namerate{
