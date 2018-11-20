@@ -22,15 +22,16 @@ flex-direction: column;
   display: flex;
   justify-content: space-around;
   padding-top: 11px;
-    font-family: 'Roboto', sans-serif;
+  padding-bottom: 11px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .security{
   background: #E8EBEF;
   display: flex;
   justify-content: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -185,6 +186,7 @@ margin-right: 35px;
   line-height: 30px;
   color: #262C32;
   font-family: 'Roboto', sans-serif;
+  padding-left: 10px;
 }
 
 .task{
@@ -224,4 +226,22 @@ margin-right: 35px;
 
 .chatcontainer{
   margin-bottom: 30px;
+}
+
+.fade{
+  color: #CED3DA;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  cursor: default;
+}
+
+.bold{
+    cursor: default;
+}
+
+.linkfade{
+  color: #8D959E;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
 }

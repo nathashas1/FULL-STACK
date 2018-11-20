@@ -32,9 +32,9 @@ class TasksCreate extends React.Component {
      return(
        <div className="taskfullpage">
          <div className="viewTasker">
-           <div>1. Fill Out Task Details</div>
-             <div>2. View Taskers & Prices</div>
-              <div>3. Confirm & Book</div>
+          <Link to={`/taskdetails/${this.props.currentTask.task_category}`}  className="linkfade">1. Fill Out Task Details</Link>
+          <Link to={`/taskers`}  className="linkfade">2. View Taskers & Prices</Link>
+              <div className="bold">3. Confirm & Book</div>
                 </div>
          <div className="security">
            <div className="trust"> Trust & Safety Guarantee : </div>

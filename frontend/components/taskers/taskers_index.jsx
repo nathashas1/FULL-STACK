@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import  TaskerIndexItem  from './tasker_index_item';
 import  Calendar  from './calendar';
+import Footer from "../footer/footer_component";
 
 class TaskersIndex extends React.Component {
   componentDidMount() {
@@ -34,9 +35,9 @@ calendarChange() {
        <div className="fullTaskerPage">
          <div>
            <div className="viewTasker">
-             <div>1. Fill Out Task Details</div>
-               <div>2. View Taskers & Prices</div>
-                <div>3. Confirm & Book</div>
+             <Link to={`/taskdetails/${this.props.taskCategory}`}  className="linkfade">1. Fill Out Task Details</Link>
+               <div className="bold">2. View Taskers & Prices</div>
+                <div className="fade">3. Confirm & Book</div>
                   </div>
            <div className="security">
              <div className="trust"> Trust & Safety Guarantee : </div>
@@ -62,6 +63,7 @@ calendarChange() {
             {taskers}
         </ul>
       </div>
+       <Footer />
       </div>
   );
   }

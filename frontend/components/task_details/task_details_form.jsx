@@ -1,7 +1,6 @@
-
-
 import React from 'react';
 import { Link,withRouter } from 'react-router-dom';
+import Footer from "../footer/footer_component";
 
 
 class TaskForm extends React.Component {
@@ -97,14 +96,14 @@ handleChange(type) {
     <div className="formContainer">
 
       <div className="viewTasker">
-        <div>1. Fill Out Task Details</div>
-          <div>2. View Taskers & Prices</div>
-           <div>3. Confirm & Book</div>
+        <div className="bold">1. Fill Out Task Details</div>
+          <div className="fade">2. View Taskers & Prices</div>
+           <div className="fade">3. Confirm & Book</div>
              </div>
       <div className="security">
-        <div className="trust"> Trust & Safety Guarantee : </div>
+        <div className="trust"> Trust & Safety Guarantee: </div>
 
-          <div className="vet">All Taskers are fully vetted & background checked.</div>
+          <div className="vet">$1MM guarantee on every task.</div>
 
       </div>
 
@@ -236,6 +235,7 @@ handleChange(type) {
 
 
       </form>
+         <Footer />
     </div>
 
 
