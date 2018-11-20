@@ -9,7 +9,8 @@ class TaskForm extends React.Component {
     super(props);
     this.state = {
       purpose: "",
-      task_category: this.props.location.state.taskCategory,
+      task_category: this.props.match.params.categoryName,
+      // task_category: this.props.location.state.taskCategory,
       task_location: "",
       task_duration: "",
       task_details: "",
@@ -108,7 +109,7 @@ handleChange(type) {
       </div>
 
         <div className="describeTask">
-          Describe Your Task: {this.props.location.state.taskCategory}
+          Describe Your Task: {this.props.match.params.categoryName}
         </div>
 
         <div className="weNeed">

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const TaskCategoryIndexItem = ({ taskcategory }) => {
   return (
-  <Link to={{ pathname: '/taskdetails', state: {taskCategory: taskcategory.name}}} className="eachCategory">
+  <Link to={`/taskdetails/${taskcategory.name}`} className="eachCategory">
     {taskcategory.name}
   </Link>
 );
