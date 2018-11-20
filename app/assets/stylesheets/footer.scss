@@ -1,22 +1,47 @@
-.bottom-part{
+.footerbottom{
     background: #6F7985;
     height: 100px;
     width: 100%;
-    border: 1px  solid #213D4B;
+    display: flex;
+    flex-direction: column;
 }
 
 .sm{
-    margin-top: 1%;
-    display: flex;
-    justify-content: space-evenly;
-
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
 }
 
-.text{
-    color: black;
+
+.sm1{
+    width: 10%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+  }
+
+
+
+
+
+.sm2{
+width: 90%;
+justify-content: flex-end;
+font-family: 'Source Sans Pro', sans-serif;
+color: #B5BDC6;
+padding-left: 65%;
+}
+
+.footertext{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #B5BDC6;
     padding-top: 2%;
+    display: flex;
+    justify-content: center;
 }
 
 .linkedin{
-  color: black;
+  color: white;
 }

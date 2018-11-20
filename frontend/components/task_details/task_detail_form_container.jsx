@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import TaskForm from './task_details_form';
 import { saveTask } from '../../actions/tasks_actions';
 
-// const mapStateToProps = state => {
-//
-// return {
-//   taskCategories: Object.values(state.taskcategories)
-// };
-// };
+const mapStateToProps = state => {
+
+return {
+    currentTask: state.currentTask,
+};
+};
 
 const mapDispatchToProps = dispatch => {
   return {

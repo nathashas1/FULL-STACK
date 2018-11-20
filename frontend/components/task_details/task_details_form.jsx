@@ -101,6 +101,7 @@ handleChange(type) {
            <div className="fade">3. Confirm & Book</div>
              </div>
       <div className="security">
+          <img className="secimage" src={window.security}   />
         <div className="trust"> Trust & Safety Guarantee: </div>
 
           <div className="vet">$1MM guarantee on every task.</div>

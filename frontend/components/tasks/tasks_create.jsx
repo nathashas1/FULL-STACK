@@ -37,6 +37,7 @@ class TasksCreate extends React.Component {
               <div className="bold">3. Confirm & Book</div>
                 </div>
          <div className="security">
+           <img className="secimage" src={window.security}   />
            <div className="trust"> Trust & Safety Guarantee : </div>
 
              <div className="vet">All Taskers are fully vetted & background checked.</div>
