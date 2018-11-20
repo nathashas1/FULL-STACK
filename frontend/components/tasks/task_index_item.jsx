@@ -69,7 +69,7 @@ render() {
 
            <div className="taskbutton">
 
-            <button className="taskcreatebutton" onClick={() => this.props.deleteTask(this.props.task.id)}>Delete</button>
+            <button className="taskcreatebutton" onClick={() => this.props.deleteTask(this.props.task.id)}>Cancel</button>
          </div>
        </div>
 
