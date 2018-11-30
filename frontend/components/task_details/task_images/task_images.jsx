@@ -26,7 +26,7 @@ export default class task_images extends React.Component {
                           <p  >Avg. Project $46 - $117</p>
                     </div>
 
-                      <Link to={{ pathname: '/taskdetails', state: {taskCategory: "General Handyman"}}} className="clickCategory">
+                      <Link to={`/taskdetails/General Handyman`} className="clickCategory">
                         Book Handyman
                       </Link>
             </div>
@@ -45,9 +45,10 @@ export default class task_images extends React.Component {
 
                                         <p  >Avg. Project $48 - $99</p>
                                   </div>
-                                  <Link to={{ pathname: '/taskdetails', state: {taskCategory: "Mounting and Installation"}}} className="clickCategory">
+                                  <Link to={`/taskdetails/Mounting and Installation`} className="clickCategory">
                                     Book Mounting
                                   </Link>
+
                         </div>
 
                   <div className="easyClickContainerAll">
@@ -60,7 +61,7 @@ export default class task_images extends React.Component {
 
                                     <p  >Avg. Project $47 - $119</p>
                               </div>
-                              <Link to={{ pathname: '/taskdetails', state: {taskCategory: "Furniture Assembly"}}} className="clickCategory">
+                              <Link to={`/taskdetails/Furniture Assembly`}  className="clickCategory">
                                 Book Assembly
                               </Link>
                   </div>
@@ -75,7 +76,7 @@ export default class task_images extends React.Component {
 
                                     <p  >Avg. Project $47 - $97</p>
                               </div>
-                              <Link to={{ pathname: '/taskdetails', state: {taskCategory: "Moving and Packing"}}} className="clickCategory">
+                            <Link to={`/taskdetails/Moving and Packing`}  className="clickCategory">
                                 Book Help Moving
                               </Link>
                   </div>
