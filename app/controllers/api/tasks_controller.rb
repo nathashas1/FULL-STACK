@@ -4,9 +4,7 @@ class Api::TasksController < ApplicationController
     puts "im in task create controller"
     @task = Task.new(task_params)
     @task.user_id = current_user.id
-    # debugger
     if @task.save
-      puts "im in task  saved"
       render "api/tasks/show"
     else
       render json: ["Give all task Details"]

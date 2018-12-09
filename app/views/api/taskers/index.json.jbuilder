@@ -1,9 +1,9 @@
 @taskers.each do |tasker|
    json.set! tasker.id do
    json.extract! tasker, :id, :contact, :title, :hourly_rate, :city, :description, :task_category
-   if tasker.photo.attached?
-    json.photoUrl url_for(tasker.photo)
-  end
+    if tasker.photo.attached?
+      json.photoUrl url_for(tasker.photo)
+    end
   json.firstname tasker.user.firstname
   json.lastname tasker.user.lastname
    end
