@@ -27,9 +27,7 @@ const mapStateToProps = state => (
   {loggedIn: Boolean(state.session.id)}
 );
 
-// const mapDispatchToProps = dispatch => (
-//   {saveTask: (task) => dispatch(saveTask(task))}
-// );
+
 
 export const AuthRoute = withRouter(connect(mapStateToProps)(Auth));
 
