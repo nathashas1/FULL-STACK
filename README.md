@@ -6,8 +6,6 @@ Welcome to BaskRabbit. BaskRabbit is a clone of TaskRabbit that will display a l
 and you can select a tasker of your choice to do your task.
 
 
-Things you may want to cover:
-
 
 ##  Setup
 * git clone the repo with the url: https://github.com/nathashas1/FULL-STACK
@@ -23,7 +21,7 @@ Things you may want to cover:
 * Requires Install of NodeJS for node-package-manager (npm)
 * The frontend is compiled with webpack that generates a dist/bundle.js file from the entrypoint file ./frontend/app.jsx.
   * The routes for this webpack configuration can be found in the webpack.config.js file
-Functionality
+
 
 ## Functionality
 * Users can Select tasks and give task information which will display a list of taskers.
