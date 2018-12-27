@@ -1,9 +1,12 @@
 # README
 
-This README documents the steps necessary to get the application up and running.
+* This README documents the steps necessary to get the application up and running.
+* Welcome to BaskRabbit. BaskRabbit is a clone of TaskRabbit that will display a list of tasks and taskersand you can select a tasker of your choice to do your task.
 
-Welcome to BaskRabbit. BaskRabbit is a clone of TaskRabbit that will display a list of tasks and taskers
-and you can select a tasker of your choice to do your task.
+* [BaskRabbit Live](https://ask-rabbit.herokuapp.com/#/)
+
+
+![Screenshot](app/assets/images/shot1.png)
 
 
 
@@ -21,8 +24,34 @@ and you can select a tasker of your choice to do your task.
 * Requires Install of NodeJS for node-package-manager (npm)
 * The frontend is compiled with webpack that generates a dist/bundle.js file from the entrypoint file ./frontend/app.jsx.
   * The routes for this webpack configuration can be found in the webpack.config.js file
-
+Functionality
 
 ## Functionality
 * Users can Select tasks and give task information which will display a list of taskers.
-Users can select their preferred tasker and assign tasks to them according to theri availability.
+Users can select their preferred person and assign tasks to them according to their availability.
+
+## Code Samples
+* Data persists at browser refresh.
+
+```javascript
+export const loadState = () => {
+  try {
+    const serializedState = localStorage.getItem('state');
+    if (serializedState === null) {
+      return {};
+    }
+    return JSON.parse(serializedState);
+  } catch (err) {
+    return {};
+  }
+};
+
+
+export const saveState = (state) => {
+  try {
+    const serializedState = JSON.stringify(state);
+    localStorage.setItem('state', serializedState);
+  } catch (err) {
+  }
+};
+```
