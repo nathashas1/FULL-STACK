@@ -58,7 +58,7 @@ const Greeting = ({ currentUser, logout }) => {
         </Link>
 
         <div className="menustasker">
-        <button  onClick={logout}>Log Out</button>
+        <div  className="menustaskercomp" onClick={logout}>Log Out</div>
         </div>
     </div>
 
